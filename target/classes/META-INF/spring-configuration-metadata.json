@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "es.axa.hackathon.config.ApplicationProperties",
+      "sourceType": "es.axa.hackathon.config.ApplicationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
