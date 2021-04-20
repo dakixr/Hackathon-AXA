@@ -193,3 +193,9 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [protractor]: https://angular.github.io/protractor/
 [leaflet]: https://leafletjs.com/
 [definitelytyped]: https://definitelytyped.org/
+
+
+# Running MongoDB in Dokcker
+```
+docker run --name mongoAxa -d mongo:4.4.5 -p 27017:27017
+```
