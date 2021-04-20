@@ -1,6 +1,5 @@
 export interface ICENTROSANITARIO {
   id?: string;
-  id_centro?: number | null;
   direccion?: string | null;
   persona_de_contacto?: string | null;
   email?: string | null;
@@ -8,7 +7,7 @@ export interface ICENTROSANITARIO {
   especialidades?: string | null;
   coordenada_x?: number | null;
   coordenada_y?: number | null;
-  id_pas_asociado?: number | null;
+  nombre_pas_asociado?: string | null;
 }
 
 export const defaultValue: Readonly<ICENTROSANITARIO> = {};

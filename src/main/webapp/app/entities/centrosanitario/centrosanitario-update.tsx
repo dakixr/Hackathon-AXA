@@ -74,21 +74,6 @@ export const CENTROSANITARIOUpdate = (props: ICENTROSANITARIOUpdateProps) => {
                 </AvGroup>
               ) : null}
               <AvGroup>
-                <Label id="id_centroLabel" for="centrosanitario-id_centro">
-                  Id Centro
-                </Label>
-                <AvField
-                  id="centrosanitario-id_centro"
-                  data-cy="id_centro"
-                  type="string"
-                  className="form-control"
-                  name="id_centro"
-                  validate={{
-                    number: { value: true, errorMessage: 'This field should be a number.' },
-                  }}
-                />
-              </AvGroup>
-              <AvGroup>
                 <Label id="direccionLabel" for="centrosanitario-direccion">
                   Direccion
                 </Label>
@@ -143,16 +128,10 @@ export const CENTROSANITARIOUpdate = (props: ICENTROSANITARIOUpdateProps) => {
                 />
               </AvGroup>
               <AvGroup>
-                <Label id="id_pas_asociadoLabel" for="centrosanitario-id_pas_asociado">
-                  Id Pas Asociado
+                <Label id="nombre_pas_asociadoLabel" for="centrosanitario-nombre_pas_asociado">
+                  Nombre Pas Asociado
                 </Label>
-                <AvField
-                  id="centrosanitario-id_pas_asociado"
-                  data-cy="id_pas_asociado"
-                  type="string"
-                  className="form-control"
-                  name="id_pas_asociado"
-                />
+                <AvField id="centrosanitario-nombre_pas_asociado" data-cy="nombre_pas_asociado" type="text" name="nombre_pas_asociado" />
               </AvGroup>
               <Button tag={Link} id="cancel-save" to="/centrosanitario" replace color="info">
                 <FontAwesomeIcon icon="arrow-left" />

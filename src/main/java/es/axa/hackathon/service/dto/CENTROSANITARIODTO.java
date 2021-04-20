@@ -2,7 +2,6 @@ package es.axa.hackathon.service.dto;
 
 import java.io.Serializable;
 import java.util.Objects;
-import javax.validation.constraints.*;
 
 /**
  * A DTO for the {@link es.axa.hackathon.domain.CENTROSANITARIO} entity.
@@ -10,8 +9,6 @@ import javax.validation.constraints.*;
 public class CENTROSANITARIODTO implements Serializable {
 
     private String id;
-
-    private Integer id_centro;
 
     private String direccion;
 
@@ -27,7 +24,7 @@ public class CENTROSANITARIODTO implements Serializable {
 
     private Double coordenada_y;
 
-    private Integer id_pas_asociado;
+    private String nombre_pas_asociado;
 
     public String getId() {
         return id;
@@ -35,14 +32,6 @@ public class CENTROSANITARIODTO implements Serializable {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public Integer getId_centro() {
-        return id_centro;
-    }
-
-    public void setId_centro(Integer id_centro) {
-        this.id_centro = id_centro;
     }
 
     public String getDireccion() {
@@ -101,12 +90,12 @@ public class CENTROSANITARIODTO implements Serializable {
         this.coordenada_y = coordenada_y;
     }
 
-    public Integer getId_pas_asociado() {
-        return id_pas_asociado;
+    public String getNombre_pas_asociado() {
+        return nombre_pas_asociado;
     }
 
-    public void setId_pas_asociado(Integer id_pas_asociado) {
-        this.id_pas_asociado = id_pas_asociado;
+    public void setNombre_pas_asociado(String nombre_pas_asociado) {
+        this.nombre_pas_asociado = nombre_pas_asociado;
     }
 
     @Override
@@ -135,7 +124,6 @@ public class CENTROSANITARIODTO implements Serializable {
     public String toString() {
         return "CENTROSANITARIODTO{" +
             "id='" + getId() + "'" +
-            ", id_centro=" + getId_centro() +
             ", direccion='" + getDireccion() + "'" +
             ", persona_de_contacto='" + getPersona_de_contacto() + "'" +
             ", email='" + getEmail() + "'" +
@@ -143,7 +131,7 @@ public class CENTROSANITARIODTO implements Serializable {
             ", especialidades='" + getEspecialidades() + "'" +
             ", coordenada_x=" + getCoordenada_x() +
             ", coordenada_y=" + getCoordenada_y() +
-            ", id_pas_asociado=" + getId_pas_asociado() +
+            ", nombre_pas_asociado='" + getNombre_pas_asociado() + "'" +
             "}";
     }
 }

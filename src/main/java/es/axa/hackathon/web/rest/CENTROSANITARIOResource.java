@@ -9,8 +9,6 @@ import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
-import javax.validation.Valid;
-import javax.validation.constraints.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -56,7 +54,7 @@ public class CENTROSANITARIOResource {
      * @throws URISyntaxException if the Location URI syntax is incorrect.
      */
     @PostMapping("/centrosanitarios")
-    public ResponseEntity<CENTROSANITARIODTO> createCENTROSANITARIO(@Valid @RequestBody CENTROSANITARIODTO cENTROSANITARIODTO)
+    public ResponseEntity<CENTROSANITARIODTO> createCENTROSANITARIO(@RequestBody CENTROSANITARIODTO cENTROSANITARIODTO)
         throws URISyntaxException {
         log.debug("REST request to save CENTROSANITARIO : {}", cENTROSANITARIODTO);
         if (cENTROSANITARIODTO.getId() != null) {
@@ -82,7 +80,7 @@ public class CENTROSANITARIOResource {
     @PutMapping("/centrosanitarios/{id}")
     public ResponseEntity<CENTROSANITARIODTO> updateCENTROSANITARIO(
         @PathVariable(value = "id", required = false) final String id,
-        @Valid @RequestBody CENTROSANITARIODTO cENTROSANITARIODTO
+        @RequestBody CENTROSANITARIODTO cENTROSANITARIODTO
     ) throws URISyntaxException {
         log.debug("REST request to update CENTROSANITARIO : {}, {}", id, cENTROSANITARIODTO);
         if (cENTROSANITARIODTO.getId() == null) {
@@ -117,7 +115,7 @@ public class CENTROSANITARIOResource {
     @PatchMapping(value = "/centrosanitarios/{id}", consumes = "application/merge-patch+json")
     public ResponseEntity<CENTROSANITARIODTO> partialUpdateCENTROSANITARIO(
         @PathVariable(value = "id", required = false) final String id,
-        @NotNull @RequestBody CENTROSANITARIODTO cENTROSANITARIODTO
+        @RequestBody CENTROSANITARIODTO cENTROSANITARIODTO
     ) throws URISyntaxException {
         log.debug("REST request to partial update CENTROSANITARIO partially : {}, {}", id, cENTROSANITARIODTO);
         if (cENTROSANITARIODTO.getId() == null) {

@@ -1,11 +1,6 @@
 {
   "fields": [
     {
-      "fieldName": "id_centro",
-      "fieldType": "Integer",
-      "fieldValidateRules": ["unique"]
-    },
-    {
       "fieldName": "direccion",
       "fieldType": "String"
     },
@@ -35,8 +30,8 @@
       "fieldValidateRules": []
     },
     {
-      "fieldName": "id_pas_asociado",
-      "fieldType": "Integer"
+      "fieldName": "nombre_pas_asociado",
+      "fieldType": "String"
     }
   ],
   "relationships": [],

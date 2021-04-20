@@ -1296,9 +1296,6 @@ const CENTROSANITARIODetail = (props) => {
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id" }, "ID")),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.id),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id_centro" }, "Id Centro")),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.id_centro),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "direccion" }, "Direccion")),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.direccion),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
@@ -1320,8 +1317,8 @@ const CENTROSANITARIODetail = (props) => {
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "coordenada_y" }, "Coordenada Y")),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.coordenada_y),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id_pas_asociado" }, "Id Pas Asociado")),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.id_pas_asociado)),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "nombre_pas_asociado" }, "Nombre Pas Asociado")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.nombre_pas_asociado)),
             react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: "/centrosanitario", replace: true, color: "info", "data-cy": "entityDetailsBackButton" },
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "arrow-left" }),
                 " ",
@@ -1411,11 +1408,6 @@ const CENTROSANITARIOUpdate = (props) => {
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { for: "centrosanitario-id" }, "ID"),
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvInput, { id: "centrosanitario-id", type: "text", className: "form-control", name: "id", required: true, readOnly: true }))) : null,
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "id_centroLabel", for: "centrosanitario-id_centro" }, "Id Centro"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-id_centro", "data-cy": "id_centro", type: "string", className: "form-control", name: "id_centro", validate: {
-                            number: { value: true, errorMessage: 'This field should be a number.' },
-                        } })),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "direccionLabel", for: "centrosanitario-direccion" }, "Direccion"),
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-direccion", "data-cy": "direccion", type: "text", name: "direccion" })),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
@@ -1437,8 +1429,8 @@ const CENTROSANITARIOUpdate = (props) => {
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "coordenada_yLabel", for: "centrosanitario-coordenada_y" }, "Coordenada Y"),
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-coordenada_y", "data-cy": "coordenada_y", type: "string", className: "form-control", name: "coordenada_y" })),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "id_pas_asociadoLabel", for: "centrosanitario-id_pas_asociado" }, "Id Pas Asociado"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-id_pas_asociado", "data-cy": "id_pas_asociado", type: "string", className: "form-control", name: "id_pas_asociado" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "nombre_pas_asociadoLabel", for: "centrosanitario-nombre_pas_asociado" }, "Nombre Pas Asociado"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-nombre_pas_asociado", "data-cy": "nombre_pas_asociado", type: "text", name: "nombre_pas_asociado" })),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Link, id: "cancel-save", to: "/centrosanitario", replace: true, color: "info" },
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "arrow-left" }),
                     "\u00A0",
@@ -1684,9 +1676,6 @@ const CENTROSANITARIO = (props) => {
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id') },
                         "ID ",
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id_centro') },
-                        "Id Centro ",
-                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('direccion') },
                         "Direccion ",
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
@@ -1708,14 +1697,13 @@ const CENTROSANITARIO = (props) => {
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('coordenada_y') },
                         "Coordenada Y ",
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id_pas_asociado') },
-                        "Id Pas Asociado ",
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('nombre_pas_asociado') },
+                        "Nombre Pas Asociado ",
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null))),
             react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, cENTROSANITARIOList.map((cENTROSANITARIO, i) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", { key: `entity-${i}`, "data-cy": "entityTable" },
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null,
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cENTROSANITARIO.id}`, color: "link", size: "sm" }, cENTROSANITARIO.id)),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.id_centro),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.direccion),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.persona_de_contacto),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.email),
@@ -1723,7 +1711,7 @@ const CENTROSANITARIO = (props) => {
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.especialidades),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.coordenada_x),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.coordenada_y),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.id_pas_asociado),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.nombre_pas_asociado),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", { className: "text-right" },
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "btn-group flex-btn-group-container" },
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cENTROSANITARIO.id}`, color: "info", size: "sm", "data-cy": "entityDetailsButton" },
@@ -4534,60 +4522,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _home_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.scss */ "./src/main/webapp/app/modules/home/home.scss");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Button */ "./node_modules/@material-ui/core/esm/Button/Button.js");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Alert.js");
-
 
 
 
 
 const Home = (props) => {
     const { account } = props;
-    return (react__WEBPACK_IMPORTED_MODULE_1__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__.default, null,
-        react__WEBPACK_IMPORTED_MODULE_1__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, { md: "3", className: "pad" },
-            react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", { className: "hipster rounded" })),
-        react__WEBPACK_IMPORTED_MODULE_1__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, { md: "9" },
-            react__WEBPACK_IMPORTED_MODULE_1__.createElement("h2", null, "Welcome, Java Hipster!"),
-            react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", { className: "lead" }, "This is your homepage"),
-            account && account.login ? (react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", null,
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { color: "success" },
-                    "You are logged in as user ",
-                    account.login,
-                    "."))) : (react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", null,
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { color: "warning" },
-                    "If you want to",
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", null, "\u00A0"),
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, { to: "/login", className: "alert-link" },
-                        ' ',
-                        "sign in"),
-                    ", you can try the default accounts:",
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement("br", null),
-                    "- Administrator (login=\"admin\" and password=\"admin\")",
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement("br", null),
-                    "- User (login=\"user\" and password=\"user\")."),
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { color: "warning" },
-                    "You do not have an account yet?\u00A0",
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, { to: "/account/register", className: "alert-link" }, "Register a new account")))),
-            react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", null, "If you have any question on JHipster:"),
-            react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", null,
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null,
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", { href: "https://www.jhipster.tech/", target: "_blank", rel: "noopener noreferrer" }, "JHipster homepage")),
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null,
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", { href: "http://stackoverflow.com/tags/jhipster/info", target: "_blank", rel: "noopener noreferrer" }, "JHipster on Stack Overflow")),
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null,
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", { href: "https://github.com/jhipster/generator-jhipster/issues?state=open", target: "_blank", rel: "noopener noreferrer" }, "JHipster bug tracker")),
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null,
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", { href: "https://gitter.im/jhipster/generator-jhipster", target: "_blank", rel: "noopener noreferrer" }, "JHipster public chat room")),
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null,
-                    react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", { href: "https://twitter.com/jhipster", target: "_blank", rel: "noopener noreferrer" }, "follow @jhipster on Twitter"))),
-            react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", null,
-                "If you like JHipster, do not forget to give us a star on",
-                ' ',
-                react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", { href: "https://github.com/jhipster/generator-jhipster", target: "_blank", rel: "noopener noreferrer" }, "GitHub"),
-                "!"))));
+    return (react__WEBPACK_IMPORTED_MODULE_1__.createElement(react__WEBPACK_IMPORTED_MODULE_1__.Fragment, null,
+        react__WEBPACK_IMPORTED_MODULE_1__.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__.default, { variant: "contained", color: "primary" }, "Dar de alta PAS"),
+        react__WEBPACK_IMPORTED_MODULE_1__.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__.default, { variant: "contained", color: "primary" }, "Dar de alta Centro Sanitario"),
+        react__WEBPACK_IMPORTED_MODULE_1__.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__.default, { variant: "contained", color: "primary" }, "Dar de alta m\u00E9dico"),
+        react__WEBPACK_IMPORTED_MODULE_1__.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__.default, { variant: "contained", color: "primary" }, "Crear Cuadro M\u00E9dico"),
+        react__WEBPACK_IMPORTED_MODULE_1__.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__.default, { variant: "contained", color: "primary" }, "Visualizar Cuadros M\u00E9dicos"),
+        react__WEBPACK_IMPORTED_MODULE_1__.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__.default, { variant: "contained", color: "primary" }, "Buscar, modificar y eliminar Cuadro M\u00E9dico"),
+        react__WEBPACK_IMPORTED_MODULE_1__.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_3__.default, { variant: "contained", color: "primary" }, "Buscar Centro Sanitario")));
 };
 const mapStateToProps = storeState => ({
     account: storeState.authentication.account,
@@ -6436,7 +6386,7 @@ if (true) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("9b96c347fc901d658570")
+/******/ 		__webpack_require__.h = () => ("4c6756ef3c65447dcea9")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

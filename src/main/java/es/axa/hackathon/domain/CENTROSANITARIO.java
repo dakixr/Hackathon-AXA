@@ -1,7 +1,6 @@
 package es.axa.hackathon.domain;
 
 import java.io.Serializable;
-import javax.validation.constraints.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
@@ -16,9 +15,6 @@ public class CENTROSANITARIO implements Serializable {
 
     @Id
     private String id;
-
-    @Field("id_centro")
-    private Integer id_centro;
 
     @Field("direccion")
     private String direccion;
@@ -41,8 +37,8 @@ public class CENTROSANITARIO implements Serializable {
     @Field("coordenada_y")
     private Double coordenada_y;
 
-    @Field("id_pas_asociado")
-    private Integer id_pas_asociado;
+    @Field("nombre_pas_asociado")
+    private String nombre_pas_asociado;
 
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public String getId() {
@@ -56,19 +52,6 @@ public class CENTROSANITARIO implements Serializable {
     public CENTROSANITARIO id(String id) {
         this.id = id;
         return this;
-    }
-
-    public Integer getId_centro() {
-        return this.id_centro;
-    }
-
-    public CENTROSANITARIO id_centro(Integer id_centro) {
-        this.id_centro = id_centro;
-        return this;
-    }
-
-    public void setId_centro(Integer id_centro) {
-        this.id_centro = id_centro;
     }
 
     public String getDireccion() {
@@ -162,17 +145,17 @@ public class CENTROSANITARIO implements Serializable {
         this.coordenada_y = coordenada_y;
     }
 
-    public Integer getId_pas_asociado() {
-        return this.id_pas_asociado;
+    public String getNombre_pas_asociado() {
+        return this.nombre_pas_asociado;
     }
 
-    public CENTROSANITARIO id_pas_asociado(Integer id_pas_asociado) {
-        this.id_pas_asociado = id_pas_asociado;
+    public CENTROSANITARIO nombre_pas_asociado(String nombre_pas_asociado) {
+        this.nombre_pas_asociado = nombre_pas_asociado;
         return this;
     }
 
-    public void setId_pas_asociado(Integer id_pas_asociado) {
-        this.id_pas_asociado = id_pas_asociado;
+    public void setNombre_pas_asociado(String nombre_pas_asociado) {
+        this.nombre_pas_asociado = nombre_pas_asociado;
     }
 
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
@@ -199,7 +182,6 @@ public class CENTROSANITARIO implements Serializable {
     public String toString() {
         return "CENTROSANITARIO{" +
             "id=" + getId() +
-            ", id_centro=" + getId_centro() +
             ", direccion='" + getDireccion() + "'" +
             ", persona_de_contacto='" + getPersona_de_contacto() + "'" +
             ", email='" + getEmail() + "'" +
@@ -207,7 +189,7 @@ public class CENTROSANITARIO implements Serializable {
             ", especialidades='" + getEspecialidades() + "'" +
             ", coordenada_x=" + getCoordenada_x() +
             ", coordenada_y=" + getCoordenada_y() +
-            ", id_pas_asociado=" + getId_pas_asociado() +
+            ", nombre_pas_asociado='" + getNombre_pas_asociado() + "'" +
             "}";
     }
 }

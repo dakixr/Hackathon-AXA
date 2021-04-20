@@ -29,9 +29,6 @@ import org.springframework.test.web.servlet.MockMvc;
 @WithMockUser
 class CENTROSANITARIOResourceIT {
 
-    private static final Integer DEFAULT_ID_CENTRO = 1;
-    private static final Integer UPDATED_ID_CENTRO = 2;
-
     private static final String DEFAULT_DIRECCION = "AAAAAAAAAA";
     private static final String UPDATED_DIRECCION = "BBBBBBBBBB";
 
@@ -53,8 +50,8 @@ class CENTROSANITARIOResourceIT {
     private static final Double DEFAULT_COORDENADA_Y = 1D;
     private static final Double UPDATED_COORDENADA_Y = 2D;
 
-    private static final Integer DEFAULT_ID_PAS_ASOCIADO = 1;
-    private static final Integer UPDATED_ID_PAS_ASOCIADO = 2;
+    private static final String DEFAULT_NOMBRE_PAS_ASOCIADO = "AAAAAAAAAA";
+    private static final String UPDATED_NOMBRE_PAS_ASOCIADO = "BBBBBBBBBB";
 
     private static final String ENTITY_API_URL = "/api/centrosanitarios";
     private static final String ENTITY_API_URL_ID = ENTITY_API_URL + "/{id}";
@@ -78,7 +75,6 @@ class CENTROSANITARIOResourceIT {
      */
     public static CENTROSANITARIO createEntity() {
         CENTROSANITARIO cENTROSANITARIO = new CENTROSANITARIO()
-            .id_centro(DEFAULT_ID_CENTRO)
             .direccion(DEFAULT_DIRECCION)
             .persona_de_contacto(DEFAULT_PERSONA_DE_CONTACTO)
             .email(DEFAULT_EMAIL)
@@ -86,7 +82,7 @@ class CENTROSANITARIOResourceIT {
             .especialidades(DEFAULT_ESPECIALIDADES)
             .coordenada_x(DEFAULT_COORDENADA_X)
             .coordenada_y(DEFAULT_COORDENADA_Y)
-            .id_pas_asociado(DEFAULT_ID_PAS_ASOCIADO);
+            .nombre_pas_asociado(DEFAULT_NOMBRE_PAS_ASOCIADO);
         return cENTROSANITARIO;
     }
 
@@ -98,7 +94,6 @@ class CENTROSANITARIOResourceIT {
      */
     public static CENTROSANITARIO createUpdatedEntity() {
         CENTROSANITARIO cENTROSANITARIO = new CENTROSANITARIO()
-            .id_centro(UPDATED_ID_CENTRO)
             .direccion(UPDATED_DIRECCION)
             .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO)
             .email(UPDATED_EMAIL)
@@ -106,7 +101,7 @@ class CENTROSANITARIOResourceIT {
             .especialidades(UPDATED_ESPECIALIDADES)
             .coordenada_x(UPDATED_COORDENADA_X)
             .coordenada_y(UPDATED_COORDENADA_Y)
-            .id_pas_asociado(UPDATED_ID_PAS_ASOCIADO);
+            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO);
         return cENTROSANITARIO;
     }
 
@@ -134,7 +129,6 @@ class CENTROSANITARIOResourceIT {
         List<CENTROSANITARIO> cENTROSANITARIOList = cENTROSANITARIORepository.findAll();
         assertThat(cENTROSANITARIOList).hasSize(databaseSizeBeforeCreate + 1);
         CENTROSANITARIO testCENTROSANITARIO = cENTROSANITARIOList.get(cENTROSANITARIOList.size() - 1);
-        assertThat(testCENTROSANITARIO.getId_centro()).isEqualTo(DEFAULT_ID_CENTRO);
         assertThat(testCENTROSANITARIO.getDireccion()).isEqualTo(DEFAULT_DIRECCION);
         assertThat(testCENTROSANITARIO.getPersona_de_contacto()).isEqualTo(DEFAULT_PERSONA_DE_CONTACTO);
         assertThat(testCENTROSANITARIO.getEmail()).isEqualTo(DEFAULT_EMAIL);
@@ -142,7 +136,7 @@ class CENTROSANITARIOResourceIT {
         assertThat(testCENTROSANITARIO.getEspecialidades()).isEqualTo(DEFAULT_ESPECIALIDADES);
         assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(DEFAULT_COORDENADA_X);
         assertThat(testCENTROSANITARIO.getCoordenada_y()).isEqualTo(DEFAULT_COORDENADA_Y);
-        assertThat(testCENTROSANITARIO.getId_pas_asociado()).isEqualTo(DEFAULT_ID_PAS_ASOCIADO);
+        assertThat(testCENTROSANITARIO.getNombre_pas_asociado()).isEqualTo(DEFAULT_NOMBRE_PAS_ASOCIADO);
     }
 
     @Test
@@ -179,7 +173,6 @@ class CENTROSANITARIOResourceIT {
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
             .andExpect(jsonPath("$.[*].id").value(hasItem(cENTROSANITARIO.getId())))
-            .andExpect(jsonPath("$.[*].id_centro").value(hasItem(DEFAULT_ID_CENTRO)))
             .andExpect(jsonPath("$.[*].direccion").value(hasItem(DEFAULT_DIRECCION)))
             .andExpect(jsonPath("$.[*].persona_de_contacto").value(hasItem(DEFAULT_PERSONA_DE_CONTACTO)))
             .andExpect(jsonPath("$.[*].email").value(hasItem(DEFAULT_EMAIL)))
@@ -187,7 +180,7 @@ class CENTROSANITARIOResourceIT {
             .andExpect(jsonPath("$.[*].especialidades").value(hasItem(DEFAULT_ESPECIALIDADES)))
             .andExpect(jsonPath("$.[*].coordenada_x").value(hasItem(DEFAULT_COORDENADA_X.doubleValue())))
             .andExpect(jsonPath("$.[*].coordenada_y").value(hasItem(DEFAULT_COORDENADA_Y.doubleValue())))
-            .andExpect(jsonPath("$.[*].id_pas_asociado").value(hasItem(DEFAULT_ID_PAS_ASOCIADO)));
+            .andExpect(jsonPath("$.[*].nombre_pas_asociado").value(hasItem(DEFAULT_NOMBRE_PAS_ASOCIADO)));
     }
 
     @Test
@@ -201,7 +194,6 @@ class CENTROSANITARIOResourceIT {
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
             .andExpect(jsonPath("$.id").value(cENTROSANITARIO.getId()))
-            .andExpect(jsonPath("$.id_centro").value(DEFAULT_ID_CENTRO))
             .andExpect(jsonPath("$.direccion").value(DEFAULT_DIRECCION))
             .andExpect(jsonPath("$.persona_de_contacto").value(DEFAULT_PERSONA_DE_CONTACTO))
             .andExpect(jsonPath("$.email").value(DEFAULT_EMAIL))
@@ -209,7 +201,7 @@ class CENTROSANITARIOResourceIT {
             .andExpect(jsonPath("$.especialidades").value(DEFAULT_ESPECIALIDADES))
             .andExpect(jsonPath("$.coordenada_x").value(DEFAULT_COORDENADA_X.doubleValue()))
             .andExpect(jsonPath("$.coordenada_y").value(DEFAULT_COORDENADA_Y.doubleValue()))
-            .andExpect(jsonPath("$.id_pas_asociado").value(DEFAULT_ID_PAS_ASOCIADO));
+            .andExpect(jsonPath("$.nombre_pas_asociado").value(DEFAULT_NOMBRE_PAS_ASOCIADO));
     }
 
     @Test
@@ -228,7 +220,6 @@ class CENTROSANITARIOResourceIT {
         // Update the cENTROSANITARIO
         CENTROSANITARIO updatedCENTROSANITARIO = cENTROSANITARIORepository.findById(cENTROSANITARIO.getId()).get();
         updatedCENTROSANITARIO
-            .id_centro(UPDATED_ID_CENTRO)
             .direccion(UPDATED_DIRECCION)
             .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO)
             .email(UPDATED_EMAIL)
@@ -236,7 +227,7 @@ class CENTROSANITARIOResourceIT {
             .especialidades(UPDATED_ESPECIALIDADES)
             .coordenada_x(UPDATED_COORDENADA_X)
             .coordenada_y(UPDATED_COORDENADA_Y)
-            .id_pas_asociado(UPDATED_ID_PAS_ASOCIADO);
+            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO);
         CENTROSANITARIODTO cENTROSANITARIODTO = cENTROSANITARIOMapper.toDto(updatedCENTROSANITARIO);
 
         restCENTROSANITARIOMockMvc
@@ -252,7 +243,6 @@ class CENTROSANITARIOResourceIT {
         List<CENTROSANITARIO> cENTROSANITARIOList = cENTROSANITARIORepository.findAll();
         assertThat(cENTROSANITARIOList).hasSize(databaseSizeBeforeUpdate);
         CENTROSANITARIO testCENTROSANITARIO = cENTROSANITARIOList.get(cENTROSANITARIOList.size() - 1);
-        assertThat(testCENTROSANITARIO.getId_centro()).isEqualTo(UPDATED_ID_CENTRO);
         assertThat(testCENTROSANITARIO.getDireccion()).isEqualTo(UPDATED_DIRECCION);
         assertThat(testCENTROSANITARIO.getPersona_de_contacto()).isEqualTo(UPDATED_PERSONA_DE_CONTACTO);
         assertThat(testCENTROSANITARIO.getEmail()).isEqualTo(UPDATED_EMAIL);
@@ -260,7 +250,7 @@ class CENTROSANITARIOResourceIT {
         assertThat(testCENTROSANITARIO.getEspecialidades()).isEqualTo(UPDATED_ESPECIALIDADES);
         assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(UPDATED_COORDENADA_X);
         assertThat(testCENTROSANITARIO.getCoordenada_y()).isEqualTo(UPDATED_COORDENADA_Y);
-        assertThat(testCENTROSANITARIO.getId_pas_asociado()).isEqualTo(UPDATED_ID_PAS_ASOCIADO);
+        assertThat(testCENTROSANITARIO.getNombre_pas_asociado()).isEqualTo(UPDATED_NOMBRE_PAS_ASOCIADO);
     }
 
     @Test
@@ -344,13 +334,12 @@ class CENTROSANITARIOResourceIT {
         partialUpdatedCENTROSANITARIO.setId(cENTROSANITARIO.getId());
 
         partialUpdatedCENTROSANITARIO
-            .id_centro(UPDATED_ID_CENTRO)
             .direccion(UPDATED_DIRECCION)
             .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO)
             .email(UPDATED_EMAIL)
-            .coordenada_x(UPDATED_COORDENADA_X)
+            .codigo_postal(UPDATED_CODIGO_POSTAL)
             .coordenada_y(UPDATED_COORDENADA_Y)
-            .id_pas_asociado(UPDATED_ID_PAS_ASOCIADO);
+            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO);
 
         restCENTROSANITARIOMockMvc
             .perform(
@@ -365,15 +354,14 @@ class CENTROSANITARIOResourceIT {
         List<CENTROSANITARIO> cENTROSANITARIOList = cENTROSANITARIORepository.findAll();
         assertThat(cENTROSANITARIOList).hasSize(databaseSizeBeforeUpdate);
         CENTROSANITARIO testCENTROSANITARIO = cENTROSANITARIOList.get(cENTROSANITARIOList.size() - 1);
-        assertThat(testCENTROSANITARIO.getId_centro()).isEqualTo(UPDATED_ID_CENTRO);
         assertThat(testCENTROSANITARIO.getDireccion()).isEqualTo(UPDATED_DIRECCION);
         assertThat(testCENTROSANITARIO.getPersona_de_contacto()).isEqualTo(UPDATED_PERSONA_DE_CONTACTO);
         assertThat(testCENTROSANITARIO.getEmail()).isEqualTo(UPDATED_EMAIL);
-        assertThat(testCENTROSANITARIO.getCodigo_postal()).isEqualTo(DEFAULT_CODIGO_POSTAL);
+        assertThat(testCENTROSANITARIO.getCodigo_postal()).isEqualTo(UPDATED_CODIGO_POSTAL);
         assertThat(testCENTROSANITARIO.getEspecialidades()).isEqualTo(DEFAULT_ESPECIALIDADES);
-        assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(UPDATED_COORDENADA_X);
+        assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(DEFAULT_COORDENADA_X);
         assertThat(testCENTROSANITARIO.getCoordenada_y()).isEqualTo(UPDATED_COORDENADA_Y);
-        assertThat(testCENTROSANITARIO.getId_pas_asociado()).isEqualTo(UPDATED_ID_PAS_ASOCIADO);
+        assertThat(testCENTROSANITARIO.getNombre_pas_asociado()).isEqualTo(UPDATED_NOMBRE_PAS_ASOCIADO);
     }
 
     @Test
@@ -388,7 +376,6 @@ class CENTROSANITARIOResourceIT {
         partialUpdatedCENTROSANITARIO.setId(cENTROSANITARIO.getId());
 
         partialUpdatedCENTROSANITARIO
-            .id_centro(UPDATED_ID_CENTRO)
             .direccion(UPDATED_DIRECCION)
             .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO)
             .email(UPDATED_EMAIL)
@@ -396,7 +383,7 @@ class CENTROSANITARIOResourceIT {
             .especialidades(UPDATED_ESPECIALIDADES)
             .coordenada_x(UPDATED_COORDENADA_X)
             .coordenada_y(UPDATED_COORDENADA_Y)
-            .id_pas_asociado(UPDATED_ID_PAS_ASOCIADO);
+            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO);
 
         restCENTROSANITARIOMockMvc
             .perform(
@@ -411,7 +398,6 @@ class CENTROSANITARIOResourceIT {
         List<CENTROSANITARIO> cENTROSANITARIOList = cENTROSANITARIORepository.findAll();
         assertThat(cENTROSANITARIOList).hasSize(databaseSizeBeforeUpdate);
         CENTROSANITARIO testCENTROSANITARIO = cENTROSANITARIOList.get(cENTROSANITARIOList.size() - 1);
-        assertThat(testCENTROSANITARIO.getId_centro()).isEqualTo(UPDATED_ID_CENTRO);
         assertThat(testCENTROSANITARIO.getDireccion()).isEqualTo(UPDATED_DIRECCION);
         assertThat(testCENTROSANITARIO.getPersona_de_contacto()).isEqualTo(UPDATED_PERSONA_DE_CONTACTO);
         assertThat(testCENTROSANITARIO.getEmail()).isEqualTo(UPDATED_EMAIL);
@@ -419,7 +405,7 @@ class CENTROSANITARIOResourceIT {
         assertThat(testCENTROSANITARIO.getEspecialidades()).isEqualTo(UPDATED_ESPECIALIDADES);
         assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(UPDATED_COORDENADA_X);
         assertThat(testCENTROSANITARIO.getCoordenada_y()).isEqualTo(UPDATED_COORDENADA_Y);
-        assertThat(testCENTROSANITARIO.getId_pas_asociado()).isEqualTo(UPDATED_ID_PAS_ASOCIADO);
+        assertThat(testCENTROSANITARIO.getNombre_pas_asociado()).isEqualTo(UPDATED_NOMBRE_PAS_ASOCIADO);
     }
 
     @Test
