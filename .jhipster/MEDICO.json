@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "fieldName": "id_medico",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apellidos",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numero_colegiado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefono_contacto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "especialidad",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "centro_sanitario",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "readOnly": false,
+  "pagination": "pagination",
+  "name": "MEDICO",
+  "changelogDate": "20210420132139"
+}

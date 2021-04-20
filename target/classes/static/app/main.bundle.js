@@ -703,7 +703,7 @@ const mapStateToProps = ({ authentication, applicationProfile }) => ({
 const mapDispatchToProps = { getSession: app_shared_reducers_authentication__WEBPACK_IMPORTED_MODULE_5__.getSession, getProfile: app_shared_reducers_application_profile__WEBPACK_IMPORTED_MODULE_6__.getProfile };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_4__.connect)(mapStateToProps, mapDispatchToProps)((0,react_hot_loader__WEBPACK_IMPORTED_MODULE_16__.hot)(module)(App)));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/app.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/app.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/app.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/app.tsx"); } }(); 
 
 /***/ }),
 
@@ -743,7 +743,7 @@ const setupAxiosInterceptors = onUnauthenticated => {
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (setupAxiosInterceptors);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/axios-interceptor.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/axios-interceptor.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/axios-interceptor.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/axios-interceptor.ts"); } }(); 
 
 /***/ }),
 
@@ -788,7 +788,7 @@ const APP_LOCAL_DATETIME_FORMAT_Z = 'YYYY-MM-DDTHH:mm Z';
 const APP_WHOLE_NUMBER_FORMAT = '0,0';
 const APP_TWO_DIGITS_AFTER_POINT_NUMBER_FORMAT = '0,0.[00]';
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/constants.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/constants.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/constants.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/constants.ts"); } }(); 
 
 /***/ }),
 
@@ -818,7 +818,7 @@ dayjs__WEBPACK_IMPORTED_MODULE_0___default().extend((dayjs_plugin_customParseFor
 dayjs__WEBPACK_IMPORTED_MODULE_0___default().extend((dayjs_plugin_duration__WEBPACK_IMPORTED_MODULE_2___default()));
 dayjs__WEBPACK_IMPORTED_MODULE_0___default().extend((dayjs_plugin_relativeTime__WEBPACK_IMPORTED_MODULE_3___default()));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/dayjs.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/dayjs.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/dayjs.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/dayjs.ts"); } }(); 
 
 /***/ }),
 
@@ -846,7 +846,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,redux_devtools__WEBPACK_IMPORTED_MODULE_1__.createDevTools)(react__WEBPACK_IMPORTED_MODULE_0__.createElement(redux_devtools_dock_monitor__WEBPACK_IMPORTED_MODULE_3__.default, { toggleVisibilityKey: "ctrl-h", changePositionKey: "ctrl-q", defaultIsVisible: false },
     react__WEBPACK_IMPORTED_MODULE_0__.createElement(redux_devtools_log_monitor__WEBPACK_IMPORTED_MODULE_2__.default, null))));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/devtools.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/devtools.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/devtools.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/devtools.tsx"); } }(); 
 
 /***/ }),
 
@@ -898,7 +898,7 @@ const getErrorMessage = errorData => {
     return next(action);
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/error-middleware.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/error-middleware.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/error-middleware.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/error-middleware.ts"); } }(); 
 
 /***/ }),
 
@@ -985,7 +985,7 @@ const loadIcons = () => {
     _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.library.add(_fortawesome_free_solid_svg_icons_faArrowLeft__WEBPACK_IMPORTED_MODULE_1__.faArrowLeft, _fortawesome_free_solid_svg_icons_faAsterisk__WEBPACK_IMPORTED_MODULE_2__.faAsterisk, _fortawesome_free_solid_svg_icons_faBan__WEBPACK_IMPORTED_MODULE_3__.faBan, _fortawesome_free_solid_svg_icons_faBell__WEBPACK_IMPORTED_MODULE_4__.faBell, _fortawesome_free_solid_svg_icons_faBook__WEBPACK_IMPORTED_MODULE_5__.faBook, _fortawesome_free_solid_svg_icons_faCloud__WEBPACK_IMPORTED_MODULE_6__.faCloud, _fortawesome_free_solid_svg_icons_faCogs__WEBPACK_IMPORTED_MODULE_7__.faCogs, _fortawesome_free_solid_svg_icons_faDatabase__WEBPACK_IMPORTED_MODULE_8__.faDatabase, _fortawesome_free_solid_svg_icons_faEye__WEBPACK_IMPORTED_MODULE_9__.faEye, _fortawesome_free_solid_svg_icons_faFlag__WEBPACK_IMPORTED_MODULE_10__.faFlag, _fortawesome_free_solid_svg_icons_faHeart__WEBPACK_IMPORTED_MODULE_11__.faHeart, _fortawesome_free_solid_svg_icons_faHome__WEBPACK_IMPORTED_MODULE_12__.faHome, _fortawesome_free_solid_svg_icons_faList__WEBPACK_IMPORTED_MODULE_13__.faList, _fortawesome_free_solid_svg_icons_faLock__WEBPACK_IMPORTED_MODULE_14__.faLock, _fortawesome_free_solid_svg_icons_faPencilAlt__WEBPACK_IMPORTED_MODULE_15__.faPencilAlt, _fortawesome_free_solid_svg_icons_faPlus__WEBPACK_IMPORTED_MODULE_16__.faPlus, _fortawesome_free_solid_svg_icons_faRoad__WEBPACK_IMPORTED_MODULE_17__.faRoad, _fortawesome_free_solid_svg_icons_faSave__WEBPACK_IMPORTED_MODULE_18__.faSave, _fortawesome_free_solid_svg_icons_faSignInAlt__WEBPACK_IMPORTED_MODULE_19__.faSignInAlt, _fortawesome_free_solid_svg_icons_faSignOutAlt__WEBPACK_IMPORTED_MODULE_20__.faSignOutAlt, _fortawesome_free_solid_svg_icons_faSearch__WEBPACK_IMPORTED_MODULE_21__.faSearch, _fortawesome_free_solid_svg_icons_faSort__WEBPACK_IMPORTED_MODULE_22__.faSort, _fortawesome_free_solid_svg_icons_faSync__WEBPACK_IMPORTED_MODULE_23__.faSync, _fortawesome_free_solid_svg_icons_faTachometerAlt__WEBPACK_IMPORTED_MODULE_24__.faTachometerAlt, _fortawesome_free_solid_svg_icons_faTasks__WEBPACK_IMPORTED_MODULE_25__.faTasks, _fortawesome_free_solid_svg_icons_faThList__WEBPACK_IMPORTED_MODULE_26__.faThList, _fortawesome_free_solid_svg_icons_faTimesCircle__WEBPACK_IMPORTED_MODULE_27__.faTimesCircle, _fortawesome_free_solid_svg_icons_faTrash__WEBPACK_IMPORTED_MODULE_28__.faTrash, _fortawesome_free_solid_svg_icons_faUser__WEBPACK_IMPORTED_MODULE_29__.faUser, _fortawesome_free_solid_svg_icons_faUserPlus__WEBPACK_IMPORTED_MODULE_30__.faUserPlus, _fortawesome_free_solid_svg_icons_faUsers__WEBPACK_IMPORTED_MODULE_31__.faUsers, _fortawesome_free_solid_svg_icons_faUsersCog__WEBPACK_IMPORTED_MODULE_32__.faUsersCog, _fortawesome_free_solid_svg_icons_faWrench__WEBPACK_IMPORTED_MODULE_33__.faWrench);
 };
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/icon-loader.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/icon-loader.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/icon-loader.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/icon-loader.ts"); } }(); 
 
 /***/ }),
 
@@ -1012,7 +1012,7 @@ __webpack_require__.r(__webpack_exports__);
     return next(action);
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/logger-middleware.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/logger-middleware.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/logger-middleware.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/logger-middleware.ts"); } }(); 
 
 /***/ }),
 
@@ -1142,7 +1142,7 @@ const addErrorAlert = (message, key, data) => {
     });
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/notification-middleware.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/notification-middleware.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/notification-middleware.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/notification-middleware.ts"); } }(); 
 
 /***/ }),
 
@@ -1189,7 +1189,1133 @@ const composedMiddlewares = middlewares =>  true
 const initialize = (initialState, middlewares = []) => (0,redux__WEBPACK_IMPORTED_MODULE_8__.createStore)(app_shared_reducers__WEBPACK_IMPORTED_MODULE_2__.default, initialState, composedMiddlewares(middlewares));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (initialize);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/store.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/config/store.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/store.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/config/store.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/centrosanitario/centrosanitario-delete-dialog.tsx":
+/*!****************************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/centrosanitario/centrosanitario-delete-dialog.tsx ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CENTROSANITARIODeleteDialog": () => (/* binding */ CENTROSANITARIODeleteDialog),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Modal.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalHeader.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalBody.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalFooter.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./centrosanitario.reducer */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts");
+
+
+
+
+
+const CENTROSANITARIODeleteDialog = (props) => {
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        props.getEntity(props.match.params.id);
+    }, []);
+    const handleClose = () => {
+        props.history.push('/centrosanitario' + props.location.search);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (props.updateSuccess) {
+            handleClose();
+        }
+    }, [props.updateSuccess]);
+    const confirmDelete = () => {
+        props.deleteEntity(props.cENTROSANITARIOEntity.id);
+    };
+    const { cENTROSANITARIOEntity } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, { isOpen: true, toggle: handleClose },
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { toggle: handleClose, "data-cy": "cENTROSANITARIODeleteDialogHeading" }, "Confirm delete operation"),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { id: "axaApp.cENTROSANITARIO.delete.question" }, "Are you sure you want to delete this CENTROSANITARIO?"),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, null,
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { color: "secondary", onClick: handleClose },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "ban" }),
+                "\u00A0 Cancel"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { id: "jhi-confirm-delete-cENTROSANITARIO", "data-cy": "entityConfirmDeleteButton", color: "danger", onClick: confirmDelete },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "trash" }),
+                "\u00A0 Delete"))));
+};
+const mapStateToProps = ({ cENTROSANITARIO }) => ({
+    cENTROSANITARIOEntity: cENTROSANITARIO.entity,
+    updateSuccess: cENTROSANITARIO.updateSuccess,
+});
+const mapDispatchToProps = { getEntity: _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_3__.getEntity, deleteEntity: _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_3__.deleteEntity };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(CENTROSANITARIODeleteDialog));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario-delete-dialog.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario-delete-dialog.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/centrosanitario/centrosanitario-detail.tsx":
+/*!*********************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/centrosanitario/centrosanitario-detail.tsx ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CENTROSANITARIODetail": () => (/* binding */ CENTROSANITARIODetail),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./centrosanitario.reducer */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts");
+
+
+
+
+
+
+const CENTROSANITARIODetail = (props) => {
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        props.getEntity(props.match.params.id);
+    }, []);
+    const { cENTROSANITARIOEntity } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { md: "8" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { "data-cy": "cENTROSANITARIODetailsHeading" }, "CENTROSANITARIO"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("dl", { className: "jh-entity-details" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id" }, "ID")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.id),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id_centro" }, "Id Centro")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.id_centro),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "direccion" }, "Direccion")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.direccion),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "persona_de_contacto" }, "Persona De Contacto")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.persona_de_contacto),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "email" }, "Email")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.email),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "codigo_postal" }, "Codigo Postal")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.codigo_postal),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "especialidades" }, "Especialidades")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.especialidades),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "coordenada_x" }, "Coordenada X")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.coordenada_x),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "coordenada_y" }, "Coordenada Y")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.coordenada_y)),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: "/centrosanitario", replace: true, color: "info", "data-cy": "entityDetailsBackButton" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "arrow-left" }),
+                " ",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Back")),
+            "\u00A0",
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: `/centrosanitario/${cENTROSANITARIOEntity.id}/edit`, replace: true, color: "primary" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "pencil-alt" }),
+                " ",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Edit")))));
+};
+const mapStateToProps = ({ cENTROSANITARIO }) => ({
+    cENTROSANITARIOEntity: cENTROSANITARIO.entity,
+});
+const mapDispatchToProps = { getEntity: _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_3__.getEntity };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(CENTROSANITARIODetail));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario-detail.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario-detail.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/centrosanitario/centrosanitario-update.tsx":
+/*!*********************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/centrosanitario/centrosanitario-update.tsx ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CENTROSANITARIOUpdate": () => (/* binding */ CENTROSANITARIOUpdate),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Label.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! availity-reactstrap-validation */ "./node_modules/availity-reactstrap-validation/lib/index.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./centrosanitario.reducer */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts");
+
+
+
+
+
+
+
+const CENTROSANITARIOUpdate = (props) => {
+    const [isNew] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(!props.match.params || !props.match.params.id);
+    const { cENTROSANITARIOEntity, loading, updating } = props;
+    const handleClose = () => {
+        props.history.push('/centrosanitario' + props.location.search);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (isNew) {
+            props.reset();
+        }
+        else {
+            props.getEntity(props.match.params.id);
+        }
+    }, []);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (props.updateSuccess) {
+            handleClose();
+        }
+    }, [props.updateSuccess]);
+    const saveEntity = (event, errors, values) => {
+        if (errors.length === 0) {
+            const entity = Object.assign(Object.assign({}, cENTROSANITARIOEntity), values);
+            if (isNew) {
+                props.createEntity(entity);
+            }
+            else {
+                props.updateEntity(entity);
+            }
+        }
+    };
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { className: "justify-content-center" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { md: "8" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { id: "axaApp.cENTROSANITARIO.home.createOrEditLabel", "data-cy": "CENTROSANITARIOCreateUpdateHeading" }, "Create or edit a CENTROSANITARIO"))),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { className: "justify-content-center" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { md: "8" }, loading ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Loading...")) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvForm, { model: isNew ? {} : cENTROSANITARIOEntity, onSubmit: saveEntity },
+                !isNew ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { for: "centrosanitario-id" }, "ID"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvInput, { id: "centrosanitario-id", type: "text", className: "form-control", name: "id", required: true, readOnly: true }))) : null,
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "id_centroLabel", for: "centrosanitario-id_centro" }, "Id Centro"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-id_centro", "data-cy": "id_centro", type: "string", className: "form-control", name: "id_centro", validate: {
+                            number: { value: true, errorMessage: 'This field should be a number.' },
+                        } })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "direccionLabel", for: "centrosanitario-direccion" }, "Direccion"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-direccion", "data-cy": "direccion", type: "text", name: "direccion" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "persona_de_contactoLabel", for: "centrosanitario-persona_de_contacto" }, "Persona De Contacto"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-persona_de_contacto", "data-cy": "persona_de_contacto", type: "text", name: "persona_de_contacto" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "emailLabel", for: "centrosanitario-email" }, "Email"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-email", "data-cy": "email", type: "text", name: "email" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "codigo_postalLabel", for: "centrosanitario-codigo_postal" }, "Codigo Postal"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-codigo_postal", "data-cy": "codigo_postal", type: "text", name: "codigo_postal" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "especialidadesLabel", for: "centrosanitario-especialidades" }, "Especialidades"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-especialidades", "data-cy": "especialidades", type: "text", name: "especialidades" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "coordenada_xLabel", for: "centrosanitario-coordenada_x" }, "Coordenada X"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-coordenada_x", "data-cy": "coordenada_x", type: "string", className: "form-control", name: "coordenada_x" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "coordenada_yLabel", for: "centrosanitario-coordenada_y" }, "Coordenada Y"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-coordenada_y", "data-cy": "coordenada_y", type: "string", className: "form-control", name: "coordenada_y" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Link, id: "cancel-save", to: "/centrosanitario", replace: true, color: "info" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "arrow-left" }),
+                    "\u00A0",
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Back")),
+                "\u00A0",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { color: "primary", id: "save-entity", "data-cy": "entityCreateSaveButton", type: "submit", disabled: updating },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "save" }),
+                    "\u00A0 Save")))))));
+};
+const mapStateToProps = (storeState) => ({
+    cENTROSANITARIOEntity: storeState.cENTROSANITARIO.entity,
+    loading: storeState.cENTROSANITARIO.loading,
+    updating: storeState.cENTROSANITARIO.updating,
+    updateSuccess: storeState.cENTROSANITARIO.updateSuccess,
+});
+const mapDispatchToProps = {
+    getEntity: _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_4__.getEntity,
+    updateEntity: _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_4__.updateEntity,
+    createEntity: _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_4__.createEntity,
+    reset: _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_4__.reset,
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(CENTROSANITARIOUpdate));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario-update.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario-update.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts":
+/*!*********************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ACTION_TYPES": () => (/* binding */ ACTION_TYPES),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getEntities": () => (/* binding */ getEntities),
+/* harmony export */   "getEntity": () => (/* binding */ getEntity),
+/* harmony export */   "createEntity": () => (/* binding */ createEntity),
+/* harmony export */   "updateEntity": () => (/* binding */ updateEntity),
+/* harmony export */   "partialUpdate": () => (/* binding */ partialUpdate),
+/* harmony export */   "deleteEntity": () => (/* binding */ deleteEntity),
+/* harmony export */   "reset": () => (/* binding */ reset)
+/* harmony export */ });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/util/entity-utils */ "./src/main/webapp/app/shared/util/entity-utils.ts");
+/* harmony import */ var app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! app/shared/reducers/action-type.util */ "./src/main/webapp/app/shared/reducers/action-type.util.ts");
+/* harmony import */ var app_shared_model_centrosanitario_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! app/shared/model/centrosanitario.model */ "./src/main/webapp/app/shared/model/centrosanitario.model.ts");
+
+
+
+
+
+const ACTION_TYPES = {
+    FETCH_CENTROSANITARIO_LIST: 'cENTROSANITARIO/FETCH_CENTROSANITARIO_LIST',
+    FETCH_CENTROSANITARIO: 'cENTROSANITARIO/FETCH_CENTROSANITARIO',
+    CREATE_CENTROSANITARIO: 'cENTROSANITARIO/CREATE_CENTROSANITARIO',
+    UPDATE_CENTROSANITARIO: 'cENTROSANITARIO/UPDATE_CENTROSANITARIO',
+    PARTIAL_UPDATE_CENTROSANITARIO: 'cENTROSANITARIO/PARTIAL_UPDATE_CENTROSANITARIO',
+    DELETE_CENTROSANITARIO: 'cENTROSANITARIO/DELETE_CENTROSANITARIO',
+    RESET: 'cENTROSANITARIO/RESET',
+};
+const initialState = {
+    loading: false,
+    errorMessage: null,
+    entities: [],
+    entity: app_shared_model_centrosanitario_model__WEBPACK_IMPORTED_MODULE_3__.defaultValue,
+    updating: false,
+    totalItems: 0,
+    updateSuccess: false,
+};
+// Reducer
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((state = initialState, action) => {
+    switch (action.type) {
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.FETCH_CENTROSANITARIO_LIST):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.FETCH_CENTROSANITARIO):
+            return Object.assign(Object.assign({}, state), { errorMessage: null, updateSuccess: false, loading: true });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.CREATE_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.UPDATE_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.DELETE_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.PARTIAL_UPDATE_CENTROSANITARIO):
+            return Object.assign(Object.assign({}, state), { errorMessage: null, updateSuccess: false, updating: true });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.FETCH_CENTROSANITARIO_LIST):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.FETCH_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.CREATE_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.UPDATE_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.PARTIAL_UPDATE_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.DELETE_CENTROSANITARIO):
+            return Object.assign(Object.assign({}, state), { loading: false, updating: false, updateSuccess: false, errorMessage: action.payload });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.FETCH_CENTROSANITARIO_LIST):
+            return Object.assign(Object.assign({}, state), { loading: false, entities: action.payload.data, totalItems: parseInt(action.payload.headers['x-total-count'], 10) });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.FETCH_CENTROSANITARIO):
+            return Object.assign(Object.assign({}, state), { loading: false, entity: action.payload.data });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.CREATE_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.UPDATE_CENTROSANITARIO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.PARTIAL_UPDATE_CENTROSANITARIO):
+            return Object.assign(Object.assign({}, state), { updating: false, updateSuccess: true, entity: action.payload.data });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.DELETE_CENTROSANITARIO):
+            return Object.assign(Object.assign({}, state), { updating: false, updateSuccess: true, entity: {} });
+        case ACTION_TYPES.RESET:
+            return Object.assign({}, initialState);
+        default:
+            return state;
+    }
+});
+const apiUrl = 'api/centrosanitarios';
+// Actions
+const getEntities = (page, size, sort) => {
+    const requestUrl = `${apiUrl}${sort ? `?page=${page}&size=${size}&sort=${sort}` : ''}`;
+    return {
+        type: ACTION_TYPES.FETCH_CENTROSANITARIO_LIST,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get(`${requestUrl}${sort ? '&' : '?'}cacheBuster=${new Date().getTime()}`),
+    };
+};
+const getEntity = id => {
+    const requestUrl = `${apiUrl}/${id}`;
+    return {
+        type: ACTION_TYPES.FETCH_CENTROSANITARIO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get(requestUrl),
+    };
+};
+const createEntity = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.CREATE_CENTROSANITARIO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().post(apiUrl, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    dispatch(getEntities());
+    return result;
+});
+const updateEntity = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.UPDATE_CENTROSANITARIO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().put(`${apiUrl}/${entity.id}`, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    return result;
+});
+const partialUpdate = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.PARTIAL_UPDATE_CENTROSANITARIO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().patch(`${apiUrl}/${entity.id}`, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    return result;
+});
+const deleteEntity = id => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const requestUrl = `${apiUrl}/${id}`;
+    const result = yield dispatch({
+        type: ACTION_TYPES.DELETE_CENTROSANITARIO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().delete(requestUrl),
+    });
+    dispatch(getEntities());
+    return result;
+});
+const reset = () => ({
+    type: ACTION_TYPES.RESET,
+});
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/centrosanitario/centrosanitario.tsx":
+/*!**************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/centrosanitario/centrosanitario.tsx ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CENTROSANITARIO": () => (/* binding */ CENTROSANITARIO),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Table.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var react_jhipster__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-jhipster */ "./node_modules/react-jhipster/lib/index.js");
+/* harmony import */ var react_jhipster__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jhipster__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./centrosanitario.reducer */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts");
+/* harmony import */ var app_shared_util_pagination_constants__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! app/shared/util/pagination.constants */ "./src/main/webapp/app/shared/util/pagination.constants.ts");
+/* harmony import */ var app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! app/shared/util/entity-utils */ "./src/main/webapp/app/shared/util/entity-utils.ts");
+
+
+
+
+
+
+
+
+
+const CENTROSANITARIO = (props) => {
+    const [paginationState, setPaginationState] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)((0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_6__.overridePaginationStateWithQueryParams)((0,react_jhipster__WEBPACK_IMPORTED_MODULE_2__.getSortState)(props.location, app_shared_util_pagination_constants__WEBPACK_IMPORTED_MODULE_5__.ITEMS_PER_PAGE, 'id'), props.location.search));
+    const getAllEntities = () => {
+        props.getEntities(paginationState.activePage - 1, paginationState.itemsPerPage, `${paginationState.sort},${paginationState.order}`);
+    };
+    const sortEntities = () => {
+        getAllEntities();
+        const endURL = `?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`;
+        if (props.location.search !== endURL) {
+            props.history.push(`${props.location.pathname}${endURL}`);
+        }
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        sortEntities();
+    }, [paginationState.activePage, paginationState.order, paginationState.sort]);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        const params = new URLSearchParams(props.location.search);
+        const page = params.get('page');
+        const sort = params.get('sort');
+        if (page && sort) {
+            const sortSplit = sort.split(',');
+            setPaginationState(Object.assign(Object.assign({}, paginationState), { activePage: +page, sort: sortSplit[0], order: sortSplit[1] }));
+        }
+    }, [props.location.search]);
+    const sort = p => () => {
+        setPaginationState(Object.assign(Object.assign({}, paginationState), { order: paginationState.order === 'asc' ? 'desc' : 'asc', sort: p }));
+    };
+    const handlePagination = currentPage => setPaginationState(Object.assign(Object.assign({}, paginationState), { activePage: currentPage }));
+    const handleSyncList = () => {
+        sortEntities();
+    };
+    const { cENTROSANITARIOList, match, loading, totalItems } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { id: "centrosanitario-heading", "data-cy": "CENTROSANITARIOHeading" },
+            "CENTROSANITARIOS",
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "d-flex justify-content-end" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { className: "mr-2", color: "info", onClick: handleSyncList, disabled: loading },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sync", spin: loading }),
+                    " Refresh List"),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, { to: `${match.url}/new`, className: "btn btn-primary jh-create-entity", id: "jh-create-entity", "data-cy": "entityCreateButton" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "plus" }),
+                    "\u00A0 Create new CENTROSANITARIO"))),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "table-responsive" }, cENTROSANITARIOList && cENTROSANITARIOList.length > 0 ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__.default, { responsive: true },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null,
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id') },
+                        "ID ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id_centro') },
+                        "Id Centro ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('direccion') },
+                        "Direccion ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('persona_de_contacto') },
+                        "Persona De Contacto ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('email') },
+                        "Email ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('codigo_postal') },
+                        "Codigo Postal ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('especialidades') },
+                        "Especialidades ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('coordenada_x') },
+                        "Coordenada X ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('coordenada_y') },
+                        "Coordenada Y ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null))),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, cENTROSANITARIOList.map((cENTROSANITARIO, i) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", { key: `entity-${i}`, "data-cy": "entityTable" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cENTROSANITARIO.id}`, color: "link", size: "sm" }, cENTROSANITARIO.id)),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.id_centro),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.direccion),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.persona_de_contacto),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.email),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.codigo_postal),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.especialidades),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.coordenada_x),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.coordenada_y),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", { className: "text-right" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "btn-group flex-btn-group-container" },
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cENTROSANITARIO.id}`, color: "info", size: "sm", "data-cy": "entityDetailsButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "eye" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "View")),
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cENTROSANITARIO.id}/edit?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`, color: "primary", size: "sm", "data-cy": "entityEditButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "pencil-alt" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Edit")),
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cENTROSANITARIO.id}/delete?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`, color: "danger", size: "sm", "data-cy": "entityDeleteButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "trash" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Delete")))))))))) : (!loading && react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "alert alert-warning" }, "No CENTROSANITARIOS found"))),
+        props.totalItems ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: cENTROSANITARIOList && cENTROSANITARIOList.length > 0 ? '' : 'd-none' },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, { className: "justify-content-center" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_jhipster__WEBPACK_IMPORTED_MODULE_2__.JhiItemCount, { page: paginationState.activePage, total: totalItems, itemsPerPage: paginationState.itemsPerPage })),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, { className: "justify-content-center" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_jhipster__WEBPACK_IMPORTED_MODULE_2__.JhiPagination, { activePage: paginationState.activePage, onSelect: handlePagination, maxButtons: 5, itemsPerPage: paginationState.itemsPerPage, totalItems: props.totalItems })))) : ('')));
+};
+const mapStateToProps = ({ cENTROSANITARIO }) => ({
+    cENTROSANITARIOList: cENTROSANITARIO.entities,
+    loading: cENTROSANITARIO.loading,
+    totalItems: cENTROSANITARIO.totalItems,
+});
+const mapDispatchToProps = {
+    getEntities: _centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_4__.getEntities,
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(CENTROSANITARIO));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/centrosanitario.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/centrosanitario/index.tsx":
+/*!****************************************************************!*\
+  !*** ./src/main/webapp/app/entities/centrosanitario/index.tsx ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/error/error-boundary-route */ "./src/main/webapp/app/shared/error/error-boundary-route.tsx");
+/* harmony import */ var _centrosanitario__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./centrosanitario */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario.tsx");
+/* harmony import */ var _centrosanitario_detail__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./centrosanitario-detail */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario-detail.tsx");
+/* harmony import */ var _centrosanitario_update__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./centrosanitario-update */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario-update.tsx");
+/* harmony import */ var _centrosanitario_delete_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./centrosanitario-delete-dialog */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario-delete-dialog.tsx");
+
+
+
+
+
+
+
+const Routes = ({ match }) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Switch, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/new`, component: _centrosanitario_update__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id/edit`, component: _centrosanitario_update__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id`, component: _centrosanitario_detail__WEBPACK_IMPORTED_MODULE_3__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { path: match.url, component: _centrosanitario__WEBPACK_IMPORTED_MODULE_2__.default })),
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id/delete`, component: _centrosanitario_delete_dialog__WEBPACK_IMPORTED_MODULE_5__.default })));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Routes);
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/index.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/centrosanitario/index.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/cuadromedico/cuadromedico-delete-dialog.tsx":
+/*!**********************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/cuadromedico/cuadromedico-delete-dialog.tsx ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CUADROMEDICODeleteDialog": () => (/* binding */ CUADROMEDICODeleteDialog),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Modal.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalHeader.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalBody.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalFooter.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./cuadromedico.reducer */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts");
+
+
+
+
+
+const CUADROMEDICODeleteDialog = (props) => {
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        props.getEntity(props.match.params.id);
+    }, []);
+    const handleClose = () => {
+        props.history.push('/cuadromedico' + props.location.search);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (props.updateSuccess) {
+            handleClose();
+        }
+    }, [props.updateSuccess]);
+    const confirmDelete = () => {
+        props.deleteEntity(props.cUADROMEDICOEntity.id);
+    };
+    const { cUADROMEDICOEntity } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, { isOpen: true, toggle: handleClose },
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { toggle: handleClose, "data-cy": "cUADROMEDICODeleteDialogHeading" }, "Confirm delete operation"),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { id: "axaApp.cUADROMEDICO.delete.question" }, "Are you sure you want to delete this CUADROMEDICO?"),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, null,
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { color: "secondary", onClick: handleClose },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "ban" }),
+                "\u00A0 Cancel"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { id: "jhi-confirm-delete-cUADROMEDICO", "data-cy": "entityConfirmDeleteButton", color: "danger", onClick: confirmDelete },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "trash" }),
+                "\u00A0 Delete"))));
+};
+const mapStateToProps = ({ cUADROMEDICO }) => ({
+    cUADROMEDICOEntity: cUADROMEDICO.entity,
+    updateSuccess: cUADROMEDICO.updateSuccess,
+});
+const mapDispatchToProps = { getEntity: _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_3__.getEntity, deleteEntity: _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_3__.deleteEntity };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(CUADROMEDICODeleteDialog));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico-delete-dialog.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico-delete-dialog.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/cuadromedico/cuadromedico-detail.tsx":
+/*!***************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/cuadromedico/cuadromedico-detail.tsx ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CUADROMEDICODetail": () => (/* binding */ CUADROMEDICODetail),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./cuadromedico.reducer */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts");
+
+
+
+
+
+
+const CUADROMEDICODetail = (props) => {
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        props.getEntity(props.match.params.id);
+    }, []);
+    const { cUADROMEDICOEntity } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { md: "8" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { "data-cy": "cUADROMEDICODetailsHeading" }, "CUADROMEDICO"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("dl", { className: "jh-entity-details" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id" }, "ID")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cUADROMEDICOEntity.id),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id_cuadro_medico" }, "Id Cuadro Medico")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cUADROMEDICOEntity.id_cuadro_medico),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "suscripcion" }, "Suscripcion")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cUADROMEDICOEntity.suscripcion)),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: "/cuadromedico", replace: true, color: "info", "data-cy": "entityDetailsBackButton" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "arrow-left" }),
+                " ",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Back")),
+            "\u00A0",
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: `/cuadromedico/${cUADROMEDICOEntity.id}/edit`, replace: true, color: "primary" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "pencil-alt" }),
+                " ",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Edit")))));
+};
+const mapStateToProps = ({ cUADROMEDICO }) => ({
+    cUADROMEDICOEntity: cUADROMEDICO.entity,
+});
+const mapDispatchToProps = { getEntity: _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_3__.getEntity };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(CUADROMEDICODetail));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico-detail.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico-detail.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/cuadromedico/cuadromedico-update.tsx":
+/*!***************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/cuadromedico/cuadromedico-update.tsx ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CUADROMEDICOUpdate": () => (/* binding */ CUADROMEDICOUpdate),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Label.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! availity-reactstrap-validation */ "./node_modules/availity-reactstrap-validation/lib/index.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cuadromedico.reducer */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts");
+
+
+
+
+
+
+
+const CUADROMEDICOUpdate = (props) => {
+    const [isNew] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(!props.match.params || !props.match.params.id);
+    const { cUADROMEDICOEntity, loading, updating } = props;
+    const handleClose = () => {
+        props.history.push('/cuadromedico' + props.location.search);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (isNew) {
+            props.reset();
+        }
+        else {
+            props.getEntity(props.match.params.id);
+        }
+    }, []);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (props.updateSuccess) {
+            handleClose();
+        }
+    }, [props.updateSuccess]);
+    const saveEntity = (event, errors, values) => {
+        if (errors.length === 0) {
+            const entity = Object.assign(Object.assign({}, cUADROMEDICOEntity), values);
+            if (isNew) {
+                props.createEntity(entity);
+            }
+            else {
+                props.updateEntity(entity);
+            }
+        }
+    };
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { className: "justify-content-center" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { md: "8" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { id: "axaApp.cUADROMEDICO.home.createOrEditLabel", "data-cy": "CUADROMEDICOCreateUpdateHeading" }, "Create or edit a CUADROMEDICO"))),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { className: "justify-content-center" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { md: "8" }, loading ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Loading...")) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvForm, { model: isNew ? {} : cUADROMEDICOEntity, onSubmit: saveEntity },
+                !isNew ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { for: "cuadromedico-id" }, "ID"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvInput, { id: "cuadromedico-id", type: "text", className: "form-control", name: "id", required: true, readOnly: true }))) : null,
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "id_cuadro_medicoLabel", for: "cuadromedico-id_cuadro_medico" }, "Id Cuadro Medico"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "cuadromedico-id_cuadro_medico", "data-cy": "id_cuadro_medico", type: "string", className: "form-control", name: "id_cuadro_medico", validate: {
+                            number: { value: true, errorMessage: 'This field should be a number.' },
+                        } })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "suscripcionLabel", for: "cuadromedico-suscripcion" }, "Suscripcion"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "cuadromedico-suscripcion", "data-cy": "suscripcion", type: "text", name: "suscripcion" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Link, id: "cancel-save", to: "/cuadromedico", replace: true, color: "info" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "arrow-left" }),
+                    "\u00A0",
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Back")),
+                "\u00A0",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { color: "primary", id: "save-entity", "data-cy": "entityCreateSaveButton", type: "submit", disabled: updating },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "save" }),
+                    "\u00A0 Save")))))));
+};
+const mapStateToProps = (storeState) => ({
+    cUADROMEDICOEntity: storeState.cUADROMEDICO.entity,
+    loading: storeState.cUADROMEDICO.loading,
+    updating: storeState.cUADROMEDICO.updating,
+    updateSuccess: storeState.cUADROMEDICO.updateSuccess,
+});
+const mapDispatchToProps = {
+    getEntity: _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_4__.getEntity,
+    updateEntity: _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_4__.updateEntity,
+    createEntity: _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_4__.createEntity,
+    reset: _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_4__.reset,
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(CUADROMEDICOUpdate));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico-update.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico-update.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts":
+/*!***************************************************************************!*\
+  !*** ./src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ACTION_TYPES": () => (/* binding */ ACTION_TYPES),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getEntities": () => (/* binding */ getEntities),
+/* harmony export */   "getEntity": () => (/* binding */ getEntity),
+/* harmony export */   "createEntity": () => (/* binding */ createEntity),
+/* harmony export */   "updateEntity": () => (/* binding */ updateEntity),
+/* harmony export */   "partialUpdate": () => (/* binding */ partialUpdate),
+/* harmony export */   "deleteEntity": () => (/* binding */ deleteEntity),
+/* harmony export */   "reset": () => (/* binding */ reset)
+/* harmony export */ });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/util/entity-utils */ "./src/main/webapp/app/shared/util/entity-utils.ts");
+/* harmony import */ var app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! app/shared/reducers/action-type.util */ "./src/main/webapp/app/shared/reducers/action-type.util.ts");
+/* harmony import */ var app_shared_model_cuadromedico_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! app/shared/model/cuadromedico.model */ "./src/main/webapp/app/shared/model/cuadromedico.model.ts");
+
+
+
+
+
+const ACTION_TYPES = {
+    FETCH_CUADROMEDICO_LIST: 'cUADROMEDICO/FETCH_CUADROMEDICO_LIST',
+    FETCH_CUADROMEDICO: 'cUADROMEDICO/FETCH_CUADROMEDICO',
+    CREATE_CUADROMEDICO: 'cUADROMEDICO/CREATE_CUADROMEDICO',
+    UPDATE_CUADROMEDICO: 'cUADROMEDICO/UPDATE_CUADROMEDICO',
+    PARTIAL_UPDATE_CUADROMEDICO: 'cUADROMEDICO/PARTIAL_UPDATE_CUADROMEDICO',
+    DELETE_CUADROMEDICO: 'cUADROMEDICO/DELETE_CUADROMEDICO',
+    RESET: 'cUADROMEDICO/RESET',
+};
+const initialState = {
+    loading: false,
+    errorMessage: null,
+    entities: [],
+    entity: app_shared_model_cuadromedico_model__WEBPACK_IMPORTED_MODULE_3__.defaultValue,
+    updating: false,
+    totalItems: 0,
+    updateSuccess: false,
+};
+// Reducer
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((state = initialState, action) => {
+    switch (action.type) {
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.FETCH_CUADROMEDICO_LIST):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.FETCH_CUADROMEDICO):
+            return Object.assign(Object.assign({}, state), { errorMessage: null, updateSuccess: false, loading: true });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.CREATE_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.UPDATE_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.DELETE_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.PARTIAL_UPDATE_CUADROMEDICO):
+            return Object.assign(Object.assign({}, state), { errorMessage: null, updateSuccess: false, updating: true });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.FETCH_CUADROMEDICO_LIST):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.FETCH_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.CREATE_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.UPDATE_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.PARTIAL_UPDATE_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.DELETE_CUADROMEDICO):
+            return Object.assign(Object.assign({}, state), { loading: false, updating: false, updateSuccess: false, errorMessage: action.payload });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.FETCH_CUADROMEDICO_LIST):
+            return Object.assign(Object.assign({}, state), { loading: false, entities: action.payload.data, totalItems: parseInt(action.payload.headers['x-total-count'], 10) });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.FETCH_CUADROMEDICO):
+            return Object.assign(Object.assign({}, state), { loading: false, entity: action.payload.data });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.CREATE_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.UPDATE_CUADROMEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.PARTIAL_UPDATE_CUADROMEDICO):
+            return Object.assign(Object.assign({}, state), { updating: false, updateSuccess: true, entity: action.payload.data });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.DELETE_CUADROMEDICO):
+            return Object.assign(Object.assign({}, state), { updating: false, updateSuccess: true, entity: {} });
+        case ACTION_TYPES.RESET:
+            return Object.assign({}, initialState);
+        default:
+            return state;
+    }
+});
+const apiUrl = 'api/cuadromedicos';
+// Actions
+const getEntities = (page, size, sort) => {
+    const requestUrl = `${apiUrl}${sort ? `?page=${page}&size=${size}&sort=${sort}` : ''}`;
+    return {
+        type: ACTION_TYPES.FETCH_CUADROMEDICO_LIST,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get(`${requestUrl}${sort ? '&' : '?'}cacheBuster=${new Date().getTime()}`),
+    };
+};
+const getEntity = id => {
+    const requestUrl = `${apiUrl}/${id}`;
+    return {
+        type: ACTION_TYPES.FETCH_CUADROMEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get(requestUrl),
+    };
+};
+const createEntity = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.CREATE_CUADROMEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().post(apiUrl, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    dispatch(getEntities());
+    return result;
+});
+const updateEntity = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.UPDATE_CUADROMEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().put(`${apiUrl}/${entity.id}`, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    return result;
+});
+const partialUpdate = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.PARTIAL_UPDATE_CUADROMEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().patch(`${apiUrl}/${entity.id}`, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    return result;
+});
+const deleteEntity = id => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const requestUrl = `${apiUrl}/${id}`;
+    const result = yield dispatch({
+        type: ACTION_TYPES.DELETE_CUADROMEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().delete(requestUrl),
+    });
+    dispatch(getEntities());
+    return result;
+});
+const reset = () => ({
+    type: ACTION_TYPES.RESET,
+});
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/cuadromedico/cuadromedico.tsx":
+/*!********************************************************************!*\
+  !*** ./src/main/webapp/app/entities/cuadromedico/cuadromedico.tsx ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CUADROMEDICO": () => (/* binding */ CUADROMEDICO),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Table.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var react_jhipster__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-jhipster */ "./node_modules/react-jhipster/lib/index.js");
+/* harmony import */ var react_jhipster__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jhipster__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cuadromedico.reducer */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts");
+/* harmony import */ var app_shared_util_pagination_constants__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! app/shared/util/pagination.constants */ "./src/main/webapp/app/shared/util/pagination.constants.ts");
+/* harmony import */ var app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! app/shared/util/entity-utils */ "./src/main/webapp/app/shared/util/entity-utils.ts");
+
+
+
+
+
+
+
+
+
+const CUADROMEDICO = (props) => {
+    const [paginationState, setPaginationState] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)((0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_6__.overridePaginationStateWithQueryParams)((0,react_jhipster__WEBPACK_IMPORTED_MODULE_2__.getSortState)(props.location, app_shared_util_pagination_constants__WEBPACK_IMPORTED_MODULE_5__.ITEMS_PER_PAGE, 'id'), props.location.search));
+    const getAllEntities = () => {
+        props.getEntities(paginationState.activePage - 1, paginationState.itemsPerPage, `${paginationState.sort},${paginationState.order}`);
+    };
+    const sortEntities = () => {
+        getAllEntities();
+        const endURL = `?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`;
+        if (props.location.search !== endURL) {
+            props.history.push(`${props.location.pathname}${endURL}`);
+        }
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        sortEntities();
+    }, [paginationState.activePage, paginationState.order, paginationState.sort]);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        const params = new URLSearchParams(props.location.search);
+        const page = params.get('page');
+        const sort = params.get('sort');
+        if (page && sort) {
+            const sortSplit = sort.split(',');
+            setPaginationState(Object.assign(Object.assign({}, paginationState), { activePage: +page, sort: sortSplit[0], order: sortSplit[1] }));
+        }
+    }, [props.location.search]);
+    const sort = p => () => {
+        setPaginationState(Object.assign(Object.assign({}, paginationState), { order: paginationState.order === 'asc' ? 'desc' : 'asc', sort: p }));
+    };
+    const handlePagination = currentPage => setPaginationState(Object.assign(Object.assign({}, paginationState), { activePage: currentPage }));
+    const handleSyncList = () => {
+        sortEntities();
+    };
+    const { cUADROMEDICOList, match, loading, totalItems } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { id: "cuadromedico-heading", "data-cy": "CUADROMEDICOHeading" },
+            "CUADROMEDICOS",
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "d-flex justify-content-end" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { className: "mr-2", color: "info", onClick: handleSyncList, disabled: loading },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sync", spin: loading }),
+                    " Refresh List"),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, { to: `${match.url}/new`, className: "btn btn-primary jh-create-entity", id: "jh-create-entity", "data-cy": "entityCreateButton" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "plus" }),
+                    "\u00A0 Create new CUADROMEDICO"))),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "table-responsive" }, cUADROMEDICOList && cUADROMEDICOList.length > 0 ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__.default, { responsive: true },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null,
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id') },
+                        "ID ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id_cuadro_medico') },
+                        "Id Cuadro Medico ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('suscripcion') },
+                        "Suscripcion ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null))),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, cUADROMEDICOList.map((cUADROMEDICO, i) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", { key: `entity-${i}`, "data-cy": "entityTable" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cUADROMEDICO.id}`, color: "link", size: "sm" }, cUADROMEDICO.id)),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cUADROMEDICO.id_cuadro_medico),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cUADROMEDICO.suscripcion),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", { className: "text-right" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "btn-group flex-btn-group-container" },
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cUADROMEDICO.id}`, color: "info", size: "sm", "data-cy": "entityDetailsButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "eye" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "View")),
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cUADROMEDICO.id}/edit?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`, color: "primary", size: "sm", "data-cy": "entityEditButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "pencil-alt" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Edit")),
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cUADROMEDICO.id}/delete?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`, color: "danger", size: "sm", "data-cy": "entityDeleteButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "trash" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Delete")))))))))) : (!loading && react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "alert alert-warning" }, "No CUADROMEDICOS found"))),
+        props.totalItems ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: cUADROMEDICOList && cUADROMEDICOList.length > 0 ? '' : 'd-none' },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, { className: "justify-content-center" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_jhipster__WEBPACK_IMPORTED_MODULE_2__.JhiItemCount, { page: paginationState.activePage, total: totalItems, itemsPerPage: paginationState.itemsPerPage })),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, { className: "justify-content-center" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_jhipster__WEBPACK_IMPORTED_MODULE_2__.JhiPagination, { activePage: paginationState.activePage, onSelect: handlePagination, maxButtons: 5, itemsPerPage: paginationState.itemsPerPage, totalItems: props.totalItems })))) : ('')));
+};
+const mapStateToProps = ({ cUADROMEDICO }) => ({
+    cUADROMEDICOList: cUADROMEDICO.entities,
+    loading: cUADROMEDICO.loading,
+    totalItems: cUADROMEDICO.totalItems,
+});
+const mapDispatchToProps = {
+    getEntities: _cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_4__.getEntities,
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(CUADROMEDICO));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/cuadromedico.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/cuadromedico/index.tsx":
+/*!*************************************************************!*\
+  !*** ./src/main/webapp/app/entities/cuadromedico/index.tsx ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/error/error-boundary-route */ "./src/main/webapp/app/shared/error/error-boundary-route.tsx");
+/* harmony import */ var _cuadromedico__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cuadromedico */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico.tsx");
+/* harmony import */ var _cuadromedico_detail__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./cuadromedico-detail */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico-detail.tsx");
+/* harmony import */ var _cuadromedico_update__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cuadromedico-update */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico-update.tsx");
+/* harmony import */ var _cuadromedico_delete_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./cuadromedico-delete-dialog */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico-delete-dialog.tsx");
+
+
+
+
+
+
+
+const Routes = ({ match }) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Switch, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/new`, component: _cuadromedico_update__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id/edit`, component: _cuadromedico_update__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id`, component: _cuadromedico_detail__WEBPACK_IMPORTED_MODULE_3__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { path: match.url, component: _cuadromedico__WEBPACK_IMPORTED_MODULE_2__.default })),
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id/delete`, component: _cuadromedico_delete_dialog__WEBPACK_IMPORTED_MODULE_5__.default })));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Routes);
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/index.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/cuadromedico/index.tsx"); } }(); 
 
 /***/ }),
 
@@ -1205,15 +2331,1196 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/error/error-boundary-route */ "./src/main/webapp/app/shared/error/error-boundary-route.tsx");
+/* harmony import */ var _pas__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pas */ "./src/main/webapp/app/entities/pas/index.tsx");
+/* harmony import */ var _medico__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./medico */ "./src/main/webapp/app/entities/medico/index.tsx");
+/* harmony import */ var _centrosanitario__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./centrosanitario */ "./src/main/webapp/app/entities/centrosanitario/index.tsx");
+/* harmony import */ var _cuadromedico__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./cuadromedico */ "./src/main/webapp/app/entities/cuadromedico/index.tsx");
+
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+
+
 
 
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 const Routes = ({ match }) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
-    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Switch, null)));
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Switch, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { path: `${match.url}pas`, component: _pas__WEBPACK_IMPORTED_MODULE_2__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { path: `${match.url}medico`, component: _medico__WEBPACK_IMPORTED_MODULE_3__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { path: `${match.url}centrosanitario`, component: _centrosanitario__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { path: `${match.url}cuadromedico`, component: _cuadromedico__WEBPACK_IMPORTED_MODULE_5__.default }))));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Routes);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/entities/index.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/entities/index.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/index.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/index.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/medico/index.tsx":
+/*!*******************************************************!*\
+  !*** ./src/main/webapp/app/entities/medico/index.tsx ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/error/error-boundary-route */ "./src/main/webapp/app/shared/error/error-boundary-route.tsx");
+/* harmony import */ var _medico__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./medico */ "./src/main/webapp/app/entities/medico/medico.tsx");
+/* harmony import */ var _medico_detail__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./medico-detail */ "./src/main/webapp/app/entities/medico/medico-detail.tsx");
+/* harmony import */ var _medico_update__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./medico-update */ "./src/main/webapp/app/entities/medico/medico-update.tsx");
+/* harmony import */ var _medico_delete_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./medico-delete-dialog */ "./src/main/webapp/app/entities/medico/medico-delete-dialog.tsx");
+
+
+
+
+
+
+
+const Routes = ({ match }) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Switch, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/new`, component: _medico_update__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id/edit`, component: _medico_update__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id`, component: _medico_detail__WEBPACK_IMPORTED_MODULE_3__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { path: match.url, component: _medico__WEBPACK_IMPORTED_MODULE_2__.default })),
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id/delete`, component: _medico_delete_dialog__WEBPACK_IMPORTED_MODULE_5__.default })));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Routes);
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/index.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/index.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/medico/medico-delete-dialog.tsx":
+/*!**********************************************************************!*\
+  !*** ./src/main/webapp/app/entities/medico/medico-delete-dialog.tsx ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MEDICODeleteDialog": () => (/* binding */ MEDICODeleteDialog),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Modal.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalHeader.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalBody.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalFooter.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _medico_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./medico.reducer */ "./src/main/webapp/app/entities/medico/medico.reducer.ts");
+
+
+
+
+
+const MEDICODeleteDialog = (props) => {
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        props.getEntity(props.match.params.id);
+    }, []);
+    const handleClose = () => {
+        props.history.push('/medico' + props.location.search);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (props.updateSuccess) {
+            handleClose();
+        }
+    }, [props.updateSuccess]);
+    const confirmDelete = () => {
+        props.deleteEntity(props.mEDICOEntity.id);
+    };
+    const { mEDICOEntity } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, { isOpen: true, toggle: handleClose },
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { toggle: handleClose, "data-cy": "mEDICODeleteDialogHeading" }, "Confirm delete operation"),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { id: "axaApp.mEDICO.delete.question" }, "Are you sure you want to delete this MEDICO?"),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, null,
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { color: "secondary", onClick: handleClose },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "ban" }),
+                "\u00A0 Cancel"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { id: "jhi-confirm-delete-mEDICO", "data-cy": "entityConfirmDeleteButton", color: "danger", onClick: confirmDelete },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "trash" }),
+                "\u00A0 Delete"))));
+};
+const mapStateToProps = ({ mEDICO }) => ({
+    mEDICOEntity: mEDICO.entity,
+    updateSuccess: mEDICO.updateSuccess,
+});
+const mapDispatchToProps = { getEntity: _medico_reducer__WEBPACK_IMPORTED_MODULE_3__.getEntity, deleteEntity: _medico_reducer__WEBPACK_IMPORTED_MODULE_3__.deleteEntity };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(MEDICODeleteDialog));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico-delete-dialog.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico-delete-dialog.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/medico/medico-detail.tsx":
+/*!***************************************************************!*\
+  !*** ./src/main/webapp/app/entities/medico/medico-detail.tsx ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MEDICODetail": () => (/* binding */ MEDICODetail),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _medico_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./medico.reducer */ "./src/main/webapp/app/entities/medico/medico.reducer.ts");
+
+
+
+
+
+
+const MEDICODetail = (props) => {
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        props.getEntity(props.match.params.id);
+    }, []);
+    const { mEDICOEntity } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { md: "8" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { "data-cy": "mEDICODetailsHeading" }, "MEDICO"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("dl", { className: "jh-entity-details" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id" }, "ID")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, mEDICOEntity.id),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id_medico" }, "Id Medico")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, mEDICOEntity.id_medico),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "nombre" }, "Nombre")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, mEDICOEntity.nombre),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "apellidos" }, "Apellidos")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, mEDICOEntity.apellidos),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "numero_colegiado" }, "Numero Colegiado")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, mEDICOEntity.numero_colegiado),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "telefono_contacto" }, "Telefono Contacto")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, mEDICOEntity.telefono_contacto),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "especialidad" }, "Especialidad")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, mEDICOEntity.especialidad),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "centro_sanitario" }, "Centro Sanitario")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, mEDICOEntity.centro_sanitario)),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: "/medico", replace: true, color: "info", "data-cy": "entityDetailsBackButton" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "arrow-left" }),
+                " ",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Back")),
+            "\u00A0",
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: `/medico/${mEDICOEntity.id}/edit`, replace: true, color: "primary" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "pencil-alt" }),
+                " ",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Edit")))));
+};
+const mapStateToProps = ({ mEDICO }) => ({
+    mEDICOEntity: mEDICO.entity,
+});
+const mapDispatchToProps = { getEntity: _medico_reducer__WEBPACK_IMPORTED_MODULE_3__.getEntity };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(MEDICODetail));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico-detail.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico-detail.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/medico/medico-update.tsx":
+/*!***************************************************************!*\
+  !*** ./src/main/webapp/app/entities/medico/medico-update.tsx ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MEDICOUpdate": () => (/* binding */ MEDICOUpdate),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Label.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! availity-reactstrap-validation */ "./node_modules/availity-reactstrap-validation/lib/index.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _medico_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./medico.reducer */ "./src/main/webapp/app/entities/medico/medico.reducer.ts");
+
+
+
+
+
+
+
+const MEDICOUpdate = (props) => {
+    const [isNew] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(!props.match.params || !props.match.params.id);
+    const { mEDICOEntity, loading, updating } = props;
+    const handleClose = () => {
+        props.history.push('/medico' + props.location.search);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (isNew) {
+            props.reset();
+        }
+        else {
+            props.getEntity(props.match.params.id);
+        }
+    }, []);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (props.updateSuccess) {
+            handleClose();
+        }
+    }, [props.updateSuccess]);
+    const saveEntity = (event, errors, values) => {
+        if (errors.length === 0) {
+            const entity = Object.assign(Object.assign({}, mEDICOEntity), values);
+            if (isNew) {
+                props.createEntity(entity);
+            }
+            else {
+                props.updateEntity(entity);
+            }
+        }
+    };
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { className: "justify-content-center" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { md: "8" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { id: "axaApp.mEDICO.home.createOrEditLabel", "data-cy": "MEDICOCreateUpdateHeading" }, "Create or edit a MEDICO"))),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { className: "justify-content-center" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { md: "8" }, loading ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Loading...")) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvForm, { model: isNew ? {} : mEDICOEntity, onSubmit: saveEntity },
+                !isNew ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { for: "medico-id" }, "ID"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvInput, { id: "medico-id", type: "text", className: "form-control", name: "id", required: true, readOnly: true }))) : null,
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "id_medicoLabel", for: "medico-id_medico" }, "Id Medico"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "medico-id_medico", "data-cy": "id_medico", type: "string", className: "form-control", name: "id_medico", validate: {
+                            number: { value: true, errorMessage: 'This field should be a number.' },
+                        } })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "nombreLabel", for: "medico-nombre" }, "Nombre"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "medico-nombre", "data-cy": "nombre", type: "text", name: "nombre" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "apellidosLabel", for: "medico-apellidos" }, "Apellidos"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "medico-apellidos", "data-cy": "apellidos", type: "text", name: "apellidos" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "numero_colegiadoLabel", for: "medico-numero_colegiado" }, "Numero Colegiado"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "medico-numero_colegiado", "data-cy": "numero_colegiado", type: "text", name: "numero_colegiado" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "telefono_contactoLabel", for: "medico-telefono_contacto" }, "Telefono Contacto"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "medico-telefono_contacto", "data-cy": "telefono_contacto", type: "text", name: "telefono_contacto" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "especialidadLabel", for: "medico-especialidad" }, "Especialidad"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "medico-especialidad", "data-cy": "especialidad", type: "text", name: "especialidad" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "centro_sanitarioLabel", for: "medico-centro_sanitario" }, "Centro Sanitario"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "medico-centro_sanitario", "data-cy": "centro_sanitario", type: "text", name: "centro_sanitario" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Link, id: "cancel-save", to: "/medico", replace: true, color: "info" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "arrow-left" }),
+                    "\u00A0",
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Back")),
+                "\u00A0",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { color: "primary", id: "save-entity", "data-cy": "entityCreateSaveButton", type: "submit", disabled: updating },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "save" }),
+                    "\u00A0 Save")))))));
+};
+const mapStateToProps = (storeState) => ({
+    mEDICOEntity: storeState.mEDICO.entity,
+    loading: storeState.mEDICO.loading,
+    updating: storeState.mEDICO.updating,
+    updateSuccess: storeState.mEDICO.updateSuccess,
+});
+const mapDispatchToProps = {
+    getEntity: _medico_reducer__WEBPACK_IMPORTED_MODULE_4__.getEntity,
+    updateEntity: _medico_reducer__WEBPACK_IMPORTED_MODULE_4__.updateEntity,
+    createEntity: _medico_reducer__WEBPACK_IMPORTED_MODULE_4__.createEntity,
+    reset: _medico_reducer__WEBPACK_IMPORTED_MODULE_4__.reset,
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(MEDICOUpdate));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico-update.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico-update.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/medico/medico.reducer.ts":
+/*!***************************************************************!*\
+  !*** ./src/main/webapp/app/entities/medico/medico.reducer.ts ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ACTION_TYPES": () => (/* binding */ ACTION_TYPES),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getEntities": () => (/* binding */ getEntities),
+/* harmony export */   "getEntity": () => (/* binding */ getEntity),
+/* harmony export */   "createEntity": () => (/* binding */ createEntity),
+/* harmony export */   "updateEntity": () => (/* binding */ updateEntity),
+/* harmony export */   "partialUpdate": () => (/* binding */ partialUpdate),
+/* harmony export */   "deleteEntity": () => (/* binding */ deleteEntity),
+/* harmony export */   "reset": () => (/* binding */ reset)
+/* harmony export */ });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/util/entity-utils */ "./src/main/webapp/app/shared/util/entity-utils.ts");
+/* harmony import */ var app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! app/shared/reducers/action-type.util */ "./src/main/webapp/app/shared/reducers/action-type.util.ts");
+/* harmony import */ var app_shared_model_medico_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! app/shared/model/medico.model */ "./src/main/webapp/app/shared/model/medico.model.ts");
+
+
+
+
+
+const ACTION_TYPES = {
+    FETCH_MEDICO_LIST: 'mEDICO/FETCH_MEDICO_LIST',
+    FETCH_MEDICO: 'mEDICO/FETCH_MEDICO',
+    CREATE_MEDICO: 'mEDICO/CREATE_MEDICO',
+    UPDATE_MEDICO: 'mEDICO/UPDATE_MEDICO',
+    PARTIAL_UPDATE_MEDICO: 'mEDICO/PARTIAL_UPDATE_MEDICO',
+    DELETE_MEDICO: 'mEDICO/DELETE_MEDICO',
+    RESET: 'mEDICO/RESET',
+};
+const initialState = {
+    loading: false,
+    errorMessage: null,
+    entities: [],
+    entity: app_shared_model_medico_model__WEBPACK_IMPORTED_MODULE_3__.defaultValue,
+    updating: false,
+    totalItems: 0,
+    updateSuccess: false,
+};
+// Reducer
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((state = initialState, action) => {
+    switch (action.type) {
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.FETCH_MEDICO_LIST):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.FETCH_MEDICO):
+            return Object.assign(Object.assign({}, state), { errorMessage: null, updateSuccess: false, loading: true });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.CREATE_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.UPDATE_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.DELETE_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.PARTIAL_UPDATE_MEDICO):
+            return Object.assign(Object.assign({}, state), { errorMessage: null, updateSuccess: false, updating: true });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.FETCH_MEDICO_LIST):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.FETCH_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.CREATE_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.UPDATE_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.PARTIAL_UPDATE_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.DELETE_MEDICO):
+            return Object.assign(Object.assign({}, state), { loading: false, updating: false, updateSuccess: false, errorMessage: action.payload });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.FETCH_MEDICO_LIST):
+            return Object.assign(Object.assign({}, state), { loading: false, entities: action.payload.data, totalItems: parseInt(action.payload.headers['x-total-count'], 10) });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.FETCH_MEDICO):
+            return Object.assign(Object.assign({}, state), { loading: false, entity: action.payload.data });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.CREATE_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.UPDATE_MEDICO):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.PARTIAL_UPDATE_MEDICO):
+            return Object.assign(Object.assign({}, state), { updating: false, updateSuccess: true, entity: action.payload.data });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.DELETE_MEDICO):
+            return Object.assign(Object.assign({}, state), { updating: false, updateSuccess: true, entity: {} });
+        case ACTION_TYPES.RESET:
+            return Object.assign({}, initialState);
+        default:
+            return state;
+    }
+});
+const apiUrl = 'api/medicos';
+// Actions
+const getEntities = (page, size, sort) => {
+    const requestUrl = `${apiUrl}${sort ? `?page=${page}&size=${size}&sort=${sort}` : ''}`;
+    return {
+        type: ACTION_TYPES.FETCH_MEDICO_LIST,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get(`${requestUrl}${sort ? '&' : '?'}cacheBuster=${new Date().getTime()}`),
+    };
+};
+const getEntity = id => {
+    const requestUrl = `${apiUrl}/${id}`;
+    return {
+        type: ACTION_TYPES.FETCH_MEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get(requestUrl),
+    };
+};
+const createEntity = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.CREATE_MEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().post(apiUrl, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    dispatch(getEntities());
+    return result;
+});
+const updateEntity = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.UPDATE_MEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().put(`${apiUrl}/${entity.id}`, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    return result;
+});
+const partialUpdate = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.PARTIAL_UPDATE_MEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().patch(`${apiUrl}/${entity.id}`, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    return result;
+});
+const deleteEntity = id => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const requestUrl = `${apiUrl}/${id}`;
+    const result = yield dispatch({
+        type: ACTION_TYPES.DELETE_MEDICO,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().delete(requestUrl),
+    });
+    dispatch(getEntities());
+    return result;
+});
+const reset = () => ({
+    type: ACTION_TYPES.RESET,
+});
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico.reducer.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/medico/medico.tsx":
+/*!********************************************************!*\
+  !*** ./src/main/webapp/app/entities/medico/medico.tsx ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MEDICO": () => (/* binding */ MEDICO),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Table.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var react_jhipster__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-jhipster */ "./node_modules/react-jhipster/lib/index.js");
+/* harmony import */ var react_jhipster__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jhipster__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _medico_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./medico.reducer */ "./src/main/webapp/app/entities/medico/medico.reducer.ts");
+/* harmony import */ var app_shared_util_pagination_constants__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! app/shared/util/pagination.constants */ "./src/main/webapp/app/shared/util/pagination.constants.ts");
+/* harmony import */ var app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! app/shared/util/entity-utils */ "./src/main/webapp/app/shared/util/entity-utils.ts");
+
+
+
+
+
+
+
+
+
+const MEDICO = (props) => {
+    const [paginationState, setPaginationState] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)((0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_6__.overridePaginationStateWithQueryParams)((0,react_jhipster__WEBPACK_IMPORTED_MODULE_2__.getSortState)(props.location, app_shared_util_pagination_constants__WEBPACK_IMPORTED_MODULE_5__.ITEMS_PER_PAGE, 'id'), props.location.search));
+    const getAllEntities = () => {
+        props.getEntities(paginationState.activePage - 1, paginationState.itemsPerPage, `${paginationState.sort},${paginationState.order}`);
+    };
+    const sortEntities = () => {
+        getAllEntities();
+        const endURL = `?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`;
+        if (props.location.search !== endURL) {
+            props.history.push(`${props.location.pathname}${endURL}`);
+        }
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        sortEntities();
+    }, [paginationState.activePage, paginationState.order, paginationState.sort]);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        const params = new URLSearchParams(props.location.search);
+        const page = params.get('page');
+        const sort = params.get('sort');
+        if (page && sort) {
+            const sortSplit = sort.split(',');
+            setPaginationState(Object.assign(Object.assign({}, paginationState), { activePage: +page, sort: sortSplit[0], order: sortSplit[1] }));
+        }
+    }, [props.location.search]);
+    const sort = p => () => {
+        setPaginationState(Object.assign(Object.assign({}, paginationState), { order: paginationState.order === 'asc' ? 'desc' : 'asc', sort: p }));
+    };
+    const handlePagination = currentPage => setPaginationState(Object.assign(Object.assign({}, paginationState), { activePage: currentPage }));
+    const handleSyncList = () => {
+        sortEntities();
+    };
+    const { mEDICOList, match, loading, totalItems } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { id: "medico-heading", "data-cy": "MEDICOHeading" },
+            "MEDICOS",
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "d-flex justify-content-end" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { className: "mr-2", color: "info", onClick: handleSyncList, disabled: loading },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sync", spin: loading }),
+                    " Refresh List"),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, { to: `${match.url}/new`, className: "btn btn-primary jh-create-entity", id: "jh-create-entity", "data-cy": "entityCreateButton" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "plus" }),
+                    "\u00A0 Create new MEDICO"))),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "table-responsive" }, mEDICOList && mEDICOList.length > 0 ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__.default, { responsive: true },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null,
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id') },
+                        "ID ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id_medico') },
+                        "Id Medico ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('nombre') },
+                        "Nombre ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('apellidos') },
+                        "Apellidos ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('numero_colegiado') },
+                        "Numero Colegiado ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('telefono_contacto') },
+                        "Telefono Contacto ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('especialidad') },
+                        "Especialidad ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('centro_sanitario') },
+                        "Centro Sanitario ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null))),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, mEDICOList.map((mEDICO, i) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", { key: `entity-${i}`, "data-cy": "entityTable" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${mEDICO.id}`, color: "link", size: "sm" }, mEDICO.id)),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, mEDICO.id_medico),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, mEDICO.nombre),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, mEDICO.apellidos),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, mEDICO.numero_colegiado),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, mEDICO.telefono_contacto),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, mEDICO.especialidad),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, mEDICO.centro_sanitario),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", { className: "text-right" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "btn-group flex-btn-group-container" },
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${mEDICO.id}`, color: "info", size: "sm", "data-cy": "entityDetailsButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "eye" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "View")),
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${mEDICO.id}/edit?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`, color: "primary", size: "sm", "data-cy": "entityEditButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "pencil-alt" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Edit")),
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${mEDICO.id}/delete?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`, color: "danger", size: "sm", "data-cy": "entityDeleteButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "trash" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Delete")))))))))) : (!loading && react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "alert alert-warning" }, "No MEDICOS found"))),
+        props.totalItems ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: mEDICOList && mEDICOList.length > 0 ? '' : 'd-none' },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, { className: "justify-content-center" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_jhipster__WEBPACK_IMPORTED_MODULE_2__.JhiItemCount, { page: paginationState.activePage, total: totalItems, itemsPerPage: paginationState.itemsPerPage })),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, { className: "justify-content-center" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_jhipster__WEBPACK_IMPORTED_MODULE_2__.JhiPagination, { activePage: paginationState.activePage, onSelect: handlePagination, maxButtons: 5, itemsPerPage: paginationState.itemsPerPage, totalItems: props.totalItems })))) : ('')));
+};
+const mapStateToProps = ({ mEDICO }) => ({
+    mEDICOList: mEDICO.entities,
+    loading: mEDICO.loading,
+    totalItems: mEDICO.totalItems,
+});
+const mapDispatchToProps = {
+    getEntities: _medico_reducer__WEBPACK_IMPORTED_MODULE_4__.getEntities,
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(MEDICO));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/medico/medico.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/pas/index.tsx":
+/*!****************************************************!*\
+  !*** ./src/main/webapp/app/entities/pas/index.tsx ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/error/error-boundary-route */ "./src/main/webapp/app/shared/error/error-boundary-route.tsx");
+/* harmony import */ var _pas__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pas */ "./src/main/webapp/app/entities/pas/pas.tsx");
+/* harmony import */ var _pas_detail__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pas-detail */ "./src/main/webapp/app/entities/pas/pas-detail.tsx");
+/* harmony import */ var _pas_update__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pas-update */ "./src/main/webapp/app/entities/pas/pas-update.tsx");
+/* harmony import */ var _pas_delete_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pas-delete-dialog */ "./src/main/webapp/app/entities/pas/pas-delete-dialog.tsx");
+
+
+
+
+
+
+
+const Routes = ({ match }) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Switch, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/new`, component: _pas_update__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id/edit`, component: _pas_update__WEBPACK_IMPORTED_MODULE_4__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id`, component: _pas_detail__WEBPACK_IMPORTED_MODULE_3__.default }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { path: match.url, component: _pas__WEBPACK_IMPORTED_MODULE_2__.default })),
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_error_error_boundary_route__WEBPACK_IMPORTED_MODULE_1__.default, { exact: true, path: `${match.url}/:id/delete`, component: _pas_delete_dialog__WEBPACK_IMPORTED_MODULE_5__.default })));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Routes);
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/index.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/index.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/pas/pas-delete-dialog.tsx":
+/*!****************************************************************!*\
+  !*** ./src/main/webapp/app/entities/pas/pas-delete-dialog.tsx ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PASDeleteDialog": () => (/* binding */ PASDeleteDialog),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Modal.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalHeader.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalBody.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/ModalFooter.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _pas_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pas.reducer */ "./src/main/webapp/app/entities/pas/pas.reducer.ts");
+
+
+
+
+
+const PASDeleteDialog = (props) => {
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        props.getEntity(props.match.params.id);
+    }, []);
+    const handleClose = () => {
+        props.history.push('/pas' + props.location.search);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (props.updateSuccess) {
+            handleClose();
+        }
+    }, [props.updateSuccess]);
+    const confirmDelete = () => {
+        props.deleteEntity(props.pASEntity.id);
+    };
+    const { pASEntity } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, { isOpen: true, toggle: handleClose },
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { toggle: handleClose, "data-cy": "pASDeleteDialogHeading" }, "Confirm delete operation"),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { id: "axaApp.pAS.delete.question" }, "Are you sure you want to delete this PAS?"),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, null,
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { color: "secondary", onClick: handleClose },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "ban" }),
+                "\u00A0 Cancel"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { id: "jhi-confirm-delete-pAS", "data-cy": "entityConfirmDeleteButton", color: "danger", onClick: confirmDelete },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "trash" }),
+                "\u00A0 Delete"))));
+};
+const mapStateToProps = ({ pAS }) => ({
+    pASEntity: pAS.entity,
+    updateSuccess: pAS.updateSuccess,
+});
+const mapDispatchToProps = { getEntity: _pas_reducer__WEBPACK_IMPORTED_MODULE_3__.getEntity, deleteEntity: _pas_reducer__WEBPACK_IMPORTED_MODULE_3__.deleteEntity };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(PASDeleteDialog));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas-delete-dialog.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas-delete-dialog.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/pas/pas-detail.tsx":
+/*!*********************************************************!*\
+  !*** ./src/main/webapp/app/entities/pas/pas-detail.tsx ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PASDetail": () => (/* binding */ PASDetail),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _pas_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pas.reducer */ "./src/main/webapp/app/entities/pas/pas.reducer.ts");
+
+
+
+
+
+
+const PASDetail = (props) => {
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        props.getEntity(props.match.params.id);
+    }, []);
+    const { pASEntity } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { md: "8" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { "data-cy": "pASDetailsHeading" }, "PAS"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("dl", { className: "jh-entity-details" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "id" }, "ID")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, pASEntity.id),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "cif" }, "Cif")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, pASEntity.cif),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "nombre" }, "Nombre")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, pASEntity.nombre),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "codigo_postal" }, "Codigo Postal")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, pASEntity.codigo_postal),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "email" }, "Email")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, pASEntity.email),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "tipo_proveedor" }, "Tipo Proveedor")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, pASEntity.tipo_proveedor),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "direccion" }, "Direccion")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, pASEntity.direccion),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "persona_de_contacto" }, "Persona De Contacto")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, pASEntity.persona_de_contacto)),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: "/pas", replace: true, color: "info", "data-cy": "entityDetailsBackButton" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "arrow-left" }),
+                " ",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Back")),
+            "\u00A0",
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: `/pas/${pASEntity.id}/edit`, replace: true, color: "primary" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "pencil-alt" }),
+                " ",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Edit")))));
+};
+const mapStateToProps = ({ pAS }) => ({
+    pASEntity: pAS.entity,
+});
+const mapDispatchToProps = { getEntity: _pas_reducer__WEBPACK_IMPORTED_MODULE_3__.getEntity };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(PASDetail));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas-detail.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas-detail.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/pas/pas-update.tsx":
+/*!*********************************************************!*\
+  !*** ./src/main/webapp/app/entities/pas/pas-update.tsx ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PASUpdate": () => (/* binding */ PASUpdate),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Col.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Label.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! availity-reactstrap-validation */ "./node_modules/availity-reactstrap-validation/lib/index.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _pas_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pas.reducer */ "./src/main/webapp/app/entities/pas/pas.reducer.ts");
+
+
+
+
+
+
+
+const PASUpdate = (props) => {
+    const [isNew] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(!props.match.params || !props.match.params.id);
+    const { pASEntity, loading, updating } = props;
+    const handleClose = () => {
+        props.history.push('/pas' + props.location.search);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (isNew) {
+            props.reset();
+        }
+        else {
+            props.getEntity(props.match.params.id);
+        }
+    }, []);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        if (props.updateSuccess) {
+            handleClose();
+        }
+    }, [props.updateSuccess]);
+    const saveEntity = (event, errors, values) => {
+        if (errors.length === 0) {
+            const entity = Object.assign(Object.assign({}, pASEntity), values);
+            if (isNew) {
+                props.createEntity(entity);
+            }
+            else {
+                props.updateEntity(entity);
+            }
+        }
+    };
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { className: "justify-content-center" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { md: "8" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { id: "axaApp.pAS.home.createOrEditLabel", "data-cy": "PASCreateUpdateHeading" }, "Create or edit a PAS"))),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__.default, { className: "justify-content-center" },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { md: "8" }, loading ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Loading...")) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvForm, { model: isNew ? {} : pASEntity, onSubmit: saveEntity },
+                !isNew ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { for: "pas-id" }, "ID"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvInput, { id: "pas-id", type: "text", className: "form-control", name: "id", required: true, readOnly: true }))) : null,
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "cifLabel", for: "pas-cif" }, "Cif"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "pas-cif", "data-cy": "cif", type: "text", name: "cif", validate: {
+                            pattern: { value: '[A-Z]-\\d{8}', errorMessage: "This field should follow pattern for '[A-Z]-\\d{8}'." },
+                        } })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "nombreLabel", for: "pas-nombre" }, "Nombre"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "pas-nombre", "data-cy": "nombre", type: "text", name: "nombre" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "codigo_postalLabel", for: "pas-codigo_postal" }, "Codigo Postal"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "pas-codigo_postal", "data-cy": "codigo_postal", type: "text", name: "codigo_postal" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "emailLabel", for: "pas-email" }, "Email"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "pas-email", "data-cy": "email", type: "text", name: "email" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "tipo_proveedorLabel", for: "pas-tipo_proveedor" }, "Tipo Proveedor"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "pas-tipo_proveedor", "data-cy": "tipo_proveedor", type: "text", name: "tipo_proveedor" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "direccionLabel", for: "pas-direccion" }, "Direccion"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "pas-direccion", "data-cy": "direccion", type: "text", name: "direccion" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "persona_de_contactoLabel", for: "pas-persona_de_contacto" }, "Persona De Contacto"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "pas-persona_de_contacto", "data-cy": "persona_de_contacto", type: "text", name: "persona_de_contacto" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Link, id: "cancel-save", to: "/pas", replace: true, color: "info" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "arrow-left" }),
+                    "\u00A0",
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Back")),
+                "\u00A0",
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { color: "primary", id: "save-entity", "data-cy": "entityCreateSaveButton", type: "submit", disabled: updating },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "save" }),
+                    "\u00A0 Save")))))));
+};
+const mapStateToProps = (storeState) => ({
+    pASEntity: storeState.pAS.entity,
+    loading: storeState.pAS.loading,
+    updating: storeState.pAS.updating,
+    updateSuccess: storeState.pAS.updateSuccess,
+});
+const mapDispatchToProps = {
+    getEntity: _pas_reducer__WEBPACK_IMPORTED_MODULE_4__.getEntity,
+    updateEntity: _pas_reducer__WEBPACK_IMPORTED_MODULE_4__.updateEntity,
+    createEntity: _pas_reducer__WEBPACK_IMPORTED_MODULE_4__.createEntity,
+    reset: _pas_reducer__WEBPACK_IMPORTED_MODULE_4__.reset,
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(PASUpdate));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas-update.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas-update.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/pas/pas.reducer.ts":
+/*!*********************************************************!*\
+  !*** ./src/main/webapp/app/entities/pas/pas.reducer.ts ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ACTION_TYPES": () => (/* binding */ ACTION_TYPES),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getEntities": () => (/* binding */ getEntities),
+/* harmony export */   "getEntity": () => (/* binding */ getEntity),
+/* harmony export */   "createEntity": () => (/* binding */ createEntity),
+/* harmony export */   "updateEntity": () => (/* binding */ updateEntity),
+/* harmony export */   "partialUpdate": () => (/* binding */ partialUpdate),
+/* harmony export */   "deleteEntity": () => (/* binding */ deleteEntity),
+/* harmony export */   "reset": () => (/* binding */ reset)
+/* harmony export */ });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/util/entity-utils */ "./src/main/webapp/app/shared/util/entity-utils.ts");
+/* harmony import */ var app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! app/shared/reducers/action-type.util */ "./src/main/webapp/app/shared/reducers/action-type.util.ts");
+/* harmony import */ var app_shared_model_pas_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! app/shared/model/pas.model */ "./src/main/webapp/app/shared/model/pas.model.ts");
+
+
+
+
+
+const ACTION_TYPES = {
+    FETCH_PAS_LIST: 'pAS/FETCH_PAS_LIST',
+    FETCH_PAS: 'pAS/FETCH_PAS',
+    CREATE_PAS: 'pAS/CREATE_PAS',
+    UPDATE_PAS: 'pAS/UPDATE_PAS',
+    PARTIAL_UPDATE_PAS: 'pAS/PARTIAL_UPDATE_PAS',
+    DELETE_PAS: 'pAS/DELETE_PAS',
+    RESET: 'pAS/RESET',
+};
+const initialState = {
+    loading: false,
+    errorMessage: null,
+    entities: [],
+    entity: app_shared_model_pas_model__WEBPACK_IMPORTED_MODULE_3__.defaultValue,
+    updating: false,
+    totalItems: 0,
+    updateSuccess: false,
+};
+// Reducer
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((state = initialState, action) => {
+    switch (action.type) {
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.FETCH_PAS_LIST):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.FETCH_PAS):
+            return Object.assign(Object.assign({}, state), { errorMessage: null, updateSuccess: false, loading: true });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.CREATE_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.UPDATE_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.DELETE_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.REQUEST)(ACTION_TYPES.PARTIAL_UPDATE_PAS):
+            return Object.assign(Object.assign({}, state), { errorMessage: null, updateSuccess: false, updating: true });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.FETCH_PAS_LIST):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.FETCH_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.CREATE_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.UPDATE_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.PARTIAL_UPDATE_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.FAILURE)(ACTION_TYPES.DELETE_PAS):
+            return Object.assign(Object.assign({}, state), { loading: false, updating: false, updateSuccess: false, errorMessage: action.payload });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.FETCH_PAS_LIST):
+            return Object.assign(Object.assign({}, state), { loading: false, entities: action.payload.data, totalItems: parseInt(action.payload.headers['x-total-count'], 10) });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.FETCH_PAS):
+            return Object.assign(Object.assign({}, state), { loading: false, entity: action.payload.data });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.CREATE_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.UPDATE_PAS):
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.PARTIAL_UPDATE_PAS):
+            return Object.assign(Object.assign({}, state), { updating: false, updateSuccess: true, entity: action.payload.data });
+        case (0,app_shared_reducers_action_type_util__WEBPACK_IMPORTED_MODULE_2__.SUCCESS)(ACTION_TYPES.DELETE_PAS):
+            return Object.assign(Object.assign({}, state), { updating: false, updateSuccess: true, entity: {} });
+        case ACTION_TYPES.RESET:
+            return Object.assign({}, initialState);
+        default:
+            return state;
+    }
+});
+const apiUrl = 'api/pas';
+// Actions
+const getEntities = (page, size, sort) => {
+    const requestUrl = `${apiUrl}${sort ? `?page=${page}&size=${size}&sort=${sort}` : ''}`;
+    return {
+        type: ACTION_TYPES.FETCH_PAS_LIST,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get(`${requestUrl}${sort ? '&' : '?'}cacheBuster=${new Date().getTime()}`),
+    };
+};
+const getEntity = id => {
+    const requestUrl = `${apiUrl}/${id}`;
+    return {
+        type: ACTION_TYPES.FETCH_PAS,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get(requestUrl),
+    };
+};
+const createEntity = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.CREATE_PAS,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().post(apiUrl, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    dispatch(getEntities());
+    return result;
+});
+const updateEntity = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.UPDATE_PAS,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().put(`${apiUrl}/${entity.id}`, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    return result;
+});
+const partialUpdate = entity => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const result = yield dispatch({
+        type: ACTION_TYPES.PARTIAL_UPDATE_PAS,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().patch(`${apiUrl}/${entity.id}`, (0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_1__.cleanEntity)(entity)),
+    });
+    return result;
+});
+const deleteEntity = id => (dispatch) => (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(void 0, void 0, void 0, function* () {
+    const requestUrl = `${apiUrl}/${id}`;
+    const result = yield dispatch({
+        type: ACTION_TYPES.DELETE_PAS,
+        payload: axios__WEBPACK_IMPORTED_MODULE_0___default().delete(requestUrl),
+    });
+    dispatch(getEntities());
+    return result;
+});
+const reset = () => ({
+    type: ACTION_TYPES.RESET,
+});
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas.reducer.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/entities/pas/pas.tsx":
+/*!**************************************************!*\
+  !*** ./src/main/webapp/app/entities/pas/pas.tsx ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PAS": () => (/* binding */ PAS),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Button.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Table.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Row.js");
+/* harmony import */ var react_jhipster__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-jhipster */ "./node_modules/react-jhipster/lib/index.js");
+/* harmony import */ var react_jhipster__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jhipster__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _pas_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pas.reducer */ "./src/main/webapp/app/entities/pas/pas.reducer.ts");
+/* harmony import */ var app_shared_util_pagination_constants__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! app/shared/util/pagination.constants */ "./src/main/webapp/app/shared/util/pagination.constants.ts");
+/* harmony import */ var app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! app/shared/util/entity-utils */ "./src/main/webapp/app/shared/util/entity-utils.ts");
+
+
+
+
+
+
+
+
+
+const PAS = (props) => {
+    const [paginationState, setPaginationState] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)((0,app_shared_util_entity_utils__WEBPACK_IMPORTED_MODULE_6__.overridePaginationStateWithQueryParams)((0,react_jhipster__WEBPACK_IMPORTED_MODULE_2__.getSortState)(props.location, app_shared_util_pagination_constants__WEBPACK_IMPORTED_MODULE_5__.ITEMS_PER_PAGE, 'id'), props.location.search));
+    const getAllEntities = () => {
+        props.getEntities(paginationState.activePage - 1, paginationState.itemsPerPage, `${paginationState.sort},${paginationState.order}`);
+    };
+    const sortEntities = () => {
+        getAllEntities();
+        const endURL = `?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`;
+        if (props.location.search !== endURL) {
+            props.history.push(`${props.location.pathname}${endURL}`);
+        }
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        sortEntities();
+    }, [paginationState.activePage, paginationState.order, paginationState.sort]);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        const params = new URLSearchParams(props.location.search);
+        const page = params.get('page');
+        const sort = params.get('sort');
+        if (page && sort) {
+            const sortSplit = sort.split(',');
+            setPaginationState(Object.assign(Object.assign({}, paginationState), { activePage: +page, sort: sortSplit[0], order: sortSplit[1] }));
+        }
+    }, [props.location.search]);
+    const sort = p => () => {
+        setPaginationState(Object.assign(Object.assign({}, paginationState), { order: paginationState.order === 'asc' ? 'desc' : 'asc', sort: p }));
+    };
+    const handlePagination = currentPage => setPaginationState(Object.assign(Object.assign({}, paginationState), { activePage: currentPage }));
+    const handleSyncList = () => {
+        sortEntities();
+    };
+    const { pASList, match, loading, totalItems } = props;
+    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", { id: "pas-heading", "data-cy": "PASHeading" },
+            "PAS",
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "d-flex justify-content-end" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { className: "mr-2", color: "info", onClick: handleSyncList, disabled: loading },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sync", spin: loading }),
+                    " Refresh List"),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, { to: `${match.url}/new`, className: "btn btn-primary jh-create-entity", id: "jh-create-entity", "data-cy": "entityCreateButton" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "plus" }),
+                    "\u00A0 Create new PAS"))),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "table-responsive" }, pASList && pASList.length > 0 ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__.default, { responsive: true },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null,
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('id') },
+                        "ID ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('cif') },
+                        "Cif ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('nombre') },
+                        "Nombre ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('codigo_postal') },
+                        "Codigo Postal ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('email') },
+                        "Email ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('tipo_proveedor') },
+                        "Tipo Proveedor ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('direccion') },
+                        "Direccion ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('persona_de_contacto') },
+                        "Persona De Contacto ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null))),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, pASList.map((pAS, i) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", { key: `entity-${i}`, "data-cy": "entityTable" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${pAS.id}`, color: "link", size: "sm" }, pAS.id)),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, pAS.cif),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, pAS.nombre),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, pAS.codigo_postal),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, pAS.email),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, pAS.tipo_proveedor),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, pAS.direccion),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, pAS.persona_de_contacto),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", { className: "text-right" },
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "btn-group flex-btn-group-container" },
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${pAS.id}`, color: "info", size: "sm", "data-cy": "entityDetailsButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "eye" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "View")),
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${pAS.id}/edit?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`, color: "primary", size: "sm", "data-cy": "entityEditButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "pencil-alt" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Edit")),
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${pAS.id}/delete?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`, color: "danger", size: "sm", "data-cy": "entityDeleteButton" },
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "trash" }),
+                            " ",
+                            react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { className: "d-none d-md-inline" }, "Delete")))))))))) : (!loading && react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "alert alert-warning" }, "No PAS found"))),
+        props.totalItems ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: pASList && pASList.length > 0 ? '' : 'd-none' },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, { className: "justify-content-center" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_jhipster__WEBPACK_IMPORTED_MODULE_2__.JhiItemCount, { page: paginationState.activePage, total: totalItems, itemsPerPage: paginationState.itemsPerPage })),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, { className: "justify-content-center" },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_jhipster__WEBPACK_IMPORTED_MODULE_2__.JhiPagination, { activePage: paginationState.activePage, onSelect: handlePagination, maxButtons: 5, itemsPerPage: paginationState.itemsPerPage, totalItems: props.totalItems })))) : ('')));
+};
+const mapStateToProps = ({ pAS }) => ({
+    pASList: pAS.entities,
+    loading: pAS.loading,
+    totalItems: pAS.totalItems,
+});
+const mapDispatchToProps = {
+    getEntities: _pas_reducer__WEBPACK_IMPORTED_MODULE_4__.getEntities,
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(PAS));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/entities/pas/pas.tsx"); } }(); 
 
 /***/ }),
 
@@ -1262,7 +3569,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1__.render(react__WEBPACK_IMPORTED_MODULE_0__
             react__WEBPACK_IMPORTED_MODULE_0__.createElement(Component, null)))), rootEl);
 render(_app__WEBPACK_IMPORTED_MODULE_8__.default);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/index.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/index.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/index.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/index.tsx"); } }(); 
 
 /***/ }),
 
@@ -1317,7 +3624,7 @@ const reset = () => ({
     type: ACTION_TYPES.RESET,
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/activate/activate.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/activate/activate.reducer.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/activate/activate.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/activate/activate.reducer.ts"); } }(); 
 
 /***/ }),
 
@@ -1378,7 +3685,7 @@ const mapStateToProps = ({ activate }) => ({
 const mapDispatchToProps = { activateAction: _activate_reducer__WEBPACK_IMPORTED_MODULE_3__.activateAction, reset: _activate_reducer__WEBPACK_IMPORTED_MODULE_3__.reset };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(ActivatePage));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/activate/activate.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/activate/activate.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/activate/activate.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/activate/activate.tsx"); } }(); 
 
 /***/ }),
 
@@ -1444,7 +3751,7 @@ const PasswordResetFinishPage = (props) => {
 const mapDispatchToProps = { handlePasswordResetFinish: _password_reset_reducer__WEBPACK_IMPORTED_MODULE_4__.handlePasswordResetFinish, reset: _password_reset_reducer__WEBPACK_IMPORTED_MODULE_4__.reset };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(null, mapDispatchToProps)(PasswordResetFinishPage));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/password-reset/finish/password-reset-finish.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/password-reset/finish/password-reset-finish.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/password-reset/finish/password-reset-finish.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/password-reset/finish/password-reset-finish.tsx"); } }(); 
 
 /***/ }),
 
@@ -1503,7 +3810,7 @@ class PasswordResetInit extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 const mapDispatchToProps = { handlePasswordResetInit: _password_reset_reducer__WEBPACK_IMPORTED_MODULE_3__.handlePasswordResetInit, reset: _password_reset_reducer__WEBPACK_IMPORTED_MODULE_3__.reset };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(null, mapDispatchToProps)(PasswordResetInit));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/password-reset/init/password-reset-init.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/password-reset/init/password-reset-init.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/password-reset/init/password-reset-init.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/password-reset/init/password-reset-init.tsx"); } }(); 
 
 /***/ }),
 
@@ -1576,7 +3883,7 @@ const reset = () => ({
     type: ACTION_TYPES.RESET,
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/password-reset/password-reset.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/password-reset/password-reset.reducer.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/password-reset/password-reset.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/password-reset/password-reset.reducer.ts"); } }(); 
 
 /***/ }),
 
@@ -1638,7 +3945,7 @@ const reset = () => ({
     type: ACTION_TYPES.RESET,
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/password/password.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/password/password.reducer.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/password/password.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/password/password.reducer.ts"); } }(); 
 
 /***/ }),
 
@@ -1698,7 +4005,7 @@ const reset = () => ({
     type: ACTION_TYPES.RESET,
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/register/register.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/register/register.reducer.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/register/register.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/register/register.reducer.ts"); } }(); 
 
 /***/ }),
 
@@ -1787,7 +4094,7 @@ const RegisterPage = (props) => {
 const mapDispatchToProps = { handleRegister: _register_reducer__WEBPACK_IMPORTED_MODULE_4__.handleRegister, reset: _register_reducer__WEBPACK_IMPORTED_MODULE_4__.reset };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(null, mapDispatchToProps)(RegisterPage));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/register/register.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/register/register.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/register/register.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/register/register.tsx"); } }(); 
 
 /***/ }),
 
@@ -1849,7 +4156,7 @@ const invalidateSession = series => ({
     payload: axios__WEBPACK_IMPORTED_MODULE_0___default().delete(`${apiURL}${series}`),
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/sessions/sessions.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/sessions/sessions.reducer.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/sessions/sessions.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/sessions/sessions.reducer.ts"); } }(); 
 
 /***/ }),
 
@@ -1917,7 +4224,7 @@ const reset = () => ({
     type: ACTION_TYPES.RESET,
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/settings/settings.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/account/settings/settings.reducer.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/settings/settings.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/account/settings/settings.reducer.ts"); } }(); 
 
 /***/ }),
 
@@ -2042,7 +4349,7 @@ const getEnv = () => ({
     payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get('management/env'),
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/administration/administration.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/administration/administration.reducer.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/administration/administration.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/administration/administration.reducer.ts"); } }(); 
 
 /***/ }),
 
@@ -2191,7 +4498,7 @@ const reset = () => ({
     type: ACTION_TYPES.RESET,
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/administration/user-management/user-management.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/administration/user-management/user-management.reducer.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/administration/user-management/user-management.reducer.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/administration/user-management/user-management.reducer.ts"); } }(); 
 
 /***/ }),
 
@@ -2270,7 +4577,7 @@ const mapStateToProps = storeState => ({
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_2__.connect)(mapStateToProps)(Home));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/home/home.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/home/home.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/home/home.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/home/home.tsx"); } }(); 
 
 /***/ }),
 
@@ -2341,7 +4648,7 @@ class LoginModal extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LoginModal);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/login/login-modal.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/login/login-modal.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/login/login-modal.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/login/login-modal.tsx"); } }(); 
 
 /***/ }),
 
@@ -2392,7 +4699,7 @@ const mapStateToProps = ({ authentication }) => ({
 const mapDispatchToProps = { login: app_shared_reducers_authentication__WEBPACK_IMPORTED_MODULE_2__.login };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(Login));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/login/login.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/login/login.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/login/login.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/login/login.tsx"); } }(); 
 
 /***/ }),
 
@@ -2435,7 +4742,7 @@ const mapStateToProps = (storeState) => ({
 const mapDispatchToProps = { logout: app_shared_reducers_authentication__WEBPACK_IMPORTED_MODULE_2__.logout };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(Logout));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/login/logout.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/modules/login/logout.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/login/logout.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/modules/login/logout.tsx"); } }(); 
 
 /***/ }),
 
@@ -2486,7 +4793,7 @@ const Account = react_loadable__WEBPACK_IMPORTED_MODULE_1___default()({
     loading: () => react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "loading ..."),
 });
 const Admin = react_loadable__WEBPACK_IMPORTED_MODULE_1___default()({
-    loader: () => Promise.all(/*! import() | administration */[__webpack_require__.e("vendors"), __webpack_require__.e("administration")]).then(__webpack_require__.bind(__webpack_require__, /*! app/modules/administration */ "./src/main/webapp/app/modules/administration/index.tsx")),
+    loader: () => __webpack_require__.e(/*! import() | administration */ "administration").then(__webpack_require__.bind(__webpack_require__, /*! app/modules/administration */ "./src/main/webapp/app/modules/administration/index.tsx")),
     loading: () => react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "loading ..."),
 });
 const Routes = () => {
@@ -2506,7 +4813,7 @@ const Routes = () => {
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Routes);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/routes.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/routes.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/routes.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/routes.tsx"); } }(); 
 
 /***/ }),
 
@@ -2577,7 +4884,7 @@ const mapStateToProps = ({ authentication: { isAuthenticated, account, sessionHa
 const PrivateRoute = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, null, null, { pure: false })(PrivateRouteComponent);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PrivateRoute);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/auth/private-route.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/auth/private-route.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/auth/private-route.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/auth/private-route.tsx"); } }(); 
 
 /***/ }),
 
@@ -2611,7 +4918,7 @@ const ErrorBoundaryRoute = (_a) => {
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ErrorBoundaryRoute);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/error/error-boundary-route.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/error/error-boundary-route.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/error/error-boundary-route.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/error/error-boundary-route.tsx"); } }(); 
 
 /***/ }),
 
@@ -2655,7 +4962,7 @@ class ErrorBoundary extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ErrorBoundary);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/error/error-boundary.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/error/error-boundary.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/error/error-boundary.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/error/error-boundary.tsx"); } }(); 
 
 /***/ }),
 
@@ -2682,7 +4989,7 @@ class PageNotFound extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PageNotFound);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/error/page-not-found.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/error/page-not-found.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/error/page-not-found.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/error/page-not-found.tsx"); } }(); 
 
 /***/ }),
 
@@ -2710,7 +5017,7 @@ const Footer = props => (react__WEBPACK_IMPORTED_MODULE_1__.createElement("div",
             react__WEBPACK_IMPORTED_MODULE_1__.createElement("p", null, "Your footer")))));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/footer/footer.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/footer/footer.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/footer/footer.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/footer/footer.tsx"); } }(); 
 
 /***/ }),
 
@@ -2750,7 +5057,7 @@ const Home = props => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstr
         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, { icon: "home" }),
         react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, "Home"))));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/header/header-components.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/header/header-components.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/header/header-components.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/header/header-components.tsx"); } }(); 
 
 /***/ }),
 
@@ -2801,7 +5108,7 @@ const Header = (props) => {
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/header/header.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/header/header.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/header/header.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/header/header.tsx"); } }(); 
 
 /***/ }),
 
@@ -2834,7 +5141,7 @@ const accountMenuItems = (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react
 const AccountMenu = ({ isAuthenticated = false }) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_menu_components__WEBPACK_IMPORTED_MODULE_2__.NavDropdown, { icon: "user", name: "Account", id: "account-menu", "data-cy": "accountMenu" }, isAuthenticated ? accountMenuItemsAuthenticated : accountMenuItems));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AccountMenu);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/account.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/account.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/account.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/account.tsx"); } }(); 
 
 /***/ }),
 
@@ -2868,7 +5175,7 @@ const AdminMenu = ({ showOpenAPI }) => (react__WEBPACK_IMPORTED_MODULE_0__.creat
     showOpenAPI && openAPIItem));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AdminMenu);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/admin.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/admin.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/admin.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/admin.tsx"); } }(); 
 
 /***/ }),
 
@@ -2884,12 +5191,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "EntitiesMenu": () => (/* binding */ EntitiesMenu)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _menu_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu-components */ "./src/main/webapp/app/shared/layout/menus/menu-components.tsx");
+/* harmony import */ var app_shared_layout_menus_menu_item__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/layout/menus/menu-item */ "./src/main/webapp/app/shared/layout/menus/menu-item.tsx");
+/* harmony import */ var _menu_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu-components */ "./src/main/webapp/app/shared/layout/menus/menu-components.tsx");
 
 
-const EntitiesMenu = props => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_menu_components__WEBPACK_IMPORTED_MODULE_1__.NavDropdown, { icon: "th-list", name: "Entities", id: "entity-menu", "data-cy": "entity", style: { maxHeight: '80vh', overflow: 'auto' } }));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/entities.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/entities.tsx"); } }(); 
+const EntitiesMenu = props => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_menu_components__WEBPACK_IMPORTED_MODULE_2__.NavDropdown, { icon: "th-list", name: "Entities", id: "entity-menu", "data-cy": "entity", style: { maxHeight: '80vh', overflow: 'auto' } },
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_layout_menus_menu_item__WEBPACK_IMPORTED_MODULE_1__.default, { icon: "asterisk", to: "/pas" }, "PAS"),
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_layout_menus_menu_item__WEBPACK_IMPORTED_MODULE_1__.default, { icon: "asterisk", to: "/medico" }, "MEDICO"),
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_layout_menus_menu_item__WEBPACK_IMPORTED_MODULE_1__.default, { icon: "asterisk", to: "/centrosanitario" }, "CENTROSANITARIO"),
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(app_shared_layout_menus_menu_item__WEBPACK_IMPORTED_MODULE_1__.default, { icon: "asterisk", to: "/cuadromedico" }, "CUADROMEDICO")));
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/entities.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/entities.tsx"); } }(); 
 
 /***/ }),
 
@@ -2913,7 +5226,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/index.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/index.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/index.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/index.ts"); } }(); 
 
 /***/ }),
 
@@ -2942,7 +5255,7 @@ const NavDropdown = props => (react__WEBPACK_IMPORTED_MODULE_0__.createElement(r
         react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, props.name)),
     react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__.default, { right: true, style: props.style }, props.children)));
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/menu-components.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/menu-components.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/menu-components.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/menu-components.tsx"); } }(); 
 
 /***/ }),
 
@@ -2975,7 +5288,7 @@ class MenuItem extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
     }
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/menu-item.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/menus/menu-item.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/menu-item.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/menus/menu-item.tsx"); } }(); 
 
 /***/ }),
 
@@ -3051,7 +5364,75 @@ const PasswordStrengthBar = ({ password }) => {
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PasswordStrengthBar);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/password/password-strength-bar.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/layout/password/password-strength-bar.tsx"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/password/password-strength-bar.tsx"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/layout/password/password-strength-bar.tsx"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/shared/model/centrosanitario.model.ts":
+/*!*******************************************************************!*\
+  !*** ./src/main/webapp/app/shared/model/centrosanitario.model.ts ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "defaultValue": () => (/* binding */ defaultValue)
+/* harmony export */ });
+const defaultValue = {};
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/centrosanitario.model.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/centrosanitario.model.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/shared/model/cuadromedico.model.ts":
+/*!****************************************************************!*\
+  !*** ./src/main/webapp/app/shared/model/cuadromedico.model.ts ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "defaultValue": () => (/* binding */ defaultValue)
+/* harmony export */ });
+const defaultValue = {};
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/cuadromedico.model.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/cuadromedico.model.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/shared/model/medico.model.ts":
+/*!**********************************************************!*\
+  !*** ./src/main/webapp/app/shared/model/medico.model.ts ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "defaultValue": () => (/* binding */ defaultValue)
+/* harmony export */ });
+const defaultValue = {};
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/medico.model.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/medico.model.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/shared/model/pas.model.ts":
+/*!*******************************************************!*\
+  !*** ./src/main/webapp/app/shared/model/pas.model.ts ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "defaultValue": () => (/* binding */ defaultValue)
+/* harmony export */ });
+const defaultValue = {};
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/pas.model.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/pas.model.ts"); } }(); 
 
 /***/ }),
 
@@ -3082,7 +5463,7 @@ const defaultValue = {
     password: '',
 };
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/model/user.model.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/model/user.model.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/user.model.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/model/user.model.ts"); } }(); 
 
 /***/ }),
 
@@ -3112,7 +5493,7 @@ const SUCCESS = actionType => `${actionType}_FULFILLED`;
  */
 const FAILURE = actionType => `${actionType}_REJECTED`;
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/reducers/action-type.util.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/reducers/action-type.util.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/reducers/action-type.util.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/reducers/action-type.util.ts"); } }(); 
 
 /***/ }),
 
@@ -3157,7 +5538,7 @@ const getProfile = () => ({
     payload: axios__WEBPACK_IMPORTED_MODULE_0___default().get('management/info'),
 });
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/reducers/application-profile.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/reducers/application-profile.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/reducers/application-profile.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/reducers/application-profile.ts"); } }(); 
 
 /***/ }),
 
@@ -3261,7 +5642,7 @@ const clearAuthentication = messageKey => (dispatch, getState) => {
     });
 };
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/reducers/authentication.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/reducers/authentication.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/reducers/authentication.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/reducers/authentication.ts"); } }(); 
 
 /***/ }),
 
@@ -3276,7 +5657,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
 /* harmony import */ var react_redux_loading_bar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-redux-loading-bar */ "./node_modules/react-redux-loading-bar/build/index.js");
 /* harmony import */ var _authentication__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./authentication */ "./src/main/webapp/app/shared/reducers/authentication.ts");
 /* harmony import */ var _application_profile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./application-profile */ "./src/main/webapp/app/shared/reducers/application-profile.ts");
@@ -3288,6 +5669,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var app_modules_account_settings_settings_reducer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! app/modules/account/settings/settings.reducer */ "./src/main/webapp/app/modules/account/settings/settings.reducer.ts");
 /* harmony import */ var app_modules_account_password_reset_password_reset_reducer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! app/modules/account/password-reset/password-reset.reducer */ "./src/main/webapp/app/modules/account/password-reset/password-reset.reducer.ts");
 /* harmony import */ var app_modules_account_sessions_sessions_reducer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! app/modules/account/sessions/sessions.reducer */ "./src/main/webapp/app/modules/account/sessions/sessions.reducer.ts");
+/* harmony import */ var app_entities_pas_pas_reducer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! app/entities/pas/pas.reducer */ "./src/main/webapp/app/entities/pas/pas.reducer.ts");
+/* harmony import */ var app_entities_medico_medico_reducer__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! app/entities/medico/medico.reducer */ "./src/main/webapp/app/entities/medico/medico.reducer.ts");
+/* harmony import */ var app_entities_centrosanitario_centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! app/entities/centrosanitario/centrosanitario.reducer */ "./src/main/webapp/app/entities/centrosanitario/centrosanitario.reducer.ts");
+/* harmony import */ var app_entities_cuadromedico_cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! app/entities/cuadromedico/cuadromedico.reducer */ "./src/main/webapp/app/entities/cuadromedico/cuadromedico.reducer.ts");
 
 
 
@@ -3300,7 +5685,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const rootReducer = (0,redux__WEBPACK_IMPORTED_MODULE_11__.combineReducers)({
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+const rootReducer = (0,redux__WEBPACK_IMPORTED_MODULE_15__.combineReducers)({
     authentication: _authentication__WEBPACK_IMPORTED_MODULE_1__.default,
     applicationProfile: _application_profile__WEBPACK_IMPORTED_MODULE_2__.default,
     administration: app_modules_administration_administration_reducer__WEBPACK_IMPORTED_MODULE_3__.default,
@@ -3311,12 +5704,84 @@ const rootReducer = (0,redux__WEBPACK_IMPORTED_MODULE_11__.combineReducers)({
     password: app_modules_account_password_password_reducer__WEBPACK_IMPORTED_MODULE_7__.default,
     settings: app_modules_account_settings_settings_reducer__WEBPACK_IMPORTED_MODULE_8__.default,
     sessions: app_modules_account_sessions_sessions_reducer__WEBPACK_IMPORTED_MODULE_10__.default,
+    pAS: app_entities_pas_pas_reducer__WEBPACK_IMPORTED_MODULE_11__.default,
+    mEDICO: app_entities_medico_medico_reducer__WEBPACK_IMPORTED_MODULE_12__.default,
+    cENTROSANITARIO: app_entities_centrosanitario_centrosanitario_reducer__WEBPACK_IMPORTED_MODULE_13__.default,
+    cUADROMEDICO: app_entities_cuadromedico_cuadromedico_reducer__WEBPACK_IMPORTED_MODULE_14__.default,
     /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
     loadingBar: react_redux_loading_bar__WEBPACK_IMPORTED_MODULE_0__.loadingBarReducer,
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (rootReducer);
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/reducers/index.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/AXA/src/main/webapp/app/shared/reducers/index.ts"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/reducers/index.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/reducers/index.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/shared/util/entity-utils.ts":
+/*!*********************************************************!*\
+  !*** ./src/main/webapp/app/shared/util/entity-utils.ts ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "cleanEntity": () => (/* binding */ cleanEntity),
+/* harmony export */   "mapIdList": () => (/* binding */ mapIdList),
+/* harmony export */   "overridePaginationStateWithQueryParams": () => (/* binding */ overridePaginationStateWithQueryParams)
+/* harmony export */ });
+/* harmony import */ var lodash_pick__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/pick */ "./node_modules/lodash/pick.js");
+/* harmony import */ var lodash_pick__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_pick__WEBPACK_IMPORTED_MODULE_0__);
+
+/**
+ * Removes fields with an 'id' field that equals ''.
+ * This function was created to prevent entities to be sent to
+ * the server with an empty id and thus resulting in a 500.
+ *
+ * @param entity Object to clean.
+ */
+const cleanEntity = entity => {
+    const keysToKeep = Object.keys(entity).filter(k => !(entity[k] instanceof Object) || (entity[k]['id'] !== '' && entity[k]['id'] !== -1));
+    return lodash_pick__WEBPACK_IMPORTED_MODULE_0___default()(entity, keysToKeep);
+};
+/**
+ * Simply map a list of element to a list a object with the element as id.
+ *
+ * @param idList Elements to map.
+ * @returns The list of objects with mapped ids.
+ */
+const mapIdList = (idList) => idList.filter((entityId) => entityId !== '').map((entityId) => ({ id: entityId }));
+const overridePaginationStateWithQueryParams = (paginationBaseState, locationSearch) => {
+    const params = new URLSearchParams(locationSearch);
+    const page = params.get('page');
+    const sort = params.get('sort');
+    if (page && sort) {
+        const sortSplit = sort.split(',');
+        paginationBaseState.activePage = +page;
+        paginationBaseState.sort = sortSplit[0];
+        paginationBaseState.order = sortSplit[1];
+    }
+    return paginationBaseState;
+};
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/util/entity-utils.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/util/entity-utils.ts"); } }(); 
+
+/***/ }),
+
+/***/ "./src/main/webapp/app/shared/util/pagination.constants.ts":
+/*!*****************************************************************!*\
+  !*** ./src/main/webapp/app/shared/util/pagination.constants.ts ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ITEMS_PER_PAGE": () => (/* binding */ ITEMS_PER_PAGE)
+/* harmony export */ });
+const ITEMS_PER_PAGE = 20;
+
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/util/pagination.constants.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/dakixr/Desktop/Github/Hackathon-AXA/src/main/webapp/app/shared/util/pagination.constants.ts"); } }(); 
 
 /***/ }),
 
@@ -3953,7 +6418,7 @@ if (true) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("de13d28b967310fdb43d")
+/******/ 		__webpack_require__.h = () => ("46cad9cf329fac01b09a")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
