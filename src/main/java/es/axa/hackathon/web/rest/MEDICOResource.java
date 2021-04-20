@@ -9,8 +9,6 @@ import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
-import javax.validation.Valid;
-import javax.validation.constraints.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -56,7 +54,7 @@ public class MEDICOResource {
      * @throws URISyntaxException if the Location URI syntax is incorrect.
      */
     @PostMapping("/medicos")
-    public ResponseEntity<MEDICODTO> createMEDICO(@Valid @RequestBody MEDICODTO mEDICODTO) throws URISyntaxException {
+    public ResponseEntity<MEDICODTO> createMEDICO(@RequestBody MEDICODTO mEDICODTO) throws URISyntaxException {
         log.debug("REST request to save MEDICO : {}", mEDICODTO);
         if (mEDICODTO.getId() != null) {
             throw new BadRequestAlertException("A new mEDICO cannot already have an ID", ENTITY_NAME, "idexists");
@@ -81,7 +79,7 @@ public class MEDICOResource {
     @PutMapping("/medicos/{id}")
     public ResponseEntity<MEDICODTO> updateMEDICO(
         @PathVariable(value = "id", required = false) final String id,
-        @Valid @RequestBody MEDICODTO mEDICODTO
+        @RequestBody MEDICODTO mEDICODTO
     ) throws URISyntaxException {
         log.debug("REST request to update MEDICO : {}, {}", id, mEDICODTO);
         if (mEDICODTO.getId() == null) {
@@ -116,7 +114,7 @@ public class MEDICOResource {
     @PatchMapping(value = "/medicos/{id}", consumes = "application/merge-patch+json")
     public ResponseEntity<MEDICODTO> partialUpdateMEDICO(
         @PathVariable(value = "id", required = false) final String id,
-        @NotNull @RequestBody MEDICODTO mEDICODTO
+        @RequestBody MEDICODTO mEDICODTO
     ) throws URISyntaxException {
         log.debug("REST request to partial update MEDICO partially : {}, {}", id, mEDICODTO);
         if (mEDICODTO.getId() == null) {

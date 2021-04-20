@@ -91,8 +91,8 @@ export const CUADROMEDICO = (props: ICUADROMEDICOProps) => {
                 <th className="hand" onClick={sort('id')}>
                   ID <FontAwesomeIcon icon="sort" />
                 </th>
-                <th className="hand" onClick={sort('id_cuadro_medico')}>
-                  Id Cuadro Medico <FontAwesomeIcon icon="sort" />
+                <th className="hand" onClick={sort('id_cliente')}>
+                  Id Cliente <FontAwesomeIcon icon="sort" />
                 </th>
                 <th className="hand" onClick={sort('suscripcion')}>
                   Suscripcion <FontAwesomeIcon icon="sort" />
@@ -108,7 +108,7 @@ export const CUADROMEDICO = (props: ICUADROMEDICOProps) => {
                       {cUADROMEDICO.id}
                     </Button>
                   </td>
-                  <td>{cUADROMEDICO.id_cuadro_medico}</td>
+                  <td>{cUADROMEDICO.id_cliente}</td>
                   <td>{cUADROMEDICO.suscripcion}</td>
                   <td className="text-right">
                     <div className="btn-group flex-btn-group-container">

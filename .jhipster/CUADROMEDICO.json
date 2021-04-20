@@ -1,7 +1,7 @@
 {
   "fields": [
     {
-      "fieldName": "id_cuadro_medico",
+      "fieldName": "id_cliente",
       "fieldType": "Integer",
       "fieldValidateRules": ["unique"]
     },

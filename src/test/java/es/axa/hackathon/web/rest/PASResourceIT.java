@@ -50,6 +50,12 @@ class PASResourceIT {
     private static final String DEFAULT_PERSONA_DE_CONTACTO = "AAAAAAAAAA";
     private static final String UPDATED_PERSONA_DE_CONTACTO = "BBBBBBBBBB";
 
+    private static final String DEFAULT_POBLACION = "AAAAAAAAAA";
+    private static final String UPDATED_POBLACION = "BBBBBBBBBB";
+
+    private static final String DEFAULT_PROVINCIA = "AAAAAAAAAA";
+    private static final String UPDATED_PROVINCIA = "BBBBBBBBBB";
+
     private static final String ENTITY_API_URL = "/api/pas";
     private static final String ENTITY_API_URL_ID = ENTITY_API_URL + "/{id}";
 
@@ -78,7 +84,9 @@ class PASResourceIT {
             .email(DEFAULT_EMAIL)
             .tipo_proveedor(DEFAULT_TIPO_PROVEEDOR)
             .direccion(DEFAULT_DIRECCION)
-            .persona_de_contacto(DEFAULT_PERSONA_DE_CONTACTO);
+            .persona_de_contacto(DEFAULT_PERSONA_DE_CONTACTO)
+            .poblacion(DEFAULT_POBLACION)
+            .provincia(DEFAULT_PROVINCIA);
         return pAS;
     }
 
@@ -96,7 +104,9 @@ class PASResourceIT {
             .email(UPDATED_EMAIL)
             .tipo_proveedor(UPDATED_TIPO_PROVEEDOR)
             .direccion(UPDATED_DIRECCION)
-            .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO);
+            .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO)
+            .poblacion(UPDATED_POBLACION)
+            .provincia(UPDATED_PROVINCIA);
         return pAS;
     }
 
@@ -128,6 +138,8 @@ class PASResourceIT {
         assertThat(testPAS.getTipo_proveedor()).isEqualTo(DEFAULT_TIPO_PROVEEDOR);
         assertThat(testPAS.getDireccion()).isEqualTo(DEFAULT_DIRECCION);
         assertThat(testPAS.getPersona_de_contacto()).isEqualTo(DEFAULT_PERSONA_DE_CONTACTO);
+        assertThat(testPAS.getPoblacion()).isEqualTo(DEFAULT_POBLACION);
+        assertThat(testPAS.getProvincia()).isEqualTo(DEFAULT_PROVINCIA);
     }
 
     @Test
@@ -167,7 +179,9 @@ class PASResourceIT {
             .andExpect(jsonPath("$.[*].email").value(hasItem(DEFAULT_EMAIL)))
             .andExpect(jsonPath("$.[*].tipo_proveedor").value(hasItem(DEFAULT_TIPO_PROVEEDOR)))
             .andExpect(jsonPath("$.[*].direccion").value(hasItem(DEFAULT_DIRECCION)))
-            .andExpect(jsonPath("$.[*].persona_de_contacto").value(hasItem(DEFAULT_PERSONA_DE_CONTACTO)));
+            .andExpect(jsonPath("$.[*].persona_de_contacto").value(hasItem(DEFAULT_PERSONA_DE_CONTACTO)))
+            .andExpect(jsonPath("$.[*].poblacion").value(hasItem(DEFAULT_POBLACION)))
+            .andExpect(jsonPath("$.[*].provincia").value(hasItem(DEFAULT_PROVINCIA)));
     }
 
     @Test
@@ -187,7 +201,9 @@ class PASResourceIT {
             .andExpect(jsonPath("$.email").value(DEFAULT_EMAIL))
             .andExpect(jsonPath("$.tipo_proveedor").value(DEFAULT_TIPO_PROVEEDOR))
             .andExpect(jsonPath("$.direccion").value(DEFAULT_DIRECCION))
-            .andExpect(jsonPath("$.persona_de_contacto").value(DEFAULT_PERSONA_DE_CONTACTO));
+            .andExpect(jsonPath("$.persona_de_contacto").value(DEFAULT_PERSONA_DE_CONTACTO))
+            .andExpect(jsonPath("$.poblacion").value(DEFAULT_POBLACION))
+            .andExpect(jsonPath("$.provincia").value(DEFAULT_PROVINCIA));
     }
 
     @Test
@@ -212,7 +228,9 @@ class PASResourceIT {
             .email(UPDATED_EMAIL)
             .tipo_proveedor(UPDATED_TIPO_PROVEEDOR)
             .direccion(UPDATED_DIRECCION)
-            .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO);
+            .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO)
+            .poblacion(UPDATED_POBLACION)
+            .provincia(UPDATED_PROVINCIA);
         PASDTO pASDTO = pASMapper.toDto(updatedPAS);
 
         restPASMockMvc
@@ -235,6 +253,8 @@ class PASResourceIT {
         assertThat(testPAS.getTipo_proveedor()).isEqualTo(UPDATED_TIPO_PROVEEDOR);
         assertThat(testPAS.getDireccion()).isEqualTo(UPDATED_DIRECCION);
         assertThat(testPAS.getPersona_de_contacto()).isEqualTo(UPDATED_PERSONA_DE_CONTACTO);
+        assertThat(testPAS.getPoblacion()).isEqualTo(UPDATED_POBLACION);
+        assertThat(testPAS.getProvincia()).isEqualTo(UPDATED_PROVINCIA);
     }
 
     @Test
@@ -318,7 +338,8 @@ class PASResourceIT {
             .nombre(UPDATED_NOMBRE)
             .codigo_postal(UPDATED_CODIGO_POSTAL)
             .email(UPDATED_EMAIL)
-            .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO);
+            .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO)
+            .provincia(UPDATED_PROVINCIA);
 
         restPASMockMvc
             .perform(
@@ -340,6 +361,8 @@ class PASResourceIT {
         assertThat(testPAS.getTipo_proveedor()).isEqualTo(DEFAULT_TIPO_PROVEEDOR);
         assertThat(testPAS.getDireccion()).isEqualTo(DEFAULT_DIRECCION);
         assertThat(testPAS.getPersona_de_contacto()).isEqualTo(UPDATED_PERSONA_DE_CONTACTO);
+        assertThat(testPAS.getPoblacion()).isEqualTo(DEFAULT_POBLACION);
+        assertThat(testPAS.getProvincia()).isEqualTo(UPDATED_PROVINCIA);
     }
 
     @Test
@@ -360,7 +383,9 @@ class PASResourceIT {
             .email(UPDATED_EMAIL)
             .tipo_proveedor(UPDATED_TIPO_PROVEEDOR)
             .direccion(UPDATED_DIRECCION)
-            .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO);
+            .persona_de_contacto(UPDATED_PERSONA_DE_CONTACTO)
+            .poblacion(UPDATED_POBLACION)
+            .provincia(UPDATED_PROVINCIA);
 
         restPASMockMvc
             .perform(
@@ -382,6 +407,8 @@ class PASResourceIT {
         assertThat(testPAS.getTipo_proveedor()).isEqualTo(UPDATED_TIPO_PROVEEDOR);
         assertThat(testPAS.getDireccion()).isEqualTo(UPDATED_DIRECCION);
         assertThat(testPAS.getPersona_de_contacto()).isEqualTo(UPDATED_PERSONA_DE_CONTACTO);
+        assertThat(testPAS.getPoblacion()).isEqualTo(UPDATED_POBLACION);
+        assertThat(testPAS.getProvincia()).isEqualTo(UPDATED_PROVINCIA);
     }
 
     @Test

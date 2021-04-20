@@ -11,7 +11,7 @@ public class CUADROMEDICODTO implements Serializable {
 
     private String id;
 
-    private Integer id_cuadro_medico;
+    private Integer id_cliente;
 
     private String suscripcion;
 
@@ -23,12 +23,12 @@ public class CUADROMEDICODTO implements Serializable {
         this.id = id;
     }
 
-    public Integer getId_cuadro_medico() {
-        return id_cuadro_medico;
+    public Integer getId_cliente() {
+        return id_cliente;
     }
 
-    public void setId_cuadro_medico(Integer id_cuadro_medico) {
-        this.id_cuadro_medico = id_cuadro_medico;
+    public void setId_cliente(Integer id_cliente) {
+        this.id_cliente = id_cliente;
     }
 
     public String getSuscripcion() {
@@ -65,7 +65,7 @@ public class CUADROMEDICODTO implements Serializable {
     public String toString() {
         return "CUADROMEDICODTO{" +
             "id='" + getId() + "'" +
-            ", id_cuadro_medico=" + getId_cuadro_medico() +
+            ", id_cliente=" + getId_cliente() +
             ", suscripcion='" + getSuscripcion() + "'" +
             "}";
     }

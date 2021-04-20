@@ -26,6 +26,10 @@ public class PASDTO implements Serializable {
 
     private String persona_de_contacto;
 
+    private String poblacion;
+
+    private String provincia;
+
     public String getId() {
         return id;
     }
@@ -90,6 +94,22 @@ public class PASDTO implements Serializable {
         this.persona_de_contacto = persona_de_contacto;
     }
 
+    public String getPoblacion() {
+        return poblacion;
+    }
+
+    public void setPoblacion(String poblacion) {
+        this.poblacion = poblacion;
+    }
+
+    public String getProvincia() {
+        return provincia;
+    }
+
+    public void setProvincia(String provincia) {
+        this.provincia = provincia;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -123,6 +143,8 @@ public class PASDTO implements Serializable {
             ", tipo_proveedor='" + getTipo_proveedor() + "'" +
             ", direccion='" + getDireccion() + "'" +
             ", persona_de_contacto='" + getPersona_de_contacto() + "'" +
+            ", poblacion='" + getPoblacion() + "'" +
+            ", provincia='" + getProvincia() + "'" +
             "}";
     }
 }

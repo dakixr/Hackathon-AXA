@@ -29,8 +29,8 @@ import org.springframework.test.web.servlet.MockMvc;
 @WithMockUser
 class CUADROMEDICOResourceIT {
 
-    private static final Integer DEFAULT_ID_CUADRO_MEDICO = 1;
-    private static final Integer UPDATED_ID_CUADRO_MEDICO = 2;
+    private static final Integer DEFAULT_ID_CLIENTE = 1;
+    private static final Integer UPDATED_ID_CLIENTE = 2;
 
     private static final String DEFAULT_SUSCRIPCION = "AAAAAAAAAA";
     private static final String UPDATED_SUSCRIPCION = "BBBBBBBBBB";
@@ -56,7 +56,7 @@ class CUADROMEDICOResourceIT {
      * if they test an entity which requires the current entity.
      */
     public static CUADROMEDICO createEntity() {
-        CUADROMEDICO cUADROMEDICO = new CUADROMEDICO().id_cuadro_medico(DEFAULT_ID_CUADRO_MEDICO).suscripcion(DEFAULT_SUSCRIPCION);
+        CUADROMEDICO cUADROMEDICO = new CUADROMEDICO().id_cliente(DEFAULT_ID_CLIENTE).suscripcion(DEFAULT_SUSCRIPCION);
         return cUADROMEDICO;
     }
 
@@ -67,7 +67,7 @@ class CUADROMEDICOResourceIT {
      * if they test an entity which requires the current entity.
      */
     public static CUADROMEDICO createUpdatedEntity() {
-        CUADROMEDICO cUADROMEDICO = new CUADROMEDICO().id_cuadro_medico(UPDATED_ID_CUADRO_MEDICO).suscripcion(UPDATED_SUSCRIPCION);
+        CUADROMEDICO cUADROMEDICO = new CUADROMEDICO().id_cliente(UPDATED_ID_CLIENTE).suscripcion(UPDATED_SUSCRIPCION);
         return cUADROMEDICO;
     }
 
@@ -95,7 +95,7 @@ class CUADROMEDICOResourceIT {
         List<CUADROMEDICO> cUADROMEDICOList = cUADROMEDICORepository.findAll();
         assertThat(cUADROMEDICOList).hasSize(databaseSizeBeforeCreate + 1);
         CUADROMEDICO testCUADROMEDICO = cUADROMEDICOList.get(cUADROMEDICOList.size() - 1);
-        assertThat(testCUADROMEDICO.getId_cuadro_medico()).isEqualTo(DEFAULT_ID_CUADRO_MEDICO);
+        assertThat(testCUADROMEDICO.getId_cliente()).isEqualTo(DEFAULT_ID_CLIENTE);
         assertThat(testCUADROMEDICO.getSuscripcion()).isEqualTo(DEFAULT_SUSCRIPCION);
     }
 
@@ -133,7 +133,7 @@ class CUADROMEDICOResourceIT {
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
             .andExpect(jsonPath("$.[*].id").value(hasItem(cUADROMEDICO.getId())))
-            .andExpect(jsonPath("$.[*].id_cuadro_medico").value(hasItem(DEFAULT_ID_CUADRO_MEDICO)))
+            .andExpect(jsonPath("$.[*].id_cliente").value(hasItem(DEFAULT_ID_CLIENTE)))
             .andExpect(jsonPath("$.[*].suscripcion").value(hasItem(DEFAULT_SUSCRIPCION)));
     }
 
@@ -148,7 +148,7 @@ class CUADROMEDICOResourceIT {
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
             .andExpect(jsonPath("$.id").value(cUADROMEDICO.getId()))
-            .andExpect(jsonPath("$.id_cuadro_medico").value(DEFAULT_ID_CUADRO_MEDICO))
+            .andExpect(jsonPath("$.id_cliente").value(DEFAULT_ID_CLIENTE))
             .andExpect(jsonPath("$.suscripcion").value(DEFAULT_SUSCRIPCION));
     }
 
@@ -167,7 +167,7 @@ class CUADROMEDICOResourceIT {
 
         // Update the cUADROMEDICO
         CUADROMEDICO updatedCUADROMEDICO = cUADROMEDICORepository.findById(cUADROMEDICO.getId()).get();
-        updatedCUADROMEDICO.id_cuadro_medico(UPDATED_ID_CUADRO_MEDICO).suscripcion(UPDATED_SUSCRIPCION);
+        updatedCUADROMEDICO.id_cliente(UPDATED_ID_CLIENTE).suscripcion(UPDATED_SUSCRIPCION);
         CUADROMEDICODTO cUADROMEDICODTO = cUADROMEDICOMapper.toDto(updatedCUADROMEDICO);
 
         restCUADROMEDICOMockMvc
@@ -183,7 +183,7 @@ class CUADROMEDICOResourceIT {
         List<CUADROMEDICO> cUADROMEDICOList = cUADROMEDICORepository.findAll();
         assertThat(cUADROMEDICOList).hasSize(databaseSizeBeforeUpdate);
         CUADROMEDICO testCUADROMEDICO = cUADROMEDICOList.get(cUADROMEDICOList.size() - 1);
-        assertThat(testCUADROMEDICO.getId_cuadro_medico()).isEqualTo(UPDATED_ID_CUADRO_MEDICO);
+        assertThat(testCUADROMEDICO.getId_cliente()).isEqualTo(UPDATED_ID_CLIENTE);
         assertThat(testCUADROMEDICO.getSuscripcion()).isEqualTo(UPDATED_SUSCRIPCION);
     }
 
@@ -267,7 +267,7 @@ class CUADROMEDICOResourceIT {
         CUADROMEDICO partialUpdatedCUADROMEDICO = new CUADROMEDICO();
         partialUpdatedCUADROMEDICO.setId(cUADROMEDICO.getId());
 
-        partialUpdatedCUADROMEDICO.id_cuadro_medico(UPDATED_ID_CUADRO_MEDICO);
+        partialUpdatedCUADROMEDICO.id_cliente(UPDATED_ID_CLIENTE);
 
         restCUADROMEDICOMockMvc
             .perform(
@@ -282,7 +282,7 @@ class CUADROMEDICOResourceIT {
         List<CUADROMEDICO> cUADROMEDICOList = cUADROMEDICORepository.findAll();
         assertThat(cUADROMEDICOList).hasSize(databaseSizeBeforeUpdate);
         CUADROMEDICO testCUADROMEDICO = cUADROMEDICOList.get(cUADROMEDICOList.size() - 1);
-        assertThat(testCUADROMEDICO.getId_cuadro_medico()).isEqualTo(UPDATED_ID_CUADRO_MEDICO);
+        assertThat(testCUADROMEDICO.getId_cliente()).isEqualTo(UPDATED_ID_CLIENTE);
         assertThat(testCUADROMEDICO.getSuscripcion()).isEqualTo(DEFAULT_SUSCRIPCION);
     }
 
@@ -297,7 +297,7 @@ class CUADROMEDICOResourceIT {
         CUADROMEDICO partialUpdatedCUADROMEDICO = new CUADROMEDICO();
         partialUpdatedCUADROMEDICO.setId(cUADROMEDICO.getId());
 
-        partialUpdatedCUADROMEDICO.id_cuadro_medico(UPDATED_ID_CUADRO_MEDICO).suscripcion(UPDATED_SUSCRIPCION);
+        partialUpdatedCUADROMEDICO.id_cliente(UPDATED_ID_CLIENTE).suscripcion(UPDATED_SUSCRIPCION);
 
         restCUADROMEDICOMockMvc
             .perform(
@@ -312,7 +312,7 @@ class CUADROMEDICOResourceIT {
         List<CUADROMEDICO> cUADROMEDICOList = cUADROMEDICORepository.findAll();
         assertThat(cUADROMEDICOList).hasSize(databaseSizeBeforeUpdate);
         CUADROMEDICO testCUADROMEDICO = cUADROMEDICOList.get(cUADROMEDICOList.size() - 1);
-        assertThat(testCUADROMEDICO.getId_cuadro_medico()).isEqualTo(UPDATED_ID_CUADRO_MEDICO);
+        assertThat(testCUADROMEDICO.getId_cliente()).isEqualTo(UPDATED_ID_CLIENTE);
         assertThat(testCUADROMEDICO.getSuscripcion()).isEqualTo(UPDATED_SUSCRIPCION);
     }
 

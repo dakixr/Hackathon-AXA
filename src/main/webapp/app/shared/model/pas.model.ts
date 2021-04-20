@@ -7,6 +7,8 @@ export interface IPAS {
   tipo_proveedor?: string | null;
   direccion?: string | null;
   persona_de_contacto?: string | null;
+  poblacion?: string | null;
+  provincia?: string | null;
 }
 
 export const defaultValue: Readonly<IPAS> = {};

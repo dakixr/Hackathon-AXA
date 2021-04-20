@@ -33,6 +33,10 @@
       "fieldName": "coordenada_y",
       "fieldType": "Double",
       "fieldValidateRules": []
+    },
+    {
+      "fieldName": "id_pas_asociado",
+      "fieldType": "Integer"
     }
   ],
   "relationships": [],

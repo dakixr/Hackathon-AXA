@@ -1,6 +1,6 @@
 export interface ICUADROMEDICO {
   id?: string;
-  id_cuadro_medico?: number | null;
+  id_cliente?: number | null;
   suscripcion?: string | null;
 }
 

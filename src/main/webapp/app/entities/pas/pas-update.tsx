@@ -123,6 +123,18 @@ export const PASUpdate = (props: IPASUpdateProps) => {
                 </Label>
                 <AvField id="pas-persona_de_contacto" data-cy="persona_de_contacto" type="text" name="persona_de_contacto" />
               </AvGroup>
+              <AvGroup>
+                <Label id="poblacionLabel" for="pas-poblacion">
+                  Poblacion
+                </Label>
+                <AvField id="pas-poblacion" data-cy="poblacion" type="text" name="poblacion" />
+              </AvGroup>
+              <AvGroup>
+                <Label id="provinciaLabel" for="pas-provincia">
+                  Provincia
+                </Label>
+                <AvField id="pas-provincia" data-cy="provincia" type="text" name="provincia" />
+              </AvGroup>
               <Button tag={Link} id="cancel-save" to="/pas" replace color="info">
                 <FontAwesomeIcon icon="arrow-left" />
                 &nbsp;

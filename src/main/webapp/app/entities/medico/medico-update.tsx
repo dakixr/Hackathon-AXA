@@ -74,21 +74,6 @@ export const MEDICOUpdate = (props: IMEDICOUpdateProps) => {
                 </AvGroup>
               ) : null}
               <AvGroup>
-                <Label id="id_medicoLabel" for="medico-id_medico">
-                  Id Medico
-                </Label>
-                <AvField
-                  id="medico-id_medico"
-                  data-cy="id_medico"
-                  type="string"
-                  className="form-control"
-                  name="id_medico"
-                  validate={{
-                    number: { value: true, errorMessage: 'This field should be a number.' },
-                  }}
-                />
-              </AvGroup>
-              <AvGroup>
                 <Label id="nombreLabel" for="medico-nombre">
                   Nombre
                 </Label>

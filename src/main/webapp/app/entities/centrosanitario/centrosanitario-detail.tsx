@@ -58,6 +58,10 @@ export const CENTROSANITARIODetail = (props: ICENTROSANITARIODetailProps) => {
             <span id="coordenada_y">Coordenada Y</span>
           </dt>
           <dd>{cENTROSANITARIOEntity.coordenada_y}</dd>
+          <dt>
+            <span id="id_pas_asociado">Id Pas Asociado</span>
+          </dt>
+          <dd>{cENTROSANITARIOEntity.id_pas_asociado}</dd>
         </dl>
         <Button tag={Link} to="/centrosanitario" replace color="info" data-cy="entityDetailsBackButton">
           <FontAwesomeIcon icon="arrow-left" /> <span className="d-none d-md-inline">Back</span>

@@ -39,6 +39,12 @@ public class PAS implements Serializable {
     @Field("persona_de_contacto")
     private String persona_de_contacto;
 
+    @Field("poblacion")
+    private String poblacion;
+
+    @Field("provincia")
+    private String provincia;
+
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public String getId() {
         return id;
@@ -144,6 +150,32 @@ public class PAS implements Serializable {
         this.persona_de_contacto = persona_de_contacto;
     }
 
+    public String getPoblacion() {
+        return this.poblacion;
+    }
+
+    public PAS poblacion(String poblacion) {
+        this.poblacion = poblacion;
+        return this;
+    }
+
+    public void setPoblacion(String poblacion) {
+        this.poblacion = poblacion;
+    }
+
+    public String getProvincia() {
+        return this.provincia;
+    }
+
+    public PAS provincia(String provincia) {
+        this.provincia = provincia;
+        return this;
+    }
+
+    public void setProvincia(String provincia) {
+        this.provincia = provincia;
+    }
+
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
 
     @Override
@@ -175,6 +207,8 @@ public class PAS implements Serializable {
             ", tipo_proveedor='" + getTipo_proveedor() + "'" +
             ", direccion='" + getDireccion() + "'" +
             ", persona_de_contacto='" + getPersona_de_contacto() + "'" +
+            ", poblacion='" + getPoblacion() + "'" +
+            ", provincia='" + getProvincia() + "'" +
             "}";
     }
 }

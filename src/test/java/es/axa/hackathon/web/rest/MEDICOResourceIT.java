@@ -29,9 +29,6 @@ import org.springframework.test.web.servlet.MockMvc;
 @WithMockUser
 class MEDICOResourceIT {
 
-    private static final Integer DEFAULT_ID_MEDICO = 1;
-    private static final Integer UPDATED_ID_MEDICO = 2;
-
     private static final String DEFAULT_NOMBRE = "AAAAAAAAAA";
     private static final String UPDATED_NOMBRE = "BBBBBBBBBB";
 
@@ -72,7 +69,6 @@ class MEDICOResourceIT {
      */
     public static MEDICO createEntity() {
         MEDICO mEDICO = new MEDICO()
-            .id_medico(DEFAULT_ID_MEDICO)
             .nombre(DEFAULT_NOMBRE)
             .apellidos(DEFAULT_APELLIDOS)
             .numero_colegiado(DEFAULT_NUMERO_COLEGIADO)
@@ -90,7 +86,6 @@ class MEDICOResourceIT {
      */
     public static MEDICO createUpdatedEntity() {
         MEDICO mEDICO = new MEDICO()
-            .id_medico(UPDATED_ID_MEDICO)
             .nombre(UPDATED_NOMBRE)
             .apellidos(UPDATED_APELLIDOS)
             .numero_colegiado(UPDATED_NUMERO_COLEGIADO)
@@ -124,7 +119,6 @@ class MEDICOResourceIT {
         List<MEDICO> mEDICOList = mEDICORepository.findAll();
         assertThat(mEDICOList).hasSize(databaseSizeBeforeCreate + 1);
         MEDICO testMEDICO = mEDICOList.get(mEDICOList.size() - 1);
-        assertThat(testMEDICO.getId_medico()).isEqualTo(DEFAULT_ID_MEDICO);
         assertThat(testMEDICO.getNombre()).isEqualTo(DEFAULT_NOMBRE);
         assertThat(testMEDICO.getApellidos()).isEqualTo(DEFAULT_APELLIDOS);
         assertThat(testMEDICO.getNumero_colegiado()).isEqualTo(DEFAULT_NUMERO_COLEGIADO);
@@ -167,7 +161,6 @@ class MEDICOResourceIT {
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
             .andExpect(jsonPath("$.[*].id").value(hasItem(mEDICO.getId())))
-            .andExpect(jsonPath("$.[*].id_medico").value(hasItem(DEFAULT_ID_MEDICO)))
             .andExpect(jsonPath("$.[*].nombre").value(hasItem(DEFAULT_NOMBRE)))
             .andExpect(jsonPath("$.[*].apellidos").value(hasItem(DEFAULT_APELLIDOS)))
             .andExpect(jsonPath("$.[*].numero_colegiado").value(hasItem(DEFAULT_NUMERO_COLEGIADO)))
@@ -187,7 +180,6 @@ class MEDICOResourceIT {
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
             .andExpect(jsonPath("$.id").value(mEDICO.getId()))
-            .andExpect(jsonPath("$.id_medico").value(DEFAULT_ID_MEDICO))
             .andExpect(jsonPath("$.nombre").value(DEFAULT_NOMBRE))
             .andExpect(jsonPath("$.apellidos").value(DEFAULT_APELLIDOS))
             .andExpect(jsonPath("$.numero_colegiado").value(DEFAULT_NUMERO_COLEGIADO))
@@ -212,7 +204,6 @@ class MEDICOResourceIT {
         // Update the mEDICO
         MEDICO updatedMEDICO = mEDICORepository.findById(mEDICO.getId()).get();
         updatedMEDICO
-            .id_medico(UPDATED_ID_MEDICO)
             .nombre(UPDATED_NOMBRE)
             .apellidos(UPDATED_APELLIDOS)
             .numero_colegiado(UPDATED_NUMERO_COLEGIADO)
@@ -234,7 +225,6 @@ class MEDICOResourceIT {
         List<MEDICO> mEDICOList = mEDICORepository.findAll();
         assertThat(mEDICOList).hasSize(databaseSizeBeforeUpdate);
         MEDICO testMEDICO = mEDICOList.get(mEDICOList.size() - 1);
-        assertThat(testMEDICO.getId_medico()).isEqualTo(UPDATED_ID_MEDICO);
         assertThat(testMEDICO.getNombre()).isEqualTo(UPDATED_NOMBRE);
         assertThat(testMEDICO.getApellidos()).isEqualTo(UPDATED_APELLIDOS);
         assertThat(testMEDICO.getNumero_colegiado()).isEqualTo(UPDATED_NUMERO_COLEGIADO);
@@ -323,7 +313,10 @@ class MEDICOResourceIT {
         MEDICO partialUpdatedMEDICO = new MEDICO();
         partialUpdatedMEDICO.setId(mEDICO.getId());
 
-        partialUpdatedMEDICO.apellidos(UPDATED_APELLIDOS).telefono_contacto(UPDATED_TELEFONO_CONTACTO).especialidad(UPDATED_ESPECIALIDAD);
+        partialUpdatedMEDICO
+            .numero_colegiado(UPDATED_NUMERO_COLEGIADO)
+            .especialidad(UPDATED_ESPECIALIDAD)
+            .centro_sanitario(UPDATED_CENTRO_SANITARIO);
 
         restMEDICOMockMvc
             .perform(
@@ -338,13 +331,12 @@ class MEDICOResourceIT {
         List<MEDICO> mEDICOList = mEDICORepository.findAll();
         assertThat(mEDICOList).hasSize(databaseSizeBeforeUpdate);
         MEDICO testMEDICO = mEDICOList.get(mEDICOList.size() - 1);
-        assertThat(testMEDICO.getId_medico()).isEqualTo(DEFAULT_ID_MEDICO);
         assertThat(testMEDICO.getNombre()).isEqualTo(DEFAULT_NOMBRE);
-        assertThat(testMEDICO.getApellidos()).isEqualTo(UPDATED_APELLIDOS);
-        assertThat(testMEDICO.getNumero_colegiado()).isEqualTo(DEFAULT_NUMERO_COLEGIADO);
-        assertThat(testMEDICO.getTelefono_contacto()).isEqualTo(UPDATED_TELEFONO_CONTACTO);
+        assertThat(testMEDICO.getApellidos()).isEqualTo(DEFAULT_APELLIDOS);
+        assertThat(testMEDICO.getNumero_colegiado()).isEqualTo(UPDATED_NUMERO_COLEGIADO);
+        assertThat(testMEDICO.getTelefono_contacto()).isEqualTo(DEFAULT_TELEFONO_CONTACTO);
         assertThat(testMEDICO.getEspecialidad()).isEqualTo(UPDATED_ESPECIALIDAD);
-        assertThat(testMEDICO.getCentro_sanitario()).isEqualTo(DEFAULT_CENTRO_SANITARIO);
+        assertThat(testMEDICO.getCentro_sanitario()).isEqualTo(UPDATED_CENTRO_SANITARIO);
     }
 
     @Test
@@ -359,7 +351,6 @@ class MEDICOResourceIT {
         partialUpdatedMEDICO.setId(mEDICO.getId());
 
         partialUpdatedMEDICO
-            .id_medico(UPDATED_ID_MEDICO)
             .nombre(UPDATED_NOMBRE)
             .apellidos(UPDATED_APELLIDOS)
             .numero_colegiado(UPDATED_NUMERO_COLEGIADO)
@@ -380,7 +371,6 @@ class MEDICOResourceIT {
         List<MEDICO> mEDICOList = mEDICORepository.findAll();
         assertThat(mEDICOList).hasSize(databaseSizeBeforeUpdate);
         MEDICO testMEDICO = mEDICOList.get(mEDICOList.size() - 1);
-        assertThat(testMEDICO.getId_medico()).isEqualTo(UPDATED_ID_MEDICO);
         assertThat(testMEDICO.getNombre()).isEqualTo(UPDATED_NOMBRE);
         assertThat(testMEDICO.getApellidos()).isEqualTo(UPDATED_APELLIDOS);
         assertThat(testMEDICO.getNumero_colegiado()).isEqualTo(UPDATED_NUMERO_COLEGIADO);

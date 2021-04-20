@@ -54,6 +54,14 @@ export const PASDetail = (props: IPASDetailProps) => {
             <span id="persona_de_contacto">Persona De Contacto</span>
           </dt>
           <dd>{pASEntity.persona_de_contacto}</dd>
+          <dt>
+            <span id="poblacion">Poblacion</span>
+          </dt>
+          <dd>{pASEntity.poblacion}</dd>
+          <dt>
+            <span id="provincia">Provincia</span>
+          </dt>
+          <dd>{pASEntity.provincia}</dd>
         </dl>
         <Button tag={Link} to="/pas" replace color="info" data-cy="entityDetailsBackButton">
           <FontAwesomeIcon icon="arrow-left" /> <span className="d-none d-md-inline">Back</span>

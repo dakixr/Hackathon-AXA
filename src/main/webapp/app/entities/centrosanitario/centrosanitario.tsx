@@ -115,6 +115,9 @@ export const CENTROSANITARIO = (props: ICENTROSANITARIOProps) => {
                 <th className="hand" onClick={sort('coordenada_y')}>
                   Coordenada Y <FontAwesomeIcon icon="sort" />
                 </th>
+                <th className="hand" onClick={sort('id_pas_asociado')}>
+                  Id Pas Asociado <FontAwesomeIcon icon="sort" />
+                </th>
                 <th />
               </tr>
             </thead>
@@ -134,6 +137,7 @@ export const CENTROSANITARIO = (props: ICENTROSANITARIOProps) => {
                   <td>{cENTROSANITARIO.especialidades}</td>
                   <td>{cENTROSANITARIO.coordenada_x}</td>
                   <td>{cENTROSANITARIO.coordenada_y}</td>
+                  <td>{cENTROSANITARIO.id_pas_asociado}</td>
                   <td className="text-right">
                     <div className="btn-group flex-btn-group-container">
                       <Button tag={Link} to={`${match.url}/${cENTROSANITARIO.id}`} color="info" size="sm" data-cy="entityDetailsButton">

@@ -1,6 +1,5 @@
 export interface IMEDICO {
   id?: string;
-  id_medico?: number | null;
   nombre?: string | null;
   apellidos?: string | null;
   numero_colegiado?: string | null;

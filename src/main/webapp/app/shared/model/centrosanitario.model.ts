@@ -8,6 +8,7 @@ export interface ICENTROSANITARIO {
   especialidades?: string | null;
   coordenada_x?: number | null;
   coordenada_y?: number | null;
+  id_pas_asociado?: number | null;
 }
 
 export const defaultValue: Readonly<ICENTROSANITARIO> = {};

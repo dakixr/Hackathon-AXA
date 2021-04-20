@@ -27,9 +27,9 @@ export const CUADROMEDICODetail = (props: ICUADROMEDICODetailProps) => {
           </dt>
           <dd>{cUADROMEDICOEntity.id}</dd>
           <dt>
-            <span id="id_cuadro_medico">Id Cuadro Medico</span>
+            <span id="id_cliente">Id Cliente</span>
           </dt>
-          <dd>{cUADROMEDICOEntity.id_cuadro_medico}</dd>
+          <dd>{cUADROMEDICOEntity.id_cliente}</dd>
           <dt>
             <span id="suscripcion">Suscripcion</span>
           </dt>

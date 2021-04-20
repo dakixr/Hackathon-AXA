@@ -1,7 +1,6 @@
 package es.axa.hackathon.domain;
 
 import java.io.Serializable;
-import javax.validation.constraints.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
@@ -16,9 +15,6 @@ public class MEDICO implements Serializable {
 
     @Id
     private String id;
-
-    @Field("id_medico")
-    private Integer id_medico;
 
     @Field("nombre")
     private String nombre;
@@ -50,19 +46,6 @@ public class MEDICO implements Serializable {
     public MEDICO id(String id) {
         this.id = id;
         return this;
-    }
-
-    public Integer getId_medico() {
-        return this.id_medico;
-    }
-
-    public MEDICO id_medico(Integer id_medico) {
-        this.id_medico = id_medico;
-        return this;
-    }
-
-    public void setId_medico(Integer id_medico) {
-        this.id_medico = id_medico;
     }
 
     public String getNombre() {
@@ -167,7 +150,6 @@ public class MEDICO implements Serializable {
     public String toString() {
         return "MEDICO{" +
             "id=" + getId() +
-            ", id_medico=" + getId_medico() +
             ", nombre='" + getNombre() + "'" +
             ", apellidos='" + getApellidos() + "'" +
             ", numero_colegiado='" + getNumero_colegiado() + "'" +

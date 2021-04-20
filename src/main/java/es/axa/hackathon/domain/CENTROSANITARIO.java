@@ -41,6 +41,9 @@ public class CENTROSANITARIO implements Serializable {
     @Field("coordenada_y")
     private Double coordenada_y;
 
+    @Field("id_pas_asociado")
+    private Integer id_pas_asociado;
+
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public String getId() {
         return id;
@@ -159,6 +162,19 @@ public class CENTROSANITARIO implements Serializable {
         this.coordenada_y = coordenada_y;
     }
 
+    public Integer getId_pas_asociado() {
+        return this.id_pas_asociado;
+    }
+
+    public CENTROSANITARIO id_pas_asociado(Integer id_pas_asociado) {
+        this.id_pas_asociado = id_pas_asociado;
+        return this;
+    }
+
+    public void setId_pas_asociado(Integer id_pas_asociado) {
+        this.id_pas_asociado = id_pas_asociado;
+    }
+
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
 
     @Override
@@ -191,6 +207,7 @@ public class CENTROSANITARIO implements Serializable {
             ", especialidades='" + getEspecialidades() + "'" +
             ", coordenada_x=" + getCoordenada_x() +
             ", coordenada_y=" + getCoordenada_y() +
+            ", id_pas_asociado=" + getId_pas_asociado() +
             "}";
     }
 }

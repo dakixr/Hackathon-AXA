@@ -142,6 +142,18 @@ export const CENTROSANITARIOUpdate = (props: ICENTROSANITARIOUpdateProps) => {
                   name="coordenada_y"
                 />
               </AvGroup>
+              <AvGroup>
+                <Label id="id_pas_asociadoLabel" for="centrosanitario-id_pas_asociado">
+                  Id Pas Asociado
+                </Label>
+                <AvField
+                  id="centrosanitario-id_pas_asociado"
+                  data-cy="id_pas_asociado"
+                  type="string"
+                  className="form-control"
+                  name="id_pas_asociado"
+                />
+              </AvGroup>
               <Button tag={Link} id="cancel-save" to="/centrosanitario" replace color="info">
                 <FontAwesomeIcon icon="arrow-left" />
                 &nbsp;

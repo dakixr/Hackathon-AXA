@@ -1,11 +1,6 @@
 {
   "fields": [
     {
-      "fieldName": "id_medico",
-      "fieldType": "Integer",
-      "fieldValidateRules": ["unique"]
-    },
-    {
       "fieldName": "nombre",
       "fieldType": "String"
     },

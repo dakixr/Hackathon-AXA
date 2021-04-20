@@ -29,6 +29,14 @@
     {
       "fieldName": "persona_de_contacto",
       "fieldType": "String"
+    },
+    {
+      "fieldName": "poblacion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "provincia",
+      "fieldType": "String"
     }
   ],
   "relationships": [],

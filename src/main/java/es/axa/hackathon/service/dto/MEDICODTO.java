@@ -2,7 +2,6 @@ package es.axa.hackathon.service.dto;
 
 import java.io.Serializable;
 import java.util.Objects;
-import javax.validation.constraints.*;
 
 /**
  * A DTO for the {@link es.axa.hackathon.domain.MEDICO} entity.
@@ -10,8 +9,6 @@ import javax.validation.constraints.*;
 public class MEDICODTO implements Serializable {
 
     private String id;
-
-    private Integer id_medico;
 
     private String nombre;
 
@@ -31,14 +28,6 @@ public class MEDICODTO implements Serializable {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public Integer getId_medico() {
-        return id_medico;
-    }
-
-    public void setId_medico(Integer id_medico) {
-        this.id_medico = id_medico;
     }
 
     public String getNombre() {
@@ -115,7 +104,6 @@ public class MEDICODTO implements Serializable {
     public String toString() {
         return "MEDICODTO{" +
             "id='" + getId() + "'" +
-            ", id_medico=" + getId_medico() +
             ", nombre='" + getNombre() + "'" +
             ", apellidos='" + getApellidos() + "'" +
             ", numero_colegiado='" + getNumero_colegiado() + "'" +

@@ -112,6 +112,12 @@ export const PAS = (props: IPASProps) => {
                 <th className="hand" onClick={sort('persona_de_contacto')}>
                   Persona De Contacto <FontAwesomeIcon icon="sort" />
                 </th>
+                <th className="hand" onClick={sort('poblacion')}>
+                  Poblacion <FontAwesomeIcon icon="sort" />
+                </th>
+                <th className="hand" onClick={sort('provincia')}>
+                  Provincia <FontAwesomeIcon icon="sort" />
+                </th>
                 <th />
               </tr>
             </thead>
@@ -130,6 +136,8 @@ export const PAS = (props: IPASProps) => {
                   <td>{pAS.tipo_proveedor}</td>
                   <td>{pAS.direccion}</td>
                   <td>{pAS.persona_de_contacto}</td>
+                  <td>{pAS.poblacion}</td>
+                  <td>{pAS.provincia}</td>
                   <td className="text-right">
                     <div className="btn-group flex-btn-group-container">
                       <Button tag={Link} to={`${match.url}/${pAS.id}`} color="info" size="sm" data-cy="entityDetailsButton">

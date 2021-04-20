@@ -27,10 +27,6 @@ export const MEDICODetail = (props: IMEDICODetailProps) => {
           </dt>
           <dd>{mEDICOEntity.id}</dd>
           <dt>
-            <span id="id_medico">Id Medico</span>
-          </dt>
-          <dd>{mEDICOEntity.id_medico}</dd>
-          <dt>
             <span id="nombre">Nombre</span>
           </dt>
           <dd>{mEDICOEntity.nombre}</dd>

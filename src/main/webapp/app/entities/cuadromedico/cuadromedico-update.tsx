@@ -74,15 +74,15 @@ export const CUADROMEDICOUpdate = (props: ICUADROMEDICOUpdateProps) => {
                 </AvGroup>
               ) : null}
               <AvGroup>
-                <Label id="id_cuadro_medicoLabel" for="cuadromedico-id_cuadro_medico">
-                  Id Cuadro Medico
+                <Label id="id_clienteLabel" for="cuadromedico-id_cliente">
+                  Id Cliente
                 </Label>
                 <AvField
-                  id="cuadromedico-id_cuadro_medico"
-                  data-cy="id_cuadro_medico"
+                  id="cuadromedico-id_cliente"
+                  data-cy="id_cliente"
                   type="string"
                   className="form-control"
-                  name="id_cuadro_medico"
+                  name="id_cliente"
                   validate={{
                     number: { value: true, errorMessage: 'This field should be a number.' },
                   }}

@@ -17,8 +17,8 @@ public class CUADROMEDICO implements Serializable {
     @Id
     private String id;
 
-    @Field("id_cuadro_medico")
-    private Integer id_cuadro_medico;
+    @Field("id_cliente")
+    private Integer id_cliente;
 
     @Field("suscripcion")
     private String suscripcion;
@@ -37,17 +37,17 @@ public class CUADROMEDICO implements Serializable {
         return this;
     }
 
-    public Integer getId_cuadro_medico() {
-        return this.id_cuadro_medico;
+    public Integer getId_cliente() {
+        return this.id_cliente;
     }
 
-    public CUADROMEDICO id_cuadro_medico(Integer id_cuadro_medico) {
-        this.id_cuadro_medico = id_cuadro_medico;
+    public CUADROMEDICO id_cliente(Integer id_cliente) {
+        this.id_cliente = id_cliente;
         return this;
     }
 
-    public void setId_cuadro_medico(Integer id_cuadro_medico) {
-        this.id_cuadro_medico = id_cuadro_medico;
+    public void setId_cliente(Integer id_cliente) {
+        this.id_cliente = id_cliente;
     }
 
     public String getSuscripcion() {
@@ -87,7 +87,7 @@ public class CUADROMEDICO implements Serializable {
     public String toString() {
         return "CUADROMEDICO{" +
             "id=" + getId() +
-            ", id_cuadro_medico=" + getId_cuadro_medico() +
+            ", id_cliente=" + getId_cliente() +
             ", suscripcion='" + getSuscripcion() + "'" +
             "}";
     }

@@ -27,6 +27,8 @@ public class CENTROSANITARIODTO implements Serializable {
 
     private Double coordenada_y;
 
+    private Integer id_pas_asociado;
+
     public String getId() {
         return id;
     }
@@ -99,6 +101,14 @@ public class CENTROSANITARIODTO implements Serializable {
         this.coordenada_y = coordenada_y;
     }
 
+    public Integer getId_pas_asociado() {
+        return id_pas_asociado;
+    }
+
+    public void setId_pas_asociado(Integer id_pas_asociado) {
+        this.id_pas_asociado = id_pas_asociado;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -133,6 +143,7 @@ public class CENTROSANITARIODTO implements Serializable {
             ", especialidades='" + getEspecialidades() + "'" +
             ", coordenada_x=" + getCoordenada_x() +
             ", coordenada_y=" + getCoordenada_y() +
+            ", id_pas_asociado=" + getId_pas_asociado() +
             "}";
     }
 }

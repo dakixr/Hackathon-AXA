@@ -91,9 +91,6 @@ export const MEDICO = (props: IMEDICOProps) => {
                 <th className="hand" onClick={sort('id')}>
                   ID <FontAwesomeIcon icon="sort" />
                 </th>
-                <th className="hand" onClick={sort('id_medico')}>
-                  Id Medico <FontAwesomeIcon icon="sort" />
-                </th>
                 <th className="hand" onClick={sort('nombre')}>
                   Nombre <FontAwesomeIcon icon="sort" />
                 </th>
@@ -123,7 +120,6 @@ export const MEDICO = (props: IMEDICOProps) => {
                       {mEDICO.id}
                     </Button>
                   </td>
-                  <td>{mEDICO.id_medico}</td>
                   <td>{mEDICO.nombre}</td>
                   <td>{mEDICO.apellidos}</td>
                   <td>{mEDICO.numero_colegiado}</td>
