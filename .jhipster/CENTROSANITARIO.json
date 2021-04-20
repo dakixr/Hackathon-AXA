@@ -32,6 +32,10 @@
     {
       "fieldName": "nombre_pas_asociado",
       "fieldType": "String"
+    },
+    {
+      "fieldName": "nombre_centro",
+      "fieldType": "String"
     }
   ],
   "relationships": [],

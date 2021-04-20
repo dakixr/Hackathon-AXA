@@ -53,6 +53,9 @@ class CENTROSANITARIOResourceIT {
     private static final String DEFAULT_NOMBRE_PAS_ASOCIADO = "AAAAAAAAAA";
     private static final String UPDATED_NOMBRE_PAS_ASOCIADO = "BBBBBBBBBB";
 
+    private static final String DEFAULT_NOMBRE_CENTRO = "AAAAAAAAAA";
+    private static final String UPDATED_NOMBRE_CENTRO = "BBBBBBBBBB";
+
     private static final String ENTITY_API_URL = "/api/centrosanitarios";
     private static final String ENTITY_API_URL_ID = ENTITY_API_URL + "/{id}";
 
@@ -82,7 +85,8 @@ class CENTROSANITARIOResourceIT {
             .especialidades(DEFAULT_ESPECIALIDADES)
             .coordenada_x(DEFAULT_COORDENADA_X)
             .coordenada_y(DEFAULT_COORDENADA_Y)
-            .nombre_pas_asociado(DEFAULT_NOMBRE_PAS_ASOCIADO);
+            .nombre_pas_asociado(DEFAULT_NOMBRE_PAS_ASOCIADO)
+            .nombre_centro(DEFAULT_NOMBRE_CENTRO);
         return cENTROSANITARIO;
     }
 
@@ -101,7 +105,8 @@ class CENTROSANITARIOResourceIT {
             .especialidades(UPDATED_ESPECIALIDADES)
             .coordenada_x(UPDATED_COORDENADA_X)
             .coordenada_y(UPDATED_COORDENADA_Y)
-            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO);
+            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO)
+            .nombre_centro(UPDATED_NOMBRE_CENTRO);
         return cENTROSANITARIO;
     }
 
@@ -137,6 +142,7 @@ class CENTROSANITARIOResourceIT {
         assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(DEFAULT_COORDENADA_X);
         assertThat(testCENTROSANITARIO.getCoordenada_y()).isEqualTo(DEFAULT_COORDENADA_Y);
         assertThat(testCENTROSANITARIO.getNombre_pas_asociado()).isEqualTo(DEFAULT_NOMBRE_PAS_ASOCIADO);
+        assertThat(testCENTROSANITARIO.getNombre_centro()).isEqualTo(DEFAULT_NOMBRE_CENTRO);
     }
 
     @Test
@@ -180,7 +186,8 @@ class CENTROSANITARIOResourceIT {
             .andExpect(jsonPath("$.[*].especialidades").value(hasItem(DEFAULT_ESPECIALIDADES)))
             .andExpect(jsonPath("$.[*].coordenada_x").value(hasItem(DEFAULT_COORDENADA_X.doubleValue())))
             .andExpect(jsonPath("$.[*].coordenada_y").value(hasItem(DEFAULT_COORDENADA_Y.doubleValue())))
-            .andExpect(jsonPath("$.[*].nombre_pas_asociado").value(hasItem(DEFAULT_NOMBRE_PAS_ASOCIADO)));
+            .andExpect(jsonPath("$.[*].nombre_pas_asociado").value(hasItem(DEFAULT_NOMBRE_PAS_ASOCIADO)))
+            .andExpect(jsonPath("$.[*].nombre_centro").value(hasItem(DEFAULT_NOMBRE_CENTRO)));
     }
 
     @Test
@@ -201,7 +208,8 @@ class CENTROSANITARIOResourceIT {
             .andExpect(jsonPath("$.especialidades").value(DEFAULT_ESPECIALIDADES))
             .andExpect(jsonPath("$.coordenada_x").value(DEFAULT_COORDENADA_X.doubleValue()))
             .andExpect(jsonPath("$.coordenada_y").value(DEFAULT_COORDENADA_Y.doubleValue()))
-            .andExpect(jsonPath("$.nombre_pas_asociado").value(DEFAULT_NOMBRE_PAS_ASOCIADO));
+            .andExpect(jsonPath("$.nombre_pas_asociado").value(DEFAULT_NOMBRE_PAS_ASOCIADO))
+            .andExpect(jsonPath("$.nombre_centro").value(DEFAULT_NOMBRE_CENTRO));
     }
 
     @Test
@@ -227,7 +235,8 @@ class CENTROSANITARIOResourceIT {
             .especialidades(UPDATED_ESPECIALIDADES)
             .coordenada_x(UPDATED_COORDENADA_X)
             .coordenada_y(UPDATED_COORDENADA_Y)
-            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO);
+            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO)
+            .nombre_centro(UPDATED_NOMBRE_CENTRO);
         CENTROSANITARIODTO cENTROSANITARIODTO = cENTROSANITARIOMapper.toDto(updatedCENTROSANITARIO);
 
         restCENTROSANITARIOMockMvc
@@ -251,6 +260,7 @@ class CENTROSANITARIOResourceIT {
         assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(UPDATED_COORDENADA_X);
         assertThat(testCENTROSANITARIO.getCoordenada_y()).isEqualTo(UPDATED_COORDENADA_Y);
         assertThat(testCENTROSANITARIO.getNombre_pas_asociado()).isEqualTo(UPDATED_NOMBRE_PAS_ASOCIADO);
+        assertThat(testCENTROSANITARIO.getNombre_centro()).isEqualTo(UPDATED_NOMBRE_CENTRO);
     }
 
     @Test
@@ -339,7 +349,8 @@ class CENTROSANITARIOResourceIT {
             .email(UPDATED_EMAIL)
             .codigo_postal(UPDATED_CODIGO_POSTAL)
             .coordenada_y(UPDATED_COORDENADA_Y)
-            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO);
+            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO)
+            .nombre_centro(UPDATED_NOMBRE_CENTRO);
 
         restCENTROSANITARIOMockMvc
             .perform(
@@ -362,6 +373,7 @@ class CENTROSANITARIOResourceIT {
         assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(DEFAULT_COORDENADA_X);
         assertThat(testCENTROSANITARIO.getCoordenada_y()).isEqualTo(UPDATED_COORDENADA_Y);
         assertThat(testCENTROSANITARIO.getNombre_pas_asociado()).isEqualTo(UPDATED_NOMBRE_PAS_ASOCIADO);
+        assertThat(testCENTROSANITARIO.getNombre_centro()).isEqualTo(UPDATED_NOMBRE_CENTRO);
     }
 
     @Test
@@ -383,7 +395,8 @@ class CENTROSANITARIOResourceIT {
             .especialidades(UPDATED_ESPECIALIDADES)
             .coordenada_x(UPDATED_COORDENADA_X)
             .coordenada_y(UPDATED_COORDENADA_Y)
-            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO);
+            .nombre_pas_asociado(UPDATED_NOMBRE_PAS_ASOCIADO)
+            .nombre_centro(UPDATED_NOMBRE_CENTRO);
 
         restCENTROSANITARIOMockMvc
             .perform(
@@ -406,6 +419,7 @@ class CENTROSANITARIOResourceIT {
         assertThat(testCENTROSANITARIO.getCoordenada_x()).isEqualTo(UPDATED_COORDENADA_X);
         assertThat(testCENTROSANITARIO.getCoordenada_y()).isEqualTo(UPDATED_COORDENADA_Y);
         assertThat(testCENTROSANITARIO.getNombre_pas_asociado()).isEqualTo(UPDATED_NOMBRE_PAS_ASOCIADO);
+        assertThat(testCENTROSANITARIO.getNombre_centro()).isEqualTo(UPDATED_NOMBRE_CENTRO);
     }
 
     @Test

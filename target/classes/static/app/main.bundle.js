@@ -1318,7 +1318,10 @@ const CENTROSANITARIODetail = (props) => {
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.coordenada_y),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "nombre_pas_asociado" }, "Nombre Pas Asociado")),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.nombre_pas_asociado)),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.nombre_pas_asociado),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", { id: "nombre_centro" }, "Nombre Centro")),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("dd", null, cENTROSANITARIOEntity.nombre_centro)),
             react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, to: "/centrosanitario", replace: true, color: "info", "data-cy": "entityDetailsBackButton" },
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, { icon: "arrow-left" }),
                 " ",
@@ -1431,6 +1434,9 @@ const CENTROSANITARIOUpdate = (props) => {
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "nombre_pas_asociadoLabel", for: "centrosanitario-nombre_pas_asociado" }, "Nombre Pas Asociado"),
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-nombre_pas_asociado", "data-cy": "nombre_pas_asociado", type: "text", name: "nombre_pas_asociado" })),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvGroup, null,
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { id: "nombre_centroLabel", for: "centrosanitario-nombre_centro" }, "Nombre Centro"),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(availity_reactstrap_validation__WEBPACK_IMPORTED_MODULE_2__.AvField, { id: "centrosanitario-nombre_centro", "data-cy": "nombre_centro", type: "text", name: "nombre_centro" })),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Link, id: "cancel-save", to: "/centrosanitario", replace: true, color: "info" },
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "arrow-left" }),
                     "\u00A0",
@@ -1700,6 +1706,9 @@ const CENTROSANITARIO = (props) => {
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('nombre_pas_asociado') },
                         "Nombre Pas Asociado ",
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
+                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", { className: "hand", onClick: sort('nombre_centro') },
+                        "Nombre Centro ",
+                        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, { icon: "sort" })),
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("th", null))),
             react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, cENTROSANITARIOList.map((cENTROSANITARIO, i) => (react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", { key: `entity-${i}`, "data-cy": "entityTable" },
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null,
@@ -1712,6 +1721,7 @@ const CENTROSANITARIO = (props) => {
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.coordenada_x),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.coordenada_y),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.nombre_pas_asociado),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, cENTROSANITARIO.nombre_centro),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", { className: "text-right" },
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "btn-group flex-btn-group-container" },
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, { tag: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, to: `${match.url}/${cENTROSANITARIO.id}`, color: "info", size: "sm", "data-cy": "entityDetailsButton" },
@@ -6386,7 +6396,7 @@ if (true) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("4c6756ef3c65447dcea9")
+/******/ 		__webpack_require__.h = () => ("4d571984e63baca494d8")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

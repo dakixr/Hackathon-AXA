@@ -8,6 +8,7 @@ export interface ICENTROSANITARIO {
   coordenada_x?: number | null;
   coordenada_y?: number | null;
   nombre_pas_asociado?: string | null;
+  nombre_centro?: string | null;
 }
 
 export const defaultValue: Readonly<ICENTROSANITARIO> = {};

@@ -133,6 +133,12 @@ export const CENTROSANITARIOUpdate = (props: ICENTROSANITARIOUpdateProps) => {
                 </Label>
                 <AvField id="centrosanitario-nombre_pas_asociado" data-cy="nombre_pas_asociado" type="text" name="nombre_pas_asociado" />
               </AvGroup>
+              <AvGroup>
+                <Label id="nombre_centroLabel" for="centrosanitario-nombre_centro">
+                  Nombre Centro
+                </Label>
+                <AvField id="centrosanitario-nombre_centro" data-cy="nombre_centro" type="text" name="nombre_centro" />
+              </AvGroup>
               <Button tag={Link} id="cancel-save" to="/centrosanitario" replace color="info">
                 <FontAwesomeIcon icon="arrow-left" />
                 &nbsp;

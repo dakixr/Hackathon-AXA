@@ -26,6 +26,8 @@ public class CENTROSANITARIODTO implements Serializable {
 
     private String nombre_pas_asociado;
 
+    private String nombre_centro;
+
     public String getId() {
         return id;
     }
@@ -98,6 +100,14 @@ public class CENTROSANITARIODTO implements Serializable {
         this.nombre_pas_asociado = nombre_pas_asociado;
     }
 
+    public String getNombre_centro() {
+        return nombre_centro;
+    }
+
+    public void setNombre_centro(String nombre_centro) {
+        this.nombre_centro = nombre_centro;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -132,6 +142,7 @@ public class CENTROSANITARIODTO implements Serializable {
             ", coordenada_x=" + getCoordenada_x() +
             ", coordenada_y=" + getCoordenada_y() +
             ", nombre_pas_asociado='" + getNombre_pas_asociado() + "'" +
+            ", nombre_centro='" + getNombre_centro() + "'" +
             "}";
     }
 }

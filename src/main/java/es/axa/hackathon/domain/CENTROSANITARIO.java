@@ -40,6 +40,9 @@ public class CENTROSANITARIO implements Serializable {
     @Field("nombre_pas_asociado")
     private String nombre_pas_asociado;
 
+    @Field("nombre_centro")
+    private String nombre_centro;
+
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public String getId() {
         return id;
@@ -158,6 +161,19 @@ public class CENTROSANITARIO implements Serializable {
         this.nombre_pas_asociado = nombre_pas_asociado;
     }
 
+    public String getNombre_centro() {
+        return this.nombre_centro;
+    }
+
+    public CENTROSANITARIO nombre_centro(String nombre_centro) {
+        this.nombre_centro = nombre_centro;
+        return this;
+    }
+
+    public void setNombre_centro(String nombre_centro) {
+        this.nombre_centro = nombre_centro;
+    }
+
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
 
     @Override
@@ -190,6 +206,7 @@ public class CENTROSANITARIO implements Serializable {
             ", coordenada_x=" + getCoordenada_x() +
             ", coordenada_y=" + getCoordenada_y() +
             ", nombre_pas_asociado='" + getNombre_pas_asociado() + "'" +
+            ", nombre_centro='" + getNombre_centro() + "'" +
             "}";
     }
 }
