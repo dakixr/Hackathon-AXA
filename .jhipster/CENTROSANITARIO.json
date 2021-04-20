@@ -1,0 +1,45 @@
+{
+  "fields": [
+    {
+      "fieldName": "id_centro",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "direccion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "persona_de_contacto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codigo_postal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "especialidades",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "coordenada_x",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "coordenada_y",
+      "fieldType": "Double",
+      "fieldValidateRules": []
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "readOnly": false,
+  "pagination": "pagination",
+  "name": "CENTROSANITARIO",
+  "changelogDate": "20210420134020"
+}

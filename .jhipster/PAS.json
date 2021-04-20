@@ -1,0 +1,41 @@
+{
+  "fields": [
+    {
+      "fieldName": "cif",
+      "fieldType": "String",
+      "fieldValidateRules": ["pattern"],
+      "fieldValidateRulesPattern": "[A-Z]-\\d{8}"
+    },
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codigo_postal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipo_proveedor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "direccion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "persona_de_contacto",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "readOnly": false,
+  "pagination": "pagination",
+  "name": "PAS",
+  "changelogDate": "20210420131139"
+}

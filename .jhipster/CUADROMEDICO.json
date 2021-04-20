@@ -1,0 +1,20 @@
+{
+  "fields": [
+    {
+      "fieldName": "id_cuadro_medico",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "suscripcion",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "readOnly": false,
+  "pagination": "pagination",
+  "name": "CUADROMEDICO",
+  "changelogDate": "20210420134410"
+}

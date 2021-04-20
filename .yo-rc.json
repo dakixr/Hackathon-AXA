@@ -41,6 +41,8 @@
     "prodDatabaseType": "mongodb",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1618926250000,
+    "entities": ["PAS", "MEDICO", "CENTROSANITARIO", "CUADROMEDICO"]
   }
 }
