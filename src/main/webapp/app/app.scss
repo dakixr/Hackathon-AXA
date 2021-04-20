@@ -310,3 +310,16 @@ http://stackoverflow.com/questions/23436430/bootstrap-3-input-group-100-width */
 }
 
 /* jhipster-needle-scss-add-main JHipster will add new css style */
+
+
+.jh-navbar{
+  background-color: #fafafa !important;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color:rgb(13, 16, 160)!important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color:rgb(13, 16, 160)!important;
+}
